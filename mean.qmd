@@ -1,0 +1,29 @@
+---
+title: "Mean"
+---
+
+##AKA, Also Known As, or Variants
+
+Arithmetic mean
+
+$\bar{x}$
+
+$\mu$
+
+$\mu_x$
+
+## Concept
+
+## Literature
+
+[Wikipedia](https://en.wikipedia.org/wiki/Mean)
+
+### Math
+
+### Frequentist
+
+### Bayesian
+
+## R
+
+## Python
