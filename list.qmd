@@ -1,0 +1,68 @@
+# List (Sequence)
+
+AKA: Sequence, $a_n$ where n is the nth element, (1,2,3, ....)
+
+Distinct from: Set
+
+Measure of:
+
+Description: A list is a collection of objects with a specific ordering and where the same object can appear more than once. Call each object an element, and its location its index or rank. An index is a natural number counting upward from the first element in the list. Whether counting begins at 0 or 1 depends on local conventions.
+
+Formalization:
+
+Algorithm:
+
+Cites: [Wikipedia](https://en.wikipedia.org/wiki/Sequence) [Wikidata](https://www.wikidata.org/wiki/Q36161) [Encyclopedia Of Math](http://encyclopediaofmath.org/index.php?title=Sequence&oldid=48671) [Wolfram](https://mathworld.wolfram.com/Sequence.html)
+[PlanetMath](https://planetmath.org/sequence)
+
+::: panel-tabset
+
+## R
+
+Documentation:
+
+[list: Lists -- Generic and Dotted Pairs](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/list)
+
+Examples:
+
+```{r}
+example_list = list(1,2,3)
+example_list
+```
+
+## Python
+
+Documentation:
+
+[More on Lists](https://docs.python.org/3/tutorial/datastructures.html)
+
+Examples:
+
+```{python}
+example_list =  [1,2,3]
+example_list
+```
+
+## SQL
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+dbListTables(con)
+dbWriteTable(con, "mtcars", mtcars)
+dbListTables(con)
+```
+
+```{sql, connection=con}
+create table StatisticalNumbers(
+ value int
+)
+```
+
+
+```{sql, connection=con}
+SELECT * FROM mtcars LIMIT 5;
+```
+
+:::

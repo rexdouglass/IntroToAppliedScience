@@ -1,0 +1,23 @@
+## Modeling Literature
+
+Bayesian Workflow
+Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles C. Margossian, Bob Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian Bürkner, Martin Modrák
+[https://arxiv.org/abs/2011.01808](https://arxiv.org/abs/2011.01808)
+
+How to avoid machine learning pitfalls: a guide for academic researchers
+Michael A. Lones
+[https://arxiv.org/abs/2108.02497](https://arxiv.org/abs/2108.02497)
+
+Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure
+David R. Roberts,Volker Bahn,Simone Ciuti,Mark S. Boyce,Jane Elith,Gurutzeta Guillera-Arroita,Severin Hauenstein,José J. Lahoz-Monfort,Boris Schröder,Wilfried Thuiller,David I. Warton,Brendan A. Wintle,Florian Hartig,Carsten F. Dormann
+[https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881)
+
+Effective Pandas
+[https://store.metasnake.com/effective-pandas-book](https://store.metasnake.com/effective-pandas-book)
+
+Information geometry and divergences
+https://franknielsen.github.io/IG/#bookIG
+
+Statistical Rethinking: A Bayesian Course with Examples in R and Stan (& PyMC3 & brms)
+https://xcelab.net/rm/statistical-rethinking/
+https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN

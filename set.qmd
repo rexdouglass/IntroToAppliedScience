@@ -1,0 +1,4 @@
+# Set
+
+Cites:
+[Wikipedia](https://en.wikipedia.org/wiki/Set_(mathematics)); [Wikidata](https://www.wikidata.org/wiki/Q36161); [PlanetMath](https://planetmath.org/set)

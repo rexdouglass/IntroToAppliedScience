@@ -2,28 +2,180 @@
 title: "Mean"
 ---
 
-##AKA, Also Known As, or Variants
+## Introduction
 
-Arithmetic mean
+**Measure of**: Central tendency
 
-$\bar{x}$
+## Frequentist
 
-$\mu$
+**AKA**: Arithmetic mean; average; $\bar{x}$ (sample mean); $\mu$ (population mean); $\mu_x$ (population mean)
 
-$\mu_x$
+**Distinct from**: Geometric mean (GM); Harmonic mean (HM); generalized mean/ Power mean; weighted arithmetic mean
 
-## Concept
+**English**: Take a list of numbers, sum those numbers, and then divide by the number of numbers.  
 
-## Literature
+**Formalization**:
 
-[Wikipedia](https://en.wikipedia.org/wiki/Mean)
 
-### Math
 
-### Frequentist
+$$ 
+\bar{x}=\frac{1}{n}(\sum^{n}_{i=1}x_i)=\frac{x_1+x_2+...+x_n}{n} 
+$$
 
-### Bayesian
 
-## R
+**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Mean) ; [Wikidata](https://www.wikidata.org/wiki/Q2796622) ; [Wolfram](https://mathworld.wolfram.com/ArithmeticMean.html)
 
-## Python
+**Code**
+
+::: panel-tabset
+
+### R
+
+**Documentation**: [mean: Arithmetic Mean](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean)
+
+Examples:
+
+```{r}
+x = c(1,2,3,4)
+x
+
+#Algorithm
+x_bar = sum(x, na.rm=T)/length(x)
+x_bar
+
+#Base Function
+x_bar = mean(x, na.rm=T)
+x_bar
+```
+
+
+
+
+### Python
+
+**Documentation**: [numpy.mean](https://numpy.org/doc/stable/reference/generated/numpy.mean.html)
+
+Examples:
+
+
+```{python}
+x = [1,2,3,4]
+print(x)
+```
+```{python}
+#Algorithm
+x_bar= sum(x)/len(x)
+x_bar
+```
+```{python}
+#statistics Function
+import statistics
+x_bar = statistics.mean(x)
+x_bar
+```
+```{python}
+#scipy Function
+#<string>:1: DeprecationWarning: scipy.mean is deprecated and will be removed in SciPy 2.0.0, use numpy.mean instead
+import scipy
+x_bar = scipy.mean(x) 
+x_bar
+```
+```{python}
+#numpy Function
+import numpy as np
+x = np.array(x)
+x_bar = x.mean()
+x_bar
+```
+
+### SQL
+
+**Documentation**: [PostgreSQL AVG Function](https://www.postgresqltutorial.com/postgresql-aggregate-functions/postgresql-avg-function/)
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+
+DROP TABLE IF EXISTS t1;
+
+```
+
+```{sql, connection=con}
+
+CREATE TABLE IF NOT EXISTS t1 (
+	id serial PRIMARY KEY,
+	amount INTEGER
+);
+
+```
+
+```{sql, connection=con}
+INSERT INTO t1 (amount)
+VALUES
+	(10),
+	(NULL),
+	(30);
+```
+
+```{sql, connection=con}
+SELECT	* FROM 	t1;
+
+```
+
+```{sql, connection=con}
+
+SELECT AVG(amount)::numeric(10,2) 
+FROM t1;
+
+```
+
+### Torch
+
+```{python}
+import torch
+
+```
+
+:::
+
+
+
+## Bayesian
+
+[Bayesian average](https://en.wikipedia.org/wiki/Bayesian_average); [Solving an age-old problem using Bayesian Average](https://www.codementor.io/@arpitbhayani/solving-an-age-old-problem-using-bayesian-average-15fy4ww08p); [Of bayesian average and star ratings](https://fulmicoton.com/posts/bayesian_rating/); [Bayesian Average Ratings](https://www.evanmiller.org/bayesian-average-ratings.html) ; 
+
+**English**: The Bayesian average is the weighted average of a prior and the observed sample average. When would you want this? When you have strong beliefs about the true mean, or when sample size is too small to reliable calculate a mean. For example a movie rating website where a movie may have only a single 5 star rating and so would rank higher than the Godfather with over a 100 almost all 5 star ratings.
+
+**Formalization**:
+
+
+$$
+\bar{x}=\frac{C*m+(\sum^{n}_{i=1}x_i)}{c+n}
+$$
+
+
+
+Where $m$ is a prior for true mean, and $C$ is a constant representing how many elements would be necessary to reliably estimate a sample mean.
+
+**Code**
+

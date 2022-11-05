@@ -3,14 +3,35 @@ project:
   output-dir: docs
 
 book:
+  search: true
+  repo-url: https://github.com/rexdouglass/IntroToAppliedScience
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
   title: "Introduction to Applied Science"
   author: "Rex W. Douglass"
   date: "11/4/2022"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
-    - mean.qmd
+    - lit.qmd
+    - part: "mathematical object"
+      chapters:
+        - set.qmd
+        - list.qmd
+        - tensor.qmd
+    - part: "operations of arithmetic"
+      chapters:
+        - add.qmd
+        - subtract.qmd
+        - multiply.qmd
+        - divide.qmd
+    - part: "operations of algebra"
+      chapters:
+        - dotproduct.qmd    
+    - part: "moments of a distribution"
+      chapters:
+        - mean.qmd
     - references.qmd
 
 bibliography: IntroToAppliedScience.bib

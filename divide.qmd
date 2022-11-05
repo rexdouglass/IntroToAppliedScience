@@ -1,0 +1,101 @@
+---
+title: "Division"
+---
+  
+## Introduction
+  
+**Instance of**: operation of arithmetic
+
+## Frequentist
+
+**AKA**: $/$ ; $\frac{numerator}{denominator}$ ; ÷
+
+**Distinct from**: 
+
+**English**: 
+
+**Formalization**:
+  
+  
+$$ 
+$$
+    
+    
+**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Division_(mathematics)) ; [Wikidata](https://www.wikidata.org/wiki/Q1226939) ; [Wolfram]()
+  
+**Code**
+    
+::: panel-tabset
+  
+### R
+**Documentation**: [mean: Arithmetic Mean](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean)
+  
+Examples:
+    
+```{r}
+```
+
+
+
+
+### Python
+
+**Documentation**: [numpy.mean](https://numpy.org/doc/stable/reference/generated/numpy.mean.html)
+
+Examples:
+  
+```{python}
+```
+
+
+### SQL
+
+**Documentation**: [PostgreSQL AVG Function](https://www.postgresqltutorial.com/postgresql-aggregate-functions/postgresql-avg-function/)
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+```
+
+### Torch
+
+```{python}
+import torch
+
+```
+
+:::
+
+## Bayesian
+
+**English**: 
+**Formalization**:
+
+$$
+$$
+  
+Cites:
+
+**Code**
+  
+    
