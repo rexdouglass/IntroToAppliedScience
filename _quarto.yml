@@ -6,6 +6,7 @@ book:
   search: true
   repo-url: https://github.com/rexdouglass/IntroToAppliedScience
   repo-actions: [source]
+  repo-branch: master
   downloads: [pdf, epub]
   sharing: [twitter, facebook]
   title: "Introduction to Applied Science"
