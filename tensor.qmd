@@ -1,18 +1,16 @@
 ---
-title: "Tensor"
+title: "Vector/Matrix/Tensor"
 ---
   
 ## Introduction
   
-**Instance of**: algebraic object
+**Instance of**: algebraic object / data structure
 
-## Frequentist
+**AKA**: array, matrices
 
-**AKA**: 
+**Distinct from**: list
 
-**Distinct from**: 
-
-**English**: 
+**English**: Vector, matrices, and tensors are like lists in that they are a collection of objects which are indexed. They differ in that the index can be multi-dimensional, where vectors are 1-d indexed, matrices are 2-d indexed, and tensors are m-d indexed. They also are typically constrained to have objects that share the same type, e.g. numbers or strings.
 
 **Formalization**:
 
@@ -20,7 +18,13 @@ $$
 $$
     
     
-**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Tensor) ; [Wikidata]() ; [Wolfram]()
+**Cites**: 
+
+Array: [Wikipedia](https://en.wikipedia.org/wiki/Array_(data_structure))
+
+Matrix:
+
+Tensor: [Wikipedia](https://en.wikipedia.org/wiki/Tensor) ; [Wikidata]() ; [Wolfram]()
   
 **Code**
     
@@ -33,8 +37,6 @@ Examples:
     
 ```{r}
 ```
-
-
 
 
 ### Python

@@ -1,0 +1,110 @@
+---
+title: "Table"
+---
+  
+## Introduction
+  
+**Instance of**: arrangement of information or data
+
+**AKA**: Dataframe
+
+**Distinct from**: 
+
+**English**: A collection of rows and columns, where rows represent specific instances (AKA records, k-tuple, n-tuple, or a vector), and columns represent features (AKA variables, parameters, properties, attributes, or stanchions). The intersection of a row and column is called a sell.
+
+**Formalization**:
+  
+$$ 
+$$
+    
+**Cites**: [Wikipedia Table (information)](https://en.wikipedia.org/wiki/Table_(information)) ; [Wikipedia Table Table (database)](https://en.wikipedia.org/wiki/Table_(database)) ; [Wikidata]() ; [Wolfram]()
+
+[ML Frameworks Interoperability Cheat Sheet](http://bl.ocks.org/miguelusque/raw/f44a8e729896a96d0a3e4b07b5176af4/)
+  
+**Code**
+    
+::: panel-tabset
+  
+### R
+**Documentation**: [data.frame: Data Frames](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/data.frame)
+
+Examples:
+    
+```{r}
+df=data.frame(a=c(1,2,3,4), b=c('a','b','c','d'))
+df
+```
+
+### Python
+
+**Documentation**: [pandas.DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+
+Examples:
+  
+```{python}
+import pandas as pd
+df = pd.DataFrame({'a': [1, 2,3,4], 'b': ['a','b','c','d']})
+df
+
+```
+
+
+### SQL
+
+**Documentation**: [PostgreSQL AVG Function](https://www.postgresqltutorial.com/postgresql-aggregate-functions/postgresql-avg-function/)
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+DROP TABLE IF EXISTS df;
+```
+
+```{sql, connection=con}
+CREATE TABLE IF NOT EXISTS df (
+	a INTEGER,
+	b CHAR
+);
+```
+
+```{sql, connection=con}
+INSERT INTO df (a, b)
+VALUES
+	(1,'a'),
+	(2,'b'),
+	(3,'c'),
+	(4,'d');
+```
+
+```{sql, connection=con}
+SELECT	* FROM 	df;
+
+```
+
+### Torch
+
+```{python}
+import torch
+
+```
+
+:::

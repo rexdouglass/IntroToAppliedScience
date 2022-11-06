@@ -13,24 +13,27 @@ book:
   author: "Rex W. Douglass"
   date: "11/4/2022"
   chapters:
-    - index.qmd
-    - intro.qmd
-    - lit.qmd
-    - part: "mathematical object"
+    - part: "Introduction"
+      chapters:
+        - index.qmd
+        - intro.qmd
+        - lit.qmd
+    - part: "Mathematical Objects"
       chapters:
         - set.qmd
         - list.qmd
         - tensor.qmd
-    - part: "operations of arithmetic"
+        - table.qmd
+    - part: "Operations of Arithmetic"
       chapters:
         - add.qmd
         - subtract.qmd
         - multiply.qmd
         - divide.qmd
-    - part: "operations of algebra"
+    - part: "Operations of Algebra"
       chapters:
         - dotproduct.qmd    
-    - part: "moments of a distribution"
+    - part: "Moments of a Distribution"
       chapters:
         - mean.qmd
     - references.qmd
