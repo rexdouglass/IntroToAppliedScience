@@ -22,26 +22,50 @@ $$
 
 Array: [Wikipedia](https://en.wikipedia.org/wiki/Array_(data_structure))
 
-Matrix:
+Matrix: [Wikipedia](https://en.wikipedia.org/wiki/Matrix_(mathematics))
 
-Tensor: [Wikipedia](https://en.wikipedia.org/wiki/Tensor) ; [Wikidata]() ; [Wolfram]()
+Tensor: [Wikipedia](https://en.wikipedia.org/wiki/Tensor)
   
 **Code**
     
 ::: panel-tabset
   
 ### R
-**Documentation**: [mean: Arithmetic Mean](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean)
+**Documentation**: [vector: Vectors](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/vector) ; [matrix: Matrices](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/matrix) ; [array: Multi-way Arrays](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/array)
   
 Examples:
-    
+
+Vector
+Note unlike matrix and array, the basic vector function initializes an empty vector and you have to actually use as.vector to coerce something else to vector as the constructor.
 ```{r}
+example_vector <- as.vector(c(1,2,3,4))
+example_vector
+class(example_vector)
+```
+
+Matrix
+Note we can choose which direction to fill the matrix with, either by row1-col1, row1-col2, row1-col3, row1-col4
+```{r}
+example_matrix <- matrix(c(1,2,3,4,"A","B","C","D"), nrow = 2, ncol = 4, byrow = TRUE,
+               dimnames = list(c("row1", "row2"),
+                               c("C.1", "C.2", "C.3", "C.4")))
+example_matrix
+class(example_matrix)
+```
+
+
+Arrays
+Note array dimensions are ordered, row, column, depth, ..., M , and elements are filled row1-col1-depth1, row2-col1-depth1, row1-col2-depth1,... and so on. Note this was coerced to a string because any of the elements were a string.
+```{r}
+example_tensor= array(c(1,2,3,4,"A","B","C","D","+","-","*","/"),dim=c(2,3,2,2)) 
+example_tensor
+class(example_tensor)
 ```
 
 
 ### Python
 
-**Documentation**: [numpy.mean](https://numpy.org/doc/stable/reference/generated/numpy.mean.html)
+**Documentation**: 
 
 Examples:
   
@@ -51,7 +75,7 @@ Examples:
 
 ### SQL
 
-**Documentation**: [PostgreSQL AVG Function](https://www.postgresqltutorial.com/postgresql-aggregate-functions/postgresql-avg-function/)
+**Documentation**: 
 
 ```{r}
 library(DBI)
