@@ -2,6 +2,7 @@ project:
   type: book
   output-dir: docs
 
+
 book:
   search: true
   repo-url: https://github.com/rexdouglass/IntroToAppliedScience
