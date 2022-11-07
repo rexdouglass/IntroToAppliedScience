@@ -2,15 +2,13 @@
 title: "Vector/Matrix/Tensor"
 ---
 
-## Introduction
-  
 **Instance of**: algebraic object / data structure
 
 **AKA**: array, matrices
 
 **Distinct from**: list
 
-**English**: Vector, matrices, and tensors are like lists in that they are a collection of objects which are indexed. They differ in that the index can be multi-dimensional, where vectors are 1-d indexed, matrices are 2-d indexed, and tensors are m-d indexed. They also are typically constrained to have objects that share the same type, e.g. numbers or strings.
+**English**: Vectors, matrices, and tensors are like lists in that they are a collection of objects which are indexed. They differ in that the index can be multi-dimensional, where vectors are 1-d indexed, matrices are 2-d indexed, and tensors are m-d indexed. They also are typically constrained to have objects that share the same type, e.g. numbers or strings.
 
 **Formalization**:
 
@@ -20,46 +18,65 @@ $$
     
 **Cites**: 
 
-Array: [Wikipedia](https://en.wikipedia.org/wiki/Array_(data_structure))
+Array: 
 
-Matrix: [Wikipedia](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+[Wikipedia](https://en.wikipedia.org/wiki/Array_(data_structure))
 
-Tensor: [Wikipedia](https://en.wikipedia.org/wiki/Tensor)
+[3Blue1Brown: Vectors | Chapter 1, Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs)
+[3Blue1Brown: Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra](https://www.youtube.com/watch?v=k7RM-ot2NWY)
+
+Matrix:
+
+[Wikipedia](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+
+[3Blue1Brown: Linear transformations and matrices | Chapter 3, Essence of linear algebra](https://www.youtube.com/watch?v=kYB8IZa5AuE)
+
+Tensor:
+
+[Wikipedia](https://en.wikipedia.org/wiki/Tensor)
   
 **Code**
     
 ::: panel-tabset
   
 ### R
-**Documentation**: [vector: Vectors](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/vector) ; [matrix: Matrices](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/matrix) ; [array: Multi-way Arrays](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/array)
-  
-Examples:
 
-Vector
+**Vector**
+
 Note unlike matrix and array, the basic vector function initializes an empty vector and you have to actually use as.vector to coerce something else to vector as the constructor.
+
+[vector: Vectors](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/vector)
+
 ```{r}
 example_vector <- as.vector(c(1,2,3,4))
-example_vector
 class(example_vector)
+example_vector
 ```
 
-Matrix
+**Matrix**
+
 Note we can choose which direction to fill the matrix with, either by row1-col1, row1-col2, row1-col3, row1-col4
+
+[matrix: Matrices](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/matrix)
 ```{r}
 example_matrix <- matrix(c(1,2,3,4,"A","B","C","D"), nrow = 2, ncol = 4, byrow = TRUE,
                dimnames = list(c("row1", "row2"),
                                c("C.1", "C.2", "C.3", "C.4")))
-example_matrix
 class(example_matrix)
+example_matrix
 ```
 
 
-Arrays
+**Arrays**
+
 Note array dimensions are ordered, row, column, depth, ..., M , and elements are filled row1-col1-depth1, row2-col1-depth1, row1-col2-depth1,... and so on. Note this was coerced to a string because any of the elements were a string.
+
+[array: Multi-way Arrays](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/array)
+
 ```{r}
 example_tensor= array(c(1,2,3,4,"A","B","C","D","+","-","*","/"),dim=c(2,3,2,2)) 
-example_tensor
 class(example_tensor)
+example_tensor
 ```
 
 
@@ -102,6 +119,8 @@ con <- dbConnect(RPostgres::Postgres())
 ```{sql, connection=con}
 ```
 
+### Jax
+
 ### Torch
 
 ```{python}
@@ -111,16 +130,5 @@ import torch
 
 :::
 
-## Bayesian
-
-**English**: 
-**Formalization**:
-
-$$
-$$
-  
-Cites:
-
-**Code**
   
     

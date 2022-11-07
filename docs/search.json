@@ -18,160 +18,272 @@
     "href": "lit.html",
     "title": "3  Modeling Literature",
     "section": "",
-    "text": "Bayesian Workflow Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles C. Margossian, Bob Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian Bürkner, Martin Modrák https://arxiv.org/abs/2011.01808\nHow to avoid machine learning pitfalls: a guide for academic researchers Michael A. Lones https://arxiv.org/abs/2108.02497\nCross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure David R. Roberts,Volker Bahn,Simone Ciuti,Mark S. Boyce,Jane Elith,Gurutzeta Guillera-Arroita,Severin Hauenstein,José J. Lahoz-Monfort,Boris Schröder,Wilfried Thuiller,David I. Warton,Brendan A. Wintle,Florian Hartig,Carsten F. Dormann https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881\nEffective Pandas https://store.metasnake.com/effective-pandas-book\nInformation geometry and divergences https://franknielsen.github.io/IG/#bookIG\nStatistical Rethinking: A Bayesian Course with Examples in R and Stan (& PyMC3 & brms) https://xcelab.net/rm/statistical-rethinking/ https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN"
+    "text": "Bayesian Workflow Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles C. Margossian, Bob Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian Bürkner, Martin Modrák https://arxiv.org/abs/2011.01808\nHow to avoid machine learning pitfalls: a guide for academic researchers Michael A. Lones https://arxiv.org/abs/2108.02497\nCross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure David R. Roberts,Volker Bahn,Simone Ciuti,Mark S. Boyce,Jane Elith,Gurutzeta Guillera-Arroita,Severin Hauenstein,José J. Lahoz-Monfort,Boris Schröder,Wilfried Thuiller,David I. Warton,Brendan A. Wintle,Florian Hartig,Carsten F. Dormann https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881\nInformation geometry and divergences https://franknielsen.github.io/IG/#bookIG\nStatistical Rethinking: A Bayesian Course with Examples in R and Stan (& PyMC3 & brms) https://xcelab.net/rm/statistical-rethinking/ https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN\nML Frameworks Interoperability Cheat Sheet http://bl.ocks.org/miguelusque/raw/f44a8e729896a96d0a3e4b07b5176af4/\nRegression and Other Stories, Andrew Gelman, Jennifer Hill, Aki Vehtari\ntidybayes: Bayesian analysis + tidy data + geoms\nhttp://www.gradaanwr.net/\nData Visualization A practical introduction, Kieran Healy\nThe garden of forking paths: Why multiple comparisons can be a problem, even when there is no “fishing expedition” or “p-hacking” and the research hypothesis was posited ahead of time∗, Andrew Gelman† and Eric Loken"
+  },
+  {
+    "objectID": "computation.html#python",
+    "href": "computation.html#python",
+    "title": "4  Computation",
+    "section": "4.1 Python",
+    "text": "4.1 Python\nhttps://docs.python.org/3/\n\n4.1.1 Numpy\nhttps://numpy.org/\n\n\n4.1.2 Pandas\nhttps://pandas.pydata.org/docs/\nEffective Pandas https://store.metasnake.com/effective-pandas-book"
+  },
+  {
+    "objectID": "computation.html#jax",
+    "href": "computation.html#jax",
+    "title": "4  Computation",
+    "section": "4.2 jax",
+    "text": "4.2 jax\nhttps://github.com/google/jax"
+  },
+  {
+    "objectID": "computation.html#numpyro",
+    "href": "computation.html#numpyro",
+    "title": "4  Computation",
+    "section": "4.3 Numpyro",
+    "text": "4.3 Numpyro\nhttps://github.com/pyro-ppl/numpyro"
+  },
+  {
+    "objectID": "computation.html#sql",
+    "href": "computation.html#sql",
+    "title": "4  Computation",
+    "section": "4.4 SQL",
+    "text": "4.4 SQL\npostgresql https://www.postgresql.org/docs/"
+  },
+  {
+    "objectID": "computation.html#git",
+    "href": "computation.html#git",
+    "title": "4  Computation",
+    "section": "4.5 git",
+    "text": "4.5 git\nhttps://git-scm.com/doc"
+  },
+  {
+    "objectID": "computation.html#stan",
+    "href": "computation.html#stan",
+    "title": "4  Computation",
+    "section": "4.6 Stan",
+    "text": "4.6 Stan\nhttps://mc-stan.org/users/documentation/"
+  },
+  {
+    "objectID": "computation.html#brms",
+    "href": "computation.html#brms",
+    "title": "4  Computation",
+    "section": "4.7 brms",
+    "text": "4.7 brms\nhttps://github.com/paul-buerkner/brms"
+  },
+  {
+    "objectID": "computation.html#pyro",
+    "href": "computation.html#pyro",
+    "title": "4  Computation",
+    "section": "4.8 pyro",
+    "text": "4.8 pyro\nhttps://pyro.ai/\nThe StatQuest Introduction to PyTorch"
+  },
+  {
+    "objectID": "computation.html#tensorflow",
+    "href": "computation.html#tensorflow",
+    "title": "4  Computation",
+    "section": "4.9 tensorflow",
+    "text": "4.9 tensorflow\nhttps://www.tensorflow.org/"
+  },
+  {
+    "objectID": "R.html",
+    "href": "R.html",
+    "title": "5  R",
+    "section": "",
+    "text": "https://www.r-project.org/other-docs.html\nHands-On Programming with R, Garrett Grolemund\n\n5.0.1 Tidyverse\nhttps://www.tidyverse.org/\nR for Data Science\nThe Tidyverse Cookbook"
+  },
+  {
+    "objectID": "domain.html",
+    "href": "domain.html",
+    "title": "6  Domain",
+    "section": "",
+    "text": "CHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULTS\nAn Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?"
+  },
+  {
+    "objectID": "outliers.html",
+    "href": "outliers.html",
+    "title": "7  Outliers",
+    "section": "",
+    "text": "An Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?"
+  },
+  {
+    "objectID": "estimand.html",
+    "href": "estimand.html",
+    "title": "8  Estimand",
+    "section": "",
+    "text": "What Is Your Estimand? Defining the Target Quantity Connects Statistical Evidence to Theory"
+  },
+  {
+    "objectID": "identification.html",
+    "href": "identification.html",
+    "title": "Introduction to Applied Science",
+    "section": "",
+    "text": "Partial Identification in Econometrics"
+  },
+  {
+    "objectID": "rct.html",
+    "href": "rct.html",
+    "title": "10  Random Control Trials",
+    "section": "",
+    "text": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015\nCHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULTS"
+  },
+  {
+    "objectID": "iv.html",
+    "href": "iv.html",
+    "title": "11  Instrumental Varibales",
+    "section": "",
+    "text": "How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on Over 60 Replicated Studies"
+  },
+  {
+    "objectID": "diffindiff.html",
+    "href": "diffindiff.html",
+    "title": "12  Difference in Difference",
+    "section": "",
+    "text": "How Much Should We Trust Differences-In-Differences Estimates?\nHow Much Should We Trust Staggered Difference-In-Differences Estimates?"
   },
   {
     "objectID": "set.html",
     "href": "set.html",
-    "title": "4  Set",
+    "title": "13  Set",
     "section": "",
     "text": "Cites: Wikipedia; Wikidata; PlanetMath"
   },
   {
     "objectID": "list.html",
     "href": "list.html",
-    "title": "5  List (Sequence)",
+    "title": "14  List (Sequence)",
     "section": "",
     "text": "AKA: Sequence, \\(a_n\\) where n is the nth element, (1,2,3, ….)\nDistinct from: Set\nMeasure of:\nDescription: A list is a collection of objects with a specific ordering and where the same object can appear more than once. Call each object an element, and its location its index or rank. An index is a natural number counting upward from the first element in the list. Whether counting begins at 0 or 1 depends on local conventions.\nFormalization:\nAlgorithm:\nCites: Wikipedia Wikidata Encyclopedia Of Math Wolfram PlanetMath\n\nRPythonSQL\n\n\nDocumentation:\nlist: Lists – Generic and Dotted Pairs\nExamples:\n\nexample_list = list(1,2,3)\nexample_list\n\n[[1]]\n[1] 1\n\n[[2]]\n[1] 2\n\n[[3]]\n[1] 3\n\n\n\n\nDocumentation:\nMore on Lists\nExamples:\n\nexample_list =  [1,2,3]\nexample_list\n\n[1, 2, 3]\n\n\n\n\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\ncon <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\ndbListTables(con)\n\ncharacter(0)\n\ndbWriteTable(con, \"mtcars\", mtcars)\ndbListTables(con)\n\n[1] \"mtcars\"\n\n\n\ncreate table StatisticalNumbers(\n value int\n)\n\n\nSELECT * FROM mtcars LIMIT 5;\n\n\n5 records\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\n21.0\n6\n160\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\n21.0\n6\n160\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\n22.8\n4\n108\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\n18.7\n8\n360\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2"
   },
   {
-    "objectID": "tensor.html#introduction",
-    "href": "tensor.html#introduction",
-    "title": "6  Vector/Matrix/Tensor",
-    "section": "6.1 Introduction",
-    "text": "6.1 Introduction\nInstance of: algebraic object / data structure\nAKA: array, matrices\nDistinct from: list\nEnglish: Vector, matrices, and tensors are like lists in that they are a collection of objects which are indexed. They differ in that the index can be multi-dimensional, where vectors are 1-d indexed, matrices are 2-d indexed, and tensors are m-d indexed. They also are typically constrained to have objects that share the same type, e.g. numbers or strings.\nFormalization:\n\\[\n\\]\nCites:\nArray: Wikipedia\nMatrix:\nTensor: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
-  },
-  {
-    "objectID": "tensor.html#frequentist",
-    "href": "tensor.html#frequentist",
-    "title": "6  Tensor",
-    "section": "6.2 Frequentist",
-    "text": "6.2 Frequentist\nAKA:\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
-  },
-  {
-    "objectID": "tensor.html#bayesian",
-    "href": "tensor.html#bayesian",
-    "title": "6  Vector/Matrix/Tensor",
-    "section": "6.2 Bayesian",
-    "text": "6.2 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "objectID": "tensor.html",
+    "href": "tensor.html",
+    "title": "15  Vector/Matrix/Tensor",
+    "section": "",
+    "text": "Instance of: algebraic object / data structure\nAKA: array, matrices\nDistinct from: list\nEnglish: Vectors, matrices, and tensors are like lists in that they are a collection of objects which are indexed. They differ in that the index can be multi-dimensional, where vectors are 1-d indexed, matrices are 2-d indexed, and tensors are m-d indexed. They also are typically constrained to have objects that share the same type, e.g. numbers or strings.\nFormalization:\n\\[\n\\]\nCites:\nArray:\nWikipedia\n3Blue1Brown: Vectors | Chapter 1, Essence of linear algebra 3Blue1Brown: Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra\nMatrix:\nWikipedia\n3Blue1Brown: Linear transformations and matrices | Chapter 3, Essence of linear algebra\nTensor:\nWikipedia\nCode\n\nRPythonSQLJaxTorch\n\n\nVector\nNote unlike matrix and array, the basic vector function initializes an empty vector and you have to actually use as.vector to coerce something else to vector as the constructor.\nvector: Vectors\n\nexample_vector <- as.vector(c(1,2,3,4))\nclass(example_vector)\n\n[1] \"numeric\"\n\nexample_vector\n\n[1] 1 2 3 4\n\n\nMatrix\nNote we can choose which direction to fill the matrix with, either by row1-col1, row1-col2, row1-col3, row1-col4\nmatrix: Matrices\n\nexample_matrix <- matrix(c(1,2,3,4,\"A\",\"B\",\"C\",\"D\"), nrow = 2, ncol = 4, byrow = TRUE,\n               dimnames = list(c(\"row1\", \"row2\"),\n                               c(\"C.1\", \"C.2\", \"C.3\", \"C.4\")))\nclass(example_matrix)\n\n[1] \"matrix\" \"array\" \n\nexample_matrix\n\n     C.1 C.2 C.3 C.4\nrow1 \"1\" \"2\" \"3\" \"4\"\nrow2 \"A\" \"B\" \"C\" \"D\"\n\n\nArrays\nNote array dimensions are ordered, row, column, depth, …, M , and elements are filled row1-col1-depth1, row2-col1-depth1, row1-col2-depth1,… and so on. Note this was coerced to a string because any of the elements were a string.\narray: Multi-way Arrays\n\nexample_tensor= array(c(1,2,3,4,\"A\",\"B\",\"C\",\"D\",\"+\",\"-\",\"*\",\"/\"),dim=c(2,3,2,2)) \nclass(example_tensor)\n\n[1] \"array\"\n\nexample_tensor\n\n, , 1, 1\n\n     [,1] [,2] [,3]\n[1,] \"1\"  \"3\"  \"A\" \n[2,] \"2\"  \"4\"  \"B\" \n\n, , 2, 1\n\n     [,1] [,2] [,3]\n[1,] \"C\"  \"+\"  \"*\" \n[2,] \"D\"  \"-\"  \"/\" \n\n, , 1, 2\n\n     [,1] [,2] [,3]\n[1,] \"1\"  \"3\"  \"A\" \n[2,] \"2\"  \"4\"  \"B\" \n\n, , 2, 2\n\n     [,1] [,2] [,3]\n[1,] \"C\"  \"+\"  \"*\" \n[2,] \"D\"  \"-\"  \"/\" \n\n\n\n\nDocumentation:\nExamples:\n\n\n\n\n\nDocumentation:\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "table.html#introduction",
     "href": "table.html#introduction",
-    "title": "7  Table",
-    "section": "7.1 Introduction",
-    "text": "7.1 Introduction\nInstance of: arrangement of information or data\nAKA: Dataframe\nDistinct from:\nEnglish: A collection of rows and columns, where rows represent specific instances (AKA records, k-tuple, n-tuple, or a vector), and columns represent features (AKA variables, parameters, properties, attributes, or stanchions). The intersection of a row and column is called a sell.\nFormalization:\n\\[\n\\]\nCites: Wikipedia Table (information) ; Wikipedia Table Table (database) ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: data.frame: Data Frames\nExamples:\n\ndf=data.frame(a=c(1,2,3,4), b=c('a','b','c','d'))\ndf\n\n  a b\n1 1 a\n2 2 b\n3 3 c\n4 4 d\n\n\n\n\nDocumentation: pandas.DataFrame\nExamples:\n\nimport pandas as pd\ndf = pd.DataFrame({'a': [1, 2,3,4], 'b': ['a','b','c','d']})\ndf\n\n   a  b\n0  1  a\n1  2  b\n2  3  c\n3  4  d\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\nDROP TABLE IF EXISTS df;\n\n\nCREATE TABLE IF NOT EXISTS df (\n    a INTEGER,\n    b CHAR\n);\n\n\nINSERT INTO df (a, b)\nVALUES\n    (1,'a'),\n    (2,'b'),\n    (3,'c'),\n    (4,'d');\n\n\nSELECT  * FROM  df;\n\n\n4 records\n\n\na\nb\n\n\n\n\n1\na\n\n\n2\nb\n\n\n3\nc\n\n\n4\nd\n\n\n\n\n\n\n\n\nimport torch"
+    "title": "16  Table",
+    "section": "16.1 Introduction",
+    "text": "16.1 Introduction\nInstance of: arrangement of information or data\nAKA: Dataframe\nDistinct from:\nEnglish: A collection of rows and columns, where rows represent specific instances (AKA records, k-tuple, n-tuple, or a vector), and columns represent features (AKA variables, parameters, properties, attributes, or stanchions). The intersection of a row and column is called a sell.\nFormalization:\n\\[\n\\]\nCites: Wikipedia Table (information) ; Wikipedia Table Table (database) ; Wikidata ; Wolfram\nML Frameworks Interoperability Cheat Sheet\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: data.frame: Data Frames\nExamples:\n\ndf=data.frame(a=c(1,2,3,4), b=c('a','b','c','d'))\ndf\n\n  a b\n1 1 a\n2 2 b\n3 3 c\n4 4 d\n\n\n\n\nDocumentation: pandas.DataFrame\nExamples:\n\nimport pandas as pd\ndf = pd.DataFrame({'a': [1, 2,3,4], 'b': ['a','b','c','d']})\ndf\n\n   a  b\n0  1  a\n1  2  b\n2  3  c\n3  4  d\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\nDROP TABLE IF EXISTS df;\n\n\nCREATE TABLE IF NOT EXISTS df (\n    a INTEGER,\n    b CHAR\n);\n\n\nINSERT INTO df (a, b)\nVALUES\n    (1,'a'),\n    (2,'b'),\n    (3,'c'),\n    (4,'d');\n\n\nSELECT  * FROM  df;\n\n\n4 records\n\n\na\nb\n\n\n\n\n1\na\n\n\n2\nb\n\n\n3\nc\n\n\n4\nd\n\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "add.html#introduction",
     "href": "add.html#introduction",
-    "title": "8  Addition",
-    "section": "8.1 Introduction",
-    "text": "8.1 Introduction\nInstance of: operation of arithmetic"
+    "title": "17  Addition",
+    "section": "17.1 Introduction",
+    "text": "17.1 Introduction\nInstance of: operation of arithmetic"
   },
   {
     "objectID": "add.html#frequentist",
     "href": "add.html#frequentist",
-    "title": "8  Addition",
-    "section": "8.2 Frequentist",
-    "text": "8.2 Frequentist\nAKA: + ; add\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "17  Addition",
+    "section": "17.2 Frequentist",
+    "text": "17.2 Frequentist\nAKA: + ; add\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "add.html#bayesian",
     "href": "add.html#bayesian",
-    "title": "8  Addition",
-    "section": "8.3 Bayesian",
-    "text": "8.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "17  Addition",
+    "section": "17.3 Bayesian",
+    "text": "17.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "subtract.html#frequentist",
     "href": "subtract.html#frequentist",
-    "title": "9  Introduction",
-    "section": "9.1 Frequentist",
-    "text": "9.1 Frequentist\nAKA: - ; minus\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "18  Introduction",
+    "section": "18.1 Frequentist",
+    "text": "18.1 Frequentist\nAKA: - ; minus\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "subtract.html#bayesian",
     "href": "subtract.html#bayesian",
-    "title": "9  Introduction",
-    "section": "9.2 Bayesian",
-    "text": "9.2 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "18  Introduction",
+    "section": "18.2 Bayesian",
+    "text": "18.2 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "multiply.html#introduction",
     "href": "multiply.html#introduction",
-    "title": "10  Multiplication",
-    "section": "10.1 Introduction",
-    "text": "10.1 Introduction\nInstance of: operation of arithmetic"
+    "title": "19  Multiplication",
+    "section": "19.1 Introduction",
+    "text": "19.1 Introduction\nInstance of: operation of arithmetic"
   },
   {
     "objectID": "multiply.html#frequentist",
     "href": "multiply.html#frequentist",
-    "title": "10  Multiplication",
-    "section": "10.2 Frequentist",
-    "text": "10.2 Frequentist\nAKA: * ; × ; ⋅ ; multiply\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "19  Multiplication",
+    "section": "19.2 Frequentist",
+    "text": "19.2 Frequentist\nAKA: * ; × ; ⋅ ; multiply\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\n3Blue1Brown: Matrix multiplication as composition | Chapter 4, Essence of linear algebra 3Blue1Brown: Cross products in the light of linear transformations | Chapter 11, Essence of linear algebra\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "multiply.html#bayesian",
     "href": "multiply.html#bayesian",
-    "title": "10  Multiplication",
-    "section": "10.3 Bayesian",
-    "text": "10.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "19  Multiplication",
+    "section": "19.3 Bayesian",
+    "text": "19.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "divide.html#introduction",
     "href": "divide.html#introduction",
-    "title": "11  Division",
-    "section": "11.1 Introduction",
-    "text": "11.1 Introduction\nInstance of: operation of arithmetic"
+    "title": "20  Division",
+    "section": "20.1 Introduction",
+    "text": "20.1 Introduction\nInstance of: operation of arithmetic"
   },
   {
     "objectID": "divide.html#frequentist",
     "href": "divide.html#frequentist",
-    "title": "11  Division",
-    "section": "11.2 Frequentist",
-    "text": "11.2 Frequentist\nAKA: \\(/\\) ; \\(\\frac{numerator}{denominator}\\) ; ÷\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "20  Division",
+    "section": "20.2 Frequentist",
+    "text": "20.2 Frequentist\nAKA: \\(/\\) ; \\(\\frac{numerator}{denominator}\\) ; ÷\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "divide.html#bayesian",
     "href": "divide.html#bayesian",
-    "title": "11  Division",
-    "section": "11.3 Bayesian",
-    "text": "11.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "20  Division",
+    "section": "20.3 Bayesian",
+    "text": "20.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "dotproduct.html#introduction",
     "href": "dotproduct.html#introduction",
-    "title": "12  Dot product",
-    "section": "12.1 Introduction",
-    "text": "12.1 Introduction\nInstance of: algebraic operation\nAKA: scalar product; inner product ; projection product ; $ · $\nDistinct from:\nEnglish:\nFormalization:\n\\[\na \\cdot b\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "21  Dot product",
+    "section": "21.1 Introduction",
+    "text": "21.1 Introduction\nInstance of: algebraic operation\nAKA: scalar product; inner product ; projection product ; $ · $\nDistinct from:\nEnglish:\nFormalization:\n\\[\na \\cdot b\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\n3Blue1Brown: Dot products and duality | Chapter 9, Essence of linear algebra\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: \nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "dotproduct.html#bayesian",
     "href": "dotproduct.html#bayesian",
-    "title": "12  Dot product",
-    "section": "12.2 Bayesian",
-    "text": "12.2 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "21  Dot product",
+    "section": "21.2 Bayesian",
+    "text": "21.2 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "mean.html#introduction",
     "href": "mean.html#introduction",
-    "title": "13  Mean",
-    "section": "13.1 Introduction",
-    "text": "13.1 Introduction\nMeasure of: Central tendency"
+    "title": "22  Mean",
+    "section": "22.1 Introduction",
+    "text": "22.1 Introduction\nMeasure of: Central tendency"
   },
   {
     "objectID": "mean.html#frequentist",
     "href": "mean.html#frequentist",
-    "title": "13  Mean",
-    "section": "13.2 Frequentist",
-    "text": "13.2 Frequentist\nAKA: Arithmetic mean; average; \\(\\bar{x}\\) (sample mean); \\(\\mu\\) (population mean); \\(\\mu_x\\) (population mean)\nDistinct from: Geometric mean (GM); Harmonic mean (HM); generalized mean/ Power mean; weighted arithmetic mean\nEnglish: Take a list of numbers, sum those numbers, and then divide by the number of numbers.\nFormalization:\n\\[\n\\bar{x}=\\frac{1}{n}(\\sum^{n}_{i=1}x_i)=\\frac{x_1+x_2+...+x_n}{n}\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\nx = c(1,2,3,4)\nx\n\n[1] 1 2 3 4\n\n#Algorithm\nx_bar = sum(x, na.rm=T)/length(x)\nx_bar\n\n[1] 2.5\n\n#Base Function\nx_bar = mean(x, na.rm=T)\nx_bar\n\n[1] 2.5\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\nx = [1,2,3,4]\nprint(x)\n\n[1, 2, 3, 4]\n\n\n\n#Algorithm\nx_bar= sum(x)/len(x)\nx_bar\n\n2.5\n\n\n\n#statistics Function\nimport statistics\nx_bar = statistics.mean(x)\nx_bar\n\n2.5\n\n\n\n#scipy Function\n#<string>:1: DeprecationWarning: scipy.mean is deprecated and will be removed in SciPy 2.0.0, use numpy.mean instead\nimport scipy\nx_bar = scipy.mean(x) \n\n<string>:1: DeprecationWarning: scipy.mean is deprecated and will be removed in SciPy 2.0.0, use numpy.mean instead\n\nx_bar\n\n2.5\n\n\n\n#numpy Function\nimport numpy as np\nx = np.array(x)\nx_bar = x.mean()\nx_bar\n\n2.5\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\nDROP TABLE IF EXISTS t1;\n\n\n\nCREATE TABLE IF NOT EXISTS t1 (\n    id serial PRIMARY KEY,\n    amount INTEGER\n);\n\n\nINSERT INTO t1 (amount)\nVALUES\n    (10),\n    (NULL),\n    (30);\n\n\nSELECT  * FROM  t1;\n\n\n3 records\n\n\nid\namount\n\n\n\n\n1\n10\n\n\n2\nNA\n\n\n3\n30\n\n\n\n\n\n\n\nSELECT AVG(amount)::numeric(10,2) \nFROM t1;\n\n\n1 records\n\n\navg\n\n\n\n\n20\n\n\n\n\n\n\n\n\nimport torch"
+    "title": "22  Mean",
+    "section": "22.2 Frequentist",
+    "text": "22.2 Frequentist\nAKA: Arithmetic mean; average; \\(\\bar{x}\\) (sample mean); \\(\\mu\\) (population mean); \\(\\mu_x\\) (population mean)\nDistinct from: Geometric mean (GM); Harmonic mean (HM); generalized mean/ Power mean; weighted arithmetic mean\nEnglish: Take a list of numbers, sum those numbers, and then divide by the number of numbers.\nFormalization:\n\\[\n\\bar{x}=\\frac{1}{n}(\\sum^{n}_{i=1}x_i)=\\frac{x_1+x_2+...+x_n}{n}\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\nx = c(1,2,3,4)\nx\n\n[1] 1 2 3 4\n\n#Algorithm\nx_bar = sum(x, na.rm=T)/length(x)\nx_bar\n\n[1] 2.5\n\n#Base Function\nx_bar = mean(x, na.rm=T)\nx_bar\n\n[1] 2.5\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\nx = [1,2,3,4]\nprint(x)\n\n[1, 2, 3, 4]\n\n\n\n#Algorithm\nx_bar= sum(x)/len(x)\nx_bar\n\n2.5\n\n\n\n#statistics Function\nimport statistics\nx_bar = statistics.mean(x)\nx_bar\n\n2.5\n\n\n\n#scipy Function\n#<string>:1: DeprecationWarning: scipy.mean is deprecated and will be removed in SciPy 2.0.0, use numpy.mean instead\nimport scipy\nx_bar = scipy.mean(x) \n\n<string>:1: DeprecationWarning: scipy.mean is deprecated and will be removed in SciPy 2.0.0, use numpy.mean instead\n\nx_bar\n\n2.5\n\n\n\n#numpy Function\nimport numpy as np\nx = np.array(x)\nx_bar = x.mean()\nx_bar\n\n2.5\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\nDROP TABLE IF EXISTS t1;\n\n\n\nCREATE TABLE IF NOT EXISTS t1 (\n    id serial PRIMARY KEY,\n    amount INTEGER\n);\n\n\nINSERT INTO t1 (amount)\nVALUES\n    (10),\n    (NULL),\n    (30);\n\n\nSELECT  * FROM  t1;\n\n\n3 records\n\n\nid\namount\n\n\n\n\n1\n10\n\n\n2\nNA\n\n\n3\n30\n\n\n\n\n\n\n\nSELECT AVG(amount)::numeric(10,2) \nFROM t1;\n\n\n1 records\n\n\navg\n\n\n\n\n20\n\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "mean.html#bayesian",
     "href": "mean.html#bayesian",
-    "title": "13  Mean",
-    "section": "13.3 Bayesian",
-    "text": "13.3 Bayesian\nBayesian average; Solving an age-old problem using Bayesian Average; Of bayesian average and star ratings; Bayesian Average Ratings ;\nEnglish: The Bayesian average is the weighted average of a prior and the observed sample average. When would you want this? When you have strong beliefs about the true mean, or when sample size is too small to reliable calculate a mean. For example a movie rating website where a movie may have only a single 5 star rating and so would rank higher than the Godfather with over a 100 almost all 5 star ratings.\nFormalization:\n\\[\n\\bar{x}=\\frac{C*m+(\\sum^{n}_{i=1}x_i)}{c+n}\n\\]\nWhere \\(m\\) is a prior for true mean, and \\(C\\) is a constant representing how many elements would be necessary to reliably estimate a sample mean.\nCode"
+    "title": "22  Mean",
+    "section": "22.3 Bayesian",
+    "text": "22.3 Bayesian\nBayesian average; Solving an age-old problem using Bayesian Average; Of bayesian average and star ratings; Bayesian Average Ratings ;\nEnglish: The Bayesian average is the weighted average of a prior and the observed sample average. When would you want this? When you have strong beliefs about the true mean, or when sample size is too small to reliable calculate a mean. For example a movie rating website where a movie may have only a single 5 star rating and so would rank higher than the Godfather with over a 100 almost all 5 star ratings.\nFormalization:\n\\[\n\\bar{x}=\\frac{C*m+(\\sum^{n}_{i=1}x_i)}{c+n}\n\\]\nWhere \\(m\\) is a prior for true mean, and \\(C\\) is a constant representing how many elements would be necessary to reliably estimate a sample mean.\nCode"
+  },
+  {
+    "objectID": "gradientboosted.html",
+    "href": "gradientboosted.html",
+    "title": "Introduction to Applied Science",
+    "section": "",
+    "text": "Videos\nStatQuest with Josh Starmer Gradient Boost Part 1 (of 4): Regression Main Ideas XGBoost Part 1 (of 4): Regression\nXGBoost LightGBM"
   }
 ]

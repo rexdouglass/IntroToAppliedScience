@@ -19,6 +19,20 @@ book:
         - index.qmd
         - intro.qmd
         - lit.qmd
+    - part: "Computation"
+      chapters:
+        - computation.qmd
+        - R.qmd
+    - part: "Research Design"
+      chapters:
+        - domain.qmd
+        - outliers.qmd
+        - estimand.qmd
+        - identification.qmd
+        - rct.qmd
+        - iv.qmd
+        - diffindiff.qmd
+    - part: "Estimation"    
     - part: "Mathematical Objects"
       chapters:
         - set.qmd
@@ -37,6 +51,15 @@ book:
     - part: "Moments of a Distribution"
       chapters:
         - mean.qmd
+    - part: "Supervised Learning"
+      chapters:
+        - ols.qmd
+        - decisiontree.qmd
+        - randomforest.qmd
+        - gradientboosted.qmd
+    - part: "Unsupervised Learning"
+      chapters:
+        - distancemetrics.qmd
     - references.qmd
 
 bibliography: IntroToAppliedScience.bib

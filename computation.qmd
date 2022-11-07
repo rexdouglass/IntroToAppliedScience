@@ -1,0 +1,43 @@
+# Computation
+
+
+## Python
+https://docs.python.org/3/
+
+### Numpy
+https://numpy.org/
+
+### Pandas
+https://pandas.pydata.org/docs/
+
+Effective Pandas
+[https://store.metasnake.com/effective-pandas-book](https://store.metasnake.com/effective-pandas-book)
+
+
+## jax
+https://github.com/google/jax
+
+## Numpyro
+https://github.com/pyro-ppl/numpyro
+
+## SQL
+
+postgresql
+https://www.postgresql.org/docs/
+
+## git
+https://git-scm.com/doc
+
+## Stan
+https://mc-stan.org/users/documentation/
+
+## brms
+https://github.com/paul-buerkner/brms
+
+## pyro
+https://pyro.ai/
+
+[The StatQuest Introduction to PyTorch](https://www.youtube.com/watch?v=FHdlXe1bSe4)
+
+## tensorflow
+https://www.tensorflow.org/

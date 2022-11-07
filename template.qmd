@@ -34,8 +34,6 @@ Examples:
 ```
 
 
-
-
 ### Python
 
 **Documentation**: [numpy.mean](https://numpy.org/doc/stable/reference/generated/numpy.mean.html)

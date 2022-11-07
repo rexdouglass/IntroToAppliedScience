@@ -1,0 +1,3 @@
+# Outliers
+
+[An Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?](https://arxiv.org/abs/2011.14999)

@@ -1,0 +1,11 @@
+# R
+https://www.r-project.org/other-docs.html
+
+[Hands-On Programming with R, Garrett Grolemund](https://rstudio-education.github.io/hopr/)
+
+### Tidyverse
+https://www.tidyverse.org/
+  
+  [R for Data Science](https://r4ds.had.co.nz/)
+
+[The Tidyverse Cookbook](https://rstudio-education.github.io/tidyverse-cookbook/)

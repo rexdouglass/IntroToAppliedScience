@@ -12,8 +12,6 @@ Cross-validation strategies for data with temporal, spatial, hierarchical, or ph
 David R. Roberts,Volker Bahn,Simone Ciuti,Mark S. Boyce,Jane Elith,Gurutzeta Guillera-Arroita,Severin Hauenstein,José J. Lahoz-Monfort,Boris Schröder,Wilfried Thuiller,David I. Warton,Brendan A. Wintle,Florian Hartig,Carsten F. Dormann
 [https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881)
 
-Effective Pandas
-[https://store.metasnake.com/effective-pandas-book](https://store.metasnake.com/effective-pandas-book)
 
 Information geometry and divergences
 https://franknielsen.github.io/IG/#bookIG
@@ -21,3 +19,20 @@ https://franknielsen.github.io/IG/#bookIG
 Statistical Rethinking: A Bayesian Course with Examples in R and Stan (& PyMC3 & brms)
 https://xcelab.net/rm/statistical-rethinking/
 https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN
+
+ML Frameworks Interoperability Cheat Sheet
+http://bl.ocks.org/miguelusque/raw/f44a8e729896a96d0a3e4b07b5176af4/
+
+[Regression and Other Stories, Andrew Gelman, Jennifer Hill, Aki Vehtari](https://avehtari.github.io/ROS-Examples/examples.html)
+
+
+[tidybayes: Bayesian analysis + tidy data + geoms](http://mjskay.github.io/tidybayes/)
+
+[http://www.gradaanwr.net/](Graphical Data Analysis with R Antony Unwin)
+
+[Data Visualization A practical introduction, Kieran Healy](https://socviz.co/)
+
+
+[The garden of forking paths: Why multiple comparisons can be a problem, even when there is no “fishing expedition” or “p-hacking” and the research hypothesis was posited ahead of time∗, Andrew Gelman† and Eric Loken](http://stat.columbia.edu/~gelman/research/unpublished/forking.pdf)
+
+

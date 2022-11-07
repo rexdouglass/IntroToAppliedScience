@@ -1,0 +1,5 @@
+# Regression Discontinuity Design
+
+[On the reliability of published findings using the regression discontinuity design in political science](https://arxiv.org/pdf/2109.14526.pdf)
+
+[Noise-Induced Randomization in Regression Discontinuity Designs](https://arxiv.org/abs/2004.09458)

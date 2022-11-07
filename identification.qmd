@@ -1,0 +1,3 @@
+# Identification
+
+[Partial Identification in Econometrics](https://scholar.harvard.edu/files/tamer/files/pie.pdf)

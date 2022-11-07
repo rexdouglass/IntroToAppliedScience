@@ -19,13 +19,15 @@ a \cdot b
 $$
     
 **Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Dot_product) ; [Wikidata]() ; [Wolfram]()
-  
+
+[3Blue1Brown: Dot products and duality | Chapter 9, Essence of linear algebra](https://www.youtube.com/watch?v=LyGKycYT2v0)
+
 **Code**
     
 ::: panel-tabset
   
 ### R
-**Documentation**: [mean: Arithmetic Mean](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean)
+**Documentation**: []()
   
 Examples:
     

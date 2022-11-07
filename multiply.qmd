@@ -22,7 +22,10 @@ $$
     
     
 **Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()
-  
+
+[3Blue1Brown: Matrix multiplication as composition | Chapter 4, Essence of linear algebra](https://www.youtube.com/watch?v=XkY2DOUCWMU&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
+[3Blue1Brown: Cross products in the light of linear transformations | Chapter 11, Essence of linear algebra](https://www.youtube.com/watch?v=BaM7OCEm3G0)
+
 **Code**
     
 ::: panel-tabset
