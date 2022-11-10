@@ -1,4 +1,3 @@
-
 ## Modeling Literature
 
 Bayesian Workflow
@@ -1063,3 +1062,8 @@ https://arxiv.org/abs/1903.05589
 On the complexity of logistic regression models
 Nicola Bulso, Matteo Marsili, Yasser Roudi
 https://arxiv.org/abs/1903.00386
+
+On Heavy-user Bias in A/B Testing
+Yu Wang, Somit Gupta, Jiannan Lu, Ali Mahmoudzadeh, Sophia Liu
+https://arxiv.org/abs/1902.02021
+

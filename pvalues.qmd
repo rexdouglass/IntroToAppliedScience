@@ -6,3 +6,5 @@ Sequential sampling and testing
 [Safe, anytime-valid inference: confidence sequences, p-values/e-values, and e-processes](https://www.stat.cmu.edu/~aramdas/pubs-topic.html)
 
 [Some papers about p values](http://www.onemol.org.uk/?page_id=456)
+
+[The Difference Between “Significant” and “Not Significant” is not Itself Statistically Significant](http://www.stat.columbia.edu/~gelman/research/published/signif4.pdf)
