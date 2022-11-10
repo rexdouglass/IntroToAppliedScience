@@ -51,7 +51,7 @@ tweets_url_labeled %>%
 
 tweets_url_labeled <- read.csv("/mnt/8tb_a/rwd_github_private/IntroToAppliedScience/git_ignore/temp_labeled.csv") #%>% filter(keep %in% 1)
 dim(tweets_url_labeled)
-for(url in tweets_url_labeled$url[1201:1250]){browseURL(url=url)}
+for(url in tweets_url_labeled$url[1401:1500]){browseURL(url=url)}
 
 
 ```

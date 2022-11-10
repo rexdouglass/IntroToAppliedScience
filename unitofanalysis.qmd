@@ -2,3 +2,11 @@
 
 Ecological Inference in the Social Sciences
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885825/
+
+Race to the bottom: Spatial aggregation and event data
+Scott J. CookORCID Icon&Nils B. Weidmann
+https://www.tandfonline.com/doi/abs/10.1080/03050629.2022.2025365
+
+Extremal Behavior of Aggregated Data with an Application to Downscaling
+Sebastian Engelke, Raphael de Fondeville, Marco Oesting
+https://arxiv.org/abs/1712.09816

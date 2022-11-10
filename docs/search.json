@@ -18,266 +18,329 @@
     "href": "lit.html",
     "title": "3  Modeling Literature",
     "section": "",
-    "text": "Bayesian Workflow Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles C. Margossian, Bob Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian Bürkner, Martin Modrák https://arxiv.org/abs/2011.01808\nHow to avoid machine learning pitfalls: a guide for academic researchers Michael A. Lones https://arxiv.org/abs/2108.02497\nCross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure David R. Roberts,Volker Bahn,Simone Ciuti,Mark S. Boyce,Jane Elith,Gurutzeta Guillera-Arroita,Severin Hauenstein,José J. Lahoz-Monfort,Boris Schröder,Wilfried Thuiller,David I. Warton,Brendan A. Wintle,Florian Hartig,Carsten F. Dormann https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881\nInformation geometry and divergences https://franknielsen.github.io/IG/#bookIG\nStatistical Rethinking: A Bayesian Course with Examples in R and Stan (& PyMC3 & brms) https://xcelab.net/rm/statistical-rethinking/ https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN\nML Frameworks Interoperability Cheat Sheet http://bl.ocks.org/miguelusque/raw/f44a8e729896a96d0a3e4b07b5176af4/\nRegression and Other Stories, Andrew Gelman, Jennifer Hill, Aki Vehtari\ntidybayes: Bayesian analysis + tidy data + geoms\nhttp://www.gradaanwr.net/\nData Visualization A practical introduction, Kieran Healy\nThe garden of forking paths: Why multiple comparisons can be a problem, even when there is no “fishing expedition” or “p-hacking” and the research hypothesis was posited ahead of time∗, Andrew Gelman† and Eric Loken"
+    "text": "Bayesian Workflow Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles C. Margossian, Bob Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian Bürkner, Martin Modrák https://arxiv.org/abs/2011.01808\nHow to avoid machine learning pitfalls: a guide for academic researchers Michael A. Lones https://arxiv.org/abs/2108.02497\nInformation geometry and divergences https://franknielsen.github.io/IG/#bookIG\nStatistical Rethinking: A Bayesian Course with Examples in R and Stan (& PyMC3 & brms) https://xcelab.net/rm/statistical-rethinking/ https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN\nML Frameworks Interoperability Cheat Sheet http://bl.ocks.org/miguelusque/raw/f44a8e729896a96d0a3e4b07b5176af4/\nRegression and Other Stories, Andrew Gelman, Jennifer Hill, Aki Vehtari copy of the book https://users.aalto.fi/~ave/ROS.pdf\ntidybayes: Bayesian analysis + tidy data + geoms\nGraphical Data Analysis with R Antony Unwin\nData Visualization A practical introduction, Kieran Healy\nBayes Rules! An Introduction to Applied Bayesian Modeling, Alicia A. Johnson, Miles Q. Ott, Mine Dogucu, 2021-12-01\nBayesian Statistics Independent readings course on Bayesian statistics with R and Stan, Andrew Heiss and Meng Ye, Fall 2022 https://bayesf22-notebook.classes.andrewheiss.com/rethinking/ https://bayesf22-notebook.classes.andrewheiss.com/bayes-rules/\nPrior Setting in Practice: Strategies and Rationales Used in Choosing Prior Distributions for Bayesian Analysis\nAn Introduction to Proximal Causal Learning\nA Selective Review of Negative Control Methods in Epidemiology\nBackpropagation is not just the chain rule%2C%20to%20predict%20y.)\nWhy High-Order Polynomials Should Not Be Used in Regression Discontinuity Designs Andrew Gelman &Guido Imbens\nR Markdown Cookbook Yihui Xie, Christophe Dervieux, Emily Riederer 2022-11-07 https://bookdown.org/yihui/rmarkdown-cookbook/\nUnderstanding Machine Learning: From Theory to Algorithms https://www.cs.huji.ac.il/w~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf\nhttps://simplystatistics.org/\nEstimation Prediction, Estimation, and Attribution\nThe Difference Between “Significant” and “Not Significant” is not Itself Statistically Significant\nA Parsimonious Tour of Bayesian Model Uncertainty\nCausal Inference for the Brave and True\nhttps://bayesiancomputationbook.com/welcome.html\nMeasurement error and the replication crisis The assumption that measurement error always reduces effect sizes is false https://www.science.org/doi/10.1126/science.aal3618\nhttps://journals.sagepub.com/doi/abs/10.1177/00031224211004187#:~:text=The%20estimand%20is%20the%20target,purpose%20of%20the%20statistical%20analysis.&text=By%20grounding%20all%20three%20steps,connects%20statistical%20evidence%20to%20theory\nExploring the Dynamics of Latent Variable Models https://www.cambridge.org/core/journals/political-analysis/article/abs/exploring-the-dynamics-of-latent-variable-models/CBE116F37900DAE957B2D7EB53DB0907#.X7h7GMnwHwM.twitter\nhttps://github.com/HenrikBengtsson/matrixStats\nLet’s Git started\nhttps://github.com/facebookresearch/StarSpace\nhttps://dennybritz.com/posts/wildml/understanding-convolutional-neural-networks-for-nlp/\nWhat’s Wrong With My Time Series Blog post by Alex Smolyanskaya ALEX SMOLYANSKAYA February 28, 2017 - San Francisco, CA Tweet this post! Post on LinkedIn What’s wrong with my time series? Model validation without a hold-out set https://multithreaded.stitchfix.com/blog/2017/02/28/whats-wrong-with-my-time-series/\nggRandomForests: Exploring Random Forest Survival https://arxiv.org/pdf/1612.08974.pdf\nhttps://districtdatalabs.silvrback.com/time-maps-visualizing-discrete-events-across-many-timescales\nExplained Visually https://setosa.io/ev/\nhttps://github.com/google/BIG-bench/blob/main/docs/paper/BIG-bench.pdf\nTwo Experiments in Peer Review: Posting Preprints and Citation Bias\nRandom Walk: A Modern Introduction Gregory F. Lawler and Vlada Limic\nCan Transformers be Strong Treatment Effect Estimators? https://arxiv.org/pdf/2202.01336v1.pdf\nStatistical rethinking with brms, ggplot2, and the tidyverse: Second edition https://bookdown.org/content/4857/\nPatches Are All You Need? https://openreview.net/forum?id=TVHS5Y4dNvM\nThe validate R-package makes it super-easy to check whether data lives up to expectations you have based on domain knowledge. It works by allowing https://github.com/data-cleaning/validate\nLet’s Put Garbage-Can Regressions and Garbage-Can Probits Where They Belong https://journals.sagepub.com/doi/10.1080/07388940500339167\nautoxgboost https://github.com/ja-thomas/autoxgboost\n1,500 scientists lift the lid on reproducibility https://www.nature.com/articles/533452a\nMethodology over metrics: current scientific standards are a disservice to patients and society https://www.jclinepi.com/article/S0895-4356(21)00170-0/fulltext\nbper: Bayesian Prediction for Ethnicity and Race https://github.com/bwilden/bper\nAutomatic Differentiation Variational Inference https://www.jmlr.org/papers/volume18/16-107/16-107.pdf\nWhat are the most important statistical ideas of the past 50 years? Andrew Gelman, Aki Vehtari https://arxiv.org/pdf/2012.00174.pdf\nWhy Propensity Scores Should Not Be Used for Matching https://gking.harvard.edu/publications/why-propensity-scores-should-not-be-used-formatching\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4349800/\nPRROC: computing and visualizing precision-recall and receiver operating characteristic curves in R https://cran.r-project.org/web/packages/PRROC/vignettes/PRROC.pdf\nOn Multi-Cause Causal Inference with Unobserved Confounding: Counterexamples, Impossibility, and Alternatives https://arxiv.org/abs/1902.10286\n[‘Trust Us’: Open Data and Preregistration in Political Science and International Relations] https://osf.io/preprints/metaarxiv/8h2bp/\npals https://cran.r-project.org/web/packages/pals/vignettes/pals_examples.html\nGreedy Function Approximation: A Gradient Boosting Machine https://jerryfriedman.su.domains/ftp/trebst.pdf\nNatural Scales in Geographical Patterns https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5379183/\nhttps://daattali.com/shiny/timevis-demo/\nhttps://www.extremetech.com/computing/151980-inside-ibms-67-billion-sage-the-largest-computer-ever-built\nFaux peer-reviewed journals: a threat to research integrity http://deevybee.blogspot.com/2020/12/?m=1\nhttps://github.com/mmxgn/spacy-clausie\nhttp://deevybee.blogspot.com/2020/12/?m=1\nhttp://www.deeplearningbook.org\nStatistical Nonsignificance in Empirical Economics https://www.aeaweb.org/articles?id=10.1257/aeri.20190252&from=f\nAcquiescence Bias Inflates Estimates of Conspiratorial Beliefs and Political Misperceptions∗ Seth J. Hill† Margaret E. Roberts‡ October 25, 2021 http://www.margaretroberts.net/wp-content/uploads/2021/10/hillroberts_acqbiaspoliticalbeliefs.pdf\nThe lesson of ivermectin: meta-analyses based on summary data alone are inherently unreliable https://www.nature.com/articles/s41591-021-01535-y\nhttps://www.math.uzh.ch/pages/varrank/index.html\nPre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing https://arxiv.org/pdf/2107.13586.pdf\nHow should variable selection be performed with multiply imputed data? https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.3177\nFeature Interactions in XGBoost https://arxiv.org/abs/2007.05758\nLandscape of R packages for eXplainable Artificial Intelligence by Szymon Maksymiuk, Alicja Gosiewska, Przemysław Biecek https://arxiv.org/pdf/2009.13248.pdf\nFeature Engineering and Selection: A Practical Approach for Predictive Models https://bookdown.org/max/FES/\nParachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials https://www.ncbi.nlm.nih.gov/pmc/articles/PMC300808/\nxgboost.surv https://github.com/bcjaeger/xgboost.surv\nDoubleML The Python and R package DoubleML provide an implementation of the double / debiased machine learning framework of Chernozhukov et al. (2018). The Python package is built on top of scikit-learn (Pedregosa et al., 2011) and the R package on top of mlr3 and the mlr3 ecosystem (Lang et al., 2019). https://docs.doubleml.org/stable/index.html\nPreplication, Replication: A Proposal to Efficiently Upgrade Journal Replication Standards Get access Arrow Michael Colaresi https://academic.oup.com/isp/article-abstract/17/4/367/2528282?redirectedFrom=fulltext\nhttps://deepmind.com/blog/article/using-jax-to-accelerate-our-research\nhttps://github.com/tidyverts/fable\nThe Effect: An Introduction to Research Design and Causality https://theeffectbook.net/\nhttps://github.com/dedupeio/dedupe\nhttps://arxiv.org/abs/2205.07407 What GPT Knows About Who is Who Xiaohan Yang, Eduardo Peynetti, Vasco Meerman, Chris Tanner\nAn Introduction to Ontology Engineering https://people.cs.uct.ac.za/~mkeet/files/OEbook.pdf\nR Packages for Item Response Theory Analysis: Descriptions and Features https://www.tandfonline.com/doi/full/10.1080/15366367.2019.1586404\nAccuracy vs Explainability of Machine Learning Models [NIPS workshop poster review] https://www.inference.vc/accuracy-vs-explainability-in-machine-learning-models-nips-workshop-poster-review/\nhttps://arxiv-sanity-lite.com/\nAttitudes toward amalgamating evidence in statistics∗ Andrew Gelman† Keith O’Rourke‡ http://www.stat.columbia.edu/~gelman/research/unpublished/Amalgamating6.pdf\nAn overview of gradient descent optimization algorithms https://ruder.io/optimizing-gradient-descent/\nhttps://codeocean.com/\nClustGeo: an R package for hierarchical clustering with spatial constraints https://arxiv.org/pdf/1707.03897.pdf\nAn Algorithmic Framework for Bias Bounties Ira Globus-Harris, Michael Kearns, Aaron Roth https://arxiv.org/abs/2201.10408\nOn the Role of Text Preprocessing in Neural Network Architectures: An Evaluation Study on Text Categorization and Sentiment Analysis https://arxiv.org/pdf/1707.01780.pdf\nFast TreeSHAP: Accelerating SHAP Value Computation for Trees Jilei Yang https://arxiv.org/abs/2109.09847\nComparing interpretability and explainability for feature selection Jack Dunn, Luca Mingardi, Ying Daisy Zhuo https://arxiv.org/abs/2105.05328\nTraining Deep Nets with Sublinear Memory Cost Tianqi Chen, Bing Xu, Chiyuan Zhang, Carlos Guestrin https://arxiv.org/abs/1604.06174\nranger: A Fast Implementation of Random Forests for High Dimensional Data in C++ and R https://arxiv.org/pdf/1508.04409.pdf\nA Survey of Recent Abstract Summarization Techniques Diyah Puspitaningrum https://arxiv.org/abs/2105.00824\nU N D E R S TA N D I N G R A N D O M F O R E S T S from theory to practice https://arxiv.org/pdf/1407.7502.pdf\nPerformance Metrics (Error Measures) in Machine Learning Regression, Forecasting and Prognostics: Properties and Typology https://arxiv.org/pdf/1809.03006.pdf\nSpike-and-Slab Meets LASSO: A Review of the Spike-and-Slab LASSO Ray Bai, Veronika Rockova, Edward I. George https://arxiv.org/abs/2010.06451\nRepresentation Tradeoffs for Hyperbolic Embeddings Christopher De Sa‡ Albert Gu† Christopher Re´ † Frederic Sala† https://arxiv.org/pdf/1804.03329.pdf\nRatios: A short guide to confidence limits and proper use V.H. Franz∗ October, 2007 https://arxiv.org/pdf/0710.2024.pdf\nThe Endogeneity of Historical Data Posted on August 28, 2020 by Adam Slez https://broadstreet.blog/2020/08/28/the-endogeneity-of-historical-data/\nA computational reproducibility study of PLOS ONE articles featuring longitudinal data analyses https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0251194\nPost model-fitting exploration via a ‘‘Next-Door’’ analysis Leying GUAN1* and Robert TIBSHIRANI2 https://tibshirani.su.domains/ftp/nextDoor.pdf\nUnderstanding BERT Transformer: Attention isn’t all you need A parsing/composition framework for understanding Transformers https://medium.com/synapse-dev/understanding-bert-transformer-attention-isnt-all-you-need-5839ebd396db\nEinstein VI: General and Integrated Stein Variational Inference in NumPyro Ahmad Salim Al-Sibahi, Ola Rønning, Christophe Ley, Thomas Wim Hamelryck https://openreview.net/forum?id=nXSDybDWV3\nDream Investigation Results Official Report by the Minecraft Speedrunning Team https://mcspeedrun.com/dream.pdf\nImproving Parameter Estimation of Epidemic Models: Likelihood Functions and Kalman Filtering 39 Pages Posted: 8 Aug 2022 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4165188\nDo Name-Based Treatments Violate Information Equivalence? Evidence from a Correspondence Audit Experiment Published online by Cambridge University Press: 09 March 2021 https://www.cambridge.org/core/journals/political-analysis/article/abs/do-namebased-treatments-violate-information-equivalence-evidence-from-a-correspondence-audit-experiment/56C6846518DDADE6EAF92DAE11552BDF\nHow Much Should We Trust Staggered Difference-In-Differences Estimates? European Corporate Governance Institute – Finance Working Paper No. 736/2021 Rock Center for Corporate Governance at Stanford University Working Paper No. 246 Journal of Financial Economics (JFE), Forthcoming https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3794018\nBuilding useful models for industry—some tips Jim Savage January 2017 https://khakieconomics.github.io/2017/01/01/Building-useful-models-for-industry.html\nAn Introduction to Proximal Causal Learning https://arxiv.org/pdf/2009.10982.pdf\nFirst Things First: Assessing Data Quality before Model Quality Anita Gohdes and Megan Price meganp@benetech.orgView all authors and affiliations https://journals.sagepub.com/doi/full/10.1177/0022002712459708?casa_token=xXfXTvx0AcwAAAAA%3AxwRiF0ljSt387F0k14y0NEe7BMdzhMpF08oKFzv8Sgyo6MfAL3wDT-kmn9p94f4BFh60b0eH_PE\nCommon pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans https://www.nature.com/articles/s42256-021-00307-0\nWhy and How We Should Join the Shift From Significance Testing to Estimation https://www.preprints.org/manuscript/202112.0235/v1\nHow to make replication the norm https://www.nature.com/articles/d41586-018-02108-9\nApplied Bayesian Statistics Using Stan and R https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/applied-bayesian-statistics/\nhttps://seeing-theory.brown.edu/index.html\nhttps://www.brodrigues.co/\nFINDING ECONOMIC ARTICLES WITH DATA AND SPECIFIC EMPIRICAL METHODS http://skranz.github.io//r/2021/01/05/FindingEconomicArticles4.html\nText Preprocessing for Unsupervised Learning: Why It Matters, When It Misleads, and What to Do about It https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2849145\nMachine vision on historical maps https://weinman.cs.grinnell.edu/research/maps.shtml\nEnhancing Validity in Observational Settings When Replication Is Not Possible https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2543525\n1.1 Billion Taxi Rides with SQLite, Parquet & HDFS https://tech.marksblogg.com/billion-nyc-taxi-rides-sqlite-parquet-hdfs.html\nUnderstanding the Bias-Variance Tradeoff http://scott.fortmann-roe.com/docs/BiasVariance.html\nIs the LKJ(1) prior uniform? “Yes” http://srmart.in/is-the-lkj1-prior-uniform-yes/\nInformative priors for correlation matrices: An easy approach http://srmart.in/informative-priors-for-correlation-matrices-an-easy-approach/\nA Tutorial on Spectral Clustering https://arxiv.org/pdf/0711.0189v1.pdf\nAutomated Geocoding of Textual Documents: A Survey of Current Approaches https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12212\nSparklyr https://spark.rstudio.com/\nThe AAA Tranche of Subprime Science Andrew Gelman and Eric Loken http://www.stat.columbia.edu/~gelman/research/published/ChanceEthics10.pdf\nNever trust rownames of a dataframe June 16th, 2015 by Ankur Gupta | https://www.perfectlyrandom.org/2015/06/16/never-trust-the-row-names-of-a-dataframe-in-R/\nGRAPH ALGORITHMS http://www.martinbroadhurst.com/tag/igraph\nGroundhog: Addressing The Threat That R Poses To Reproducible Research http://datacolada.org/95\nCS231n Convolutional Neural Networks for Visual Recognition https://cs231n.github.io/neural-networks-3/\nImplementing Variational Autoencoders in Keras: Beyond the Quickstart Tutorial http://louistiao.me/posts/implementing-variational-autoencoders-in-keras-beyond-the-quickstart-tutorial/\nHypothesis Testing in Econometrics http://home.uchicago.edu/amshaikh/webfiles/testingreview.pdf\n“Why Should I Trust You?” Explaining the Predictions of Any Classifier https://arxiv.org/pdf/1602.04938v3.pdf\nYes, but Did It Work?: Evaluating Variational Inference http://www.stat.columbia.edu/~gelman/research/published/Evaluating_Variational_Inference.pdf https://statmodeling.stat.columbia.edu/2018/06/27/yes-work-evaluating-variational-inference/\nQuality at a Glance: An Audit of Web-Crawled Multilingual Datasets https://arxiv.org/abs/2103.12028\nOne Instrument to Rule Them All: The Bias and Coverage of Just-ID IV Joshua Angrist, Michal Kolesár https://arxiv.org/abs/2110.10556\nUnderspecification Presents Challenges for Credibility in Modern Machine Learning https://arxiv.org/abs/2011.03395\nA Survey of Predictive Modelling under Imbalanced Distributions https://arxiv.org/pdf/1505.01658.pdf\nVarying Slopes Models and the CholeskyLKJ distribution in TensorFlow Probability https://adamhaber.github.io/post/varying-slopes/\nShapley Decomposition of R-Squared in Machine Learning Models https://arxiv.org/pdf/1908.09718.pdf\nUnderstanding Global Feature Contributions With Additive Importance Measures Ian Covert, Scott Lundberg, Su-In Lee https://arxiv.org/abs/2004.00668\nTrue to the Model or True to the Data? https://arxiv.org/abs/2006.16234\nWhen to Impute? Imputation before and during cross-validation Byron C. Jaeger*1 | Nicholas J. Tierney2 | Noah R. Simon3 https://arxiv.org/pdf/2010.00718.pdf\nA Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications Hongyun Cai, Vincent W. Zheng, Kevin Chen-Chuan Chang https://arxiv.org/abs/1709.07604\nComparing methods addressing multi-collinearity when developing prediction models https://arxiv.org/abs/2101.01603\nNonparametric causal effects based on incremental propensity score interventions https://arxiv.org/abs/1704.00211\nDeep learning generalizes because the parameter-function map is biased towards simple functions Guillermo Valle-Pérez, Chico Q. Camargo, Ard A. Louis https://arxiv.org/abs/1805.08522\nBayesian Item Response Modeling in R with brms and Stan https://arxiv.org/pdf/1905.09501.pdf\nBayesian Inference for a Covariance Matrix https://arxiv.org/pdf/1408.4050.pdf\nCross-validation Confidence Intervals for Test Error Pierre Bayle, Alexandre Bayle, Lucas Janson, Lester Mackey https://arxiv.org/abs/2007.12671\nComparing Published Scientific Journal Articles to Their Pre-print Versions https://arxiv.org/pdf/1604.05363.pdf\nEnd-to-End Weak Supervision Salva Rühling Cachay, Benedikt Boecking, Artur Dubrawski https://arxiv.org/abs/2107.02233\nEstimation and Inference of Heterogeneous Treatment Effects using Random Forests∗ https://arxiv.org/pdf/1510.04342.pdf\nUnderstanding the Disharmony between Dropout and Batch Normalization by Variance Shift https://arxiv.org/pdf/1801.05134.pdf\nA review on outlier/anomaly detection in time series data https://arxiv.org/abs/2002.04236\nEntropic Out-of-Distribution Detection: Seamless Detection of Unknown Examples David Macêdo, Tsang Ing Ren, Cleber Zanchettin, Adriano L. I. Oliveira, Teresa Ludermir https://arxiv.org/abs/2006.04005\nAn Exploratory Characterization of Bugs in COVID-19 Software Projects Akond Rahman, Effat Farhana https://arxiv.org/abs/2006.00586\nBe Careful What You Backpropagate: A Case For Linear Output Activations & Gradient Boosting Anders Oland, Aayush Bansal, Roger B. Dannenberg, Bhiksha Raj https://arxiv.org/abs/1707.04199\nIntroducing Stan2tfp - a lightweight interface for the Stan-to-TensorFlow Probability compiler May 21, 2020 4 min read https://adamhaber.github.io/post/stan2tfp-post1/\nL2 Regularization versus Batch and Weight Normalization Twan van Laarhoven https://arxiv.org/abs/1706.05350\nUnsupervised Discovery of Temporal Structure in Noisy Data with Dynamical Components Analysis David G. Clark, Jesse A. Livezey, Kristofer E. Bouchard https://arxiv.org/abs/1905.09944\nMonte Carlo Gradient Estimation in Machine Learning Shakir Mohamed, Mihaela Rosca, Michael Figurnov, Andriy Mnih https://arxiv.org/abs/1906.10652\nLarge-scale linear regression: Development of high-performance routines Alvaro Frank, Diego Fabregat-Traver, Paolo Bientinesi https://arxiv.org/abs/1504.07890\nThe Kernel Interaction Trick: Fast Bayesian Discovery of Pairwise Interactions in High Dimensions Raj Agrawal, Jonathan H. Huggins, Brian Trippe, Tamara Broderick https://arxiv.org/abs/1905.06501\nTensorFlow Distributions Joshua V. Dillon, Ian Langmore, Dustin Tran, Eugene Brevdo, Srinivas Vasudevan, Dave Moore, Brian Patton, Alex Alemi, Matt Hoffman, Rif A. Saurous https://arxiv.org/abs/1711.10604\nAsymptotically Exact, Embarrassingly Parallel MCMC Willie Neiswanger, Chong Wang, Eric Xing https://arxiv.org/abs/1311.4780\nPython for Data Science https://aeturrell.github.io/python4DS/welcome.html\nUsing the flextable R package https://ardata-fr.github.io/flextable-book/\nCoding for Economists https://aeturrell.github.io/coding-for-economists/intro.html\nWhen Should You Adjust Standard Errors for Clustering? Get access Arrow Alberto Abadie, Susan Athey, Guido W Imbens, Jeffrey M Wooldridge https://academic.oup.com/qje/advance-article-abstract/doi/10.1093/qje/qjac038/6750017\nAwesome Deep Learning for Natural Language Processing (NLP) https://github.com/brianspiering/awesome-dl4nlp\nR for applied epidemiology and public health https://epirhandbook.com/en/index.html\nCOVID 19: Reduced forms have gone viral, but what do they tell us?* https://drive.google.com/file/d/1ERjcGXD2jvfDFXdI0_NtF4X95UeQ5f4W/view\nReproducibility in Cancer Biology: Challenges for assessing replicability in preclinical cancer biology https://elifesciences.org/articles/67995\nTaking Uncertainty Seriously: Bayesian Marginal Structural Models for Causal Inference in Political Science https://github.com/ajnafa/Latent-Bayesian-MSM\nGeneralized Linear Models https://data.princeton.edu/wws509/notes/c7s4\ngenieclust: Fast and Robust Hierarchical Clustering with Noise Point Detection https://genieclust.gagolewski.com/\nAwesome Graph Classification https://github.com/benedekrozemberczki/awesome-graph-classification\nparallelDist https://github.com/alexeckert/parallelDist\nInterpretable Machine Learning A Guide for Making Black Box Models Explainable Christoph Molnar https://christophm.github.io/interpretable-ml-book/\nThe Inverse CDF Method https://dk81.github.io/dkmathstats_site/prob-inverse-cdf.html\nHamiltonianMC https://chi-feng.github.io/mcmc-demo/app.html#HamiltonianMC,banana\nEnd-to-End Balancing for Causal Continuous Treatment-Effect Estimation https://assets.amazon.science/5b/71/fa078e6f4f97a76a2a622c767dd5/end-to-end-balancing-for-causal-continuous-treatment-effect-estimation.pdf\nA tour of probabilistic programming language APIs What does it look like to do MCMC in different frameworks? https://colcarroll.github.io/ppl-api/\nProbabilistic Programming & Bayesian Methods for Hackers https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/\nBeyond Multiple Linear Regression Applied Generalized Linear Models and Multilevel Models in R https://bookdown.org/roback/bookdown-bysh/\nMaybe a section on hyperparameters?\nDoes batch size matter? https://blog.janestreet.com/does-batch-size-matter/\nThe Much Quieter Revolution of Synthetic Control: Episode I https://causalinf.substack.com/p/the-much-quieter-revolution-of-synthetic?utm_campaign=post&utm_medium=web&utm_source=\nUser-friendly introduction to PAC-Bayes bounds https://arxiv.org/pdf/2110.11216.pdf\nMany Analysts, One Data Set: Making Transparent How Variations in Analytic Choices Affect Results https://journals.sagepub.com/doi/full/10.1177/2515245917747646\nThe RecordLinkage Package: Detecting Errors in Data https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf\nhttps://grow.google/certificates/interview-warmup/\nThe inverse-transform method for generating random variables in R https://heds.nz/posts/inverse-transform/\nThe GRIM Test: A Simple Technique Detects Numerous Anomalies in the Reporting of Results in Psychology https://journals.sagepub.com/doi/10.1177/1948550616673876\nEvolution of Reporting P Values in the Biomedical Literature, 1990-2015 https://jamanetwork.com/journals/jama/fullarticle/2503172\nSHAP (SHapley Additive exPlanations) https://github.com/slundberg/shap\nThe h-index is no longer an effective correlate of scientific reputation https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253397\nPrior Choice Recommendations Andrew Gelman edited this page on Apr 17, 2020 · 51 revisions https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations#prior-for-a-covariance-matrix\nInstitute for Replication (I4R) https://i4replication.org/index.html\nHow Life Sciences Actually Work: Findings of a Year-Long Investigation https://guzey.com/how-life-sciences-actually-work/\nEfficient Neural Causal Discovery without Acyclicity Constraints https://github.com/phlippe/ENCO\nawesome-text-summarization https://github.com/mathsyouth/awesome-text-summarization\n(Ir)Reproducible Machine Learning: A Case Study https://reproducible.cs.princeton.edu/irreproducibility-paper.pdf\nTHE MYTH OF THE EXPERT REVIEWER https://parameterfree.com/2021/07/06/the-myth-of-the-expert-reviewer/\nUnderstanding and Choosing the Right Probability Distributions https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119197096.app03\nSpatial Interdependence and Instrumental Variable Models https://osf.io/preprints/socarxiv/pgrcu/\nThe case for formal methodology in scientific reform https://royalsocietypublishing.org/doi/10.1098/rsos.200805\nUsing Difference-in-Differences to Identify Causal Effects of COVID-19 Policies https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3603970\nPandas Comparison with R / R libraries https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_r.html\nNon-Standard Errors https://orbilu.uni.lu/bitstream/10993/48686/1/SSRN-id3961574.pdf\nBeyond Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors https://pubmed.ncbi.nlm.nih.gov/26186114/\nThe (lack of) impact of retraction on citation networks Charisse R Madlock-Brown 1, David Eichmann https://pubmed.ncbi.nlm.nih.gov/24668038/\nThe puzzling relationship between multi-lab replications and meta-analyses of the rest of the literature https://psyarxiv.com/pbrdk/\nBayesian Estimation of Correlation Matrices of Longitudinal Data Riddhi Pratim Ghosh, Bani Mallick, Mohsen Pourahmadi https://projecteuclid.org/journals/bayesian-analysis/volume-16/issue-3/Bayesian-Estimation-of-Correlation-Matrices-of-Longitudinal-Data/10.1214/20-BA1237.full\nOperationalizing the Replication Standard: A Case Study of the Data Curation and Verification Workflow for Scholarly Journals https://osf.io/preprints/socarxiv/cfdba/\nHow Using Machine Learning Classification as a Variable in Regression Leads to Attenuation Bias and What to Do About It https://osf.io/preprints/socarxiv/453jk/\nLost in Aggregation: Improving Event Analysis with Report-Level Data Scott J. Cook,Nils B. Weidmann https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12398\nFrequentist versus Bayesian approaches to multiple testing Arvid Sjölander & Stijn Vansteelandt https://link.springer.com/article/10.1007/s10654-019-00517-2\nResearch note: Examining potential bias in large-scale censored data https://misinforeview.hks.harvard.edu/article/research-note-examining-potential-bias-in-large-scale-censored-data/\nWhen Should We Use Unit Fixed Effects Regression Models for Causal Inference with Longitudinal Data? Kosuke Imai,In Song Kim https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12417\nRuntime warnings and convergence problems Stan Development Team https://mc-stan.org/misc/warnings.html\nDirichlet Process Gaussian mixture model via the stick-breaking construction in various PPLs This page was last updated on 29 Mar, 2021. https://luiarthur.github.io/TuringBnpBenchmarks/dpsbgmm\nxgboost: “Hi I’m Gamma. What can I do for you?” — and the tuning of regularization https://medium.com/data-design/xgboost-hi-im-gamma-what-can-i-do-for-you-and-the-tuning-of-regularization-a42ea17e6ab6\nPostGIS In Action https://livebook.manning.com/book/postgis-in-action-second-edition/about-this-book/\nStan User’s Guide https://mc-stan.org/docs/stan-users-guide/index.html\nSmoothing Terms in GAM Models https://maths-people.anu.edu.au/~johnm/r-book/xtras/autosmooth.pdf\nDesigning a Deep Learning Project https://medium.com/(erogol/designing-a-deep-learning-project-9b3698aef127?)\nPyTorch With Baby Steps: From y=x To Training A Convnet https://lelon.io/blog/pytorch-baby-steps\nBayesian inference with Stan: A tutorial on adding custom distributions Jeffrey Annis, Brent J. Miller & Thomas J. Palmeri https://link.springer.com/article/10.3758/s13428-016-0746-9\nBayes Rules! An Introduction to Applied Bayesian Modeling https://www.bayesrulesbook.com/\nGraduate Qualitative Methods Training in Political Science: A Disciplinary Crisis Published online by Cambridge University Press: 21 November 2019 https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/graduate-qualitative-methods-training-in-political-science-a-disciplinary-crisis/7B0EEB76E1CC234AFED7EED8DA71BA35\nTime Series Analysis by State Space Methods (Oxford Statistical Science Series) https://www.amazon.com/dp/0198523548/ref=cm_sw_r_tw_apa_fabc_0MWV12PSS3K9NW3RF9ZY\nHyperparameters and tuning strategies for random forest https://wires.onlinelibrary.wiley.com/doi/full/10.1002/widm.1301?casa_token=_zNb_GkfYAUAAAAA%3AszhLWhEqZzM5C74ByxjTmQX9uUzIgzvLGXEyJHk5BubnNpTqOtqruOwi8ACcoHxUrV3Ypl4uOpsu\nYour Cross Validation Error Confidence Intervals are Wrong — here’s how to Fix Them https://towardsdatascience.com/your-cross-validation-error-confidence-intervals-are-wrong-heres-how-to-fix-them-abbfe28d390\nProbabilistic Programming with Variational Inference: Under the Hood https://willcrichton.net/notes/probabilistic-programming-under-the-hood/\nHow to Measure Statistical Causality: A Transfer Entropy Approach with Financial Applications https://towardsdatascience.com/causality-931372313a1c\nKullback-Leibler Divergence Explained https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained\nProblems and Opportunities in Training Deep Learning Software Systems: An Analysis of Variance https://www.cs.purdue.edu/homes/lintan/publications/variance-ase20.pdf\nHow (Not) to Reproduce: Practical Considerations to Improve Research Transparency in Political Science https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/abs/how-not-to-reproduce-practical-considerations-to-improve-research-transparency-in-political-science/32E7CF5D975C081BA666D3BD475D7913\nQuantifying Bias from Measurable and Unmeasurable Confounders Across Three Domains of Individual Determinants of Political Preferences Published online by Cambridge University Press: 22 February 2022 https://www.cambridge.org/core/journals/political-analysis/article/quantifying-bias-from-measurable-and-unmeasurable-confounders-across-three-domains-of-individual-determinants-of-political-preferences/D1D2DEE9E7180BDCFC592885BE66E9AF\n5 Levels of Difficulty — Bayesian Gaussian Random Walk with PyMC3 and Theano https://towardsdatascience.com/5-levels-of-difficulty-bayesian-gaussian-random-walk-with-pymc3-and-theano-34343911c7d2\nSingle-Parameter Models | Pyro vs. STAN https://towardsdatascience.com/single-parameter-models-pyro-vs-stan-e7e69b45d95c\nPartial Identification in Econometrics Elie Tamer https://scholar.harvard.edu/files/tamer/files/pie.pdf\nLightGBM for Quantile Regression Understand Quantile Regression https://towardsdatascience.com/lightgbm-for-quantile-regression-4288d0bb23fd\nAssessing the Impact of Non-Random Measurement Error on Inference: A Sensitivity Analysis Approach https://strathprints.strath.ac.uk/59463/1/Gallop_Weschle_PSRM_2016_Assessing_the_impact_of_non_random_measurement_error_on_inference.pdf\nyardstick is a package to estimate how well models are working using tidy data principles. See the package webpage for more information. https://yardstick.tidymodels.org/index.html\nThe Three Faces of Bayes https://slackprop.wordpress.com/2016/08/28/the-three-faces-of-bayes/\nEvaluating Random Forests for Survival Analysis using Prediction Error Curves https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194196/\nThe role of metadata in reproducible computational research https://www.sciencedirect.com/science/article/pii/S2666389921001707\nEcological Inference in the Social Sciences https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885825/\nTwo Wrongs Make a Right: Addressing Underreporting in Binary Data from Multiple Sources https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5667662/\nOn the low reproducibility of cancer studies https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6599599/\nQuarto with Python https://www.meyerperin.com/using-quarto/\nEvaluating the replicability of social science experiments in Nature and Science between 2010 and 2015 https://www.nature.com/articles/s41562-018-0399-z\nBayesian analysis of tests with unknown specificity and sensitivity∗ Andrew Gelman† and Bob Carpenter‡ https://www.medrxiv.org/content/10.1101/2020.05.22.20108944v3.full.pdf\nNotes on the Negative Binomial Distribution https://www.johndcook.com/negative_binomial.pdf\nThe Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!) https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/\nAutomatic Differentiation Variational Inference https://www.jmlr.org/papers/volume18/16-107/16-107.pdf\nIZA DP No. 13233: The Influence of Hidden Researcher Decisions in Applied Microeconomics https://www.iza.org/publications/dp/13233/the-influence-of-hidden-researcher-decisions-in-applied-microeconomics\ncdfquantreg: An R Package for CDF-Quantile Regression https://www.jstatsoft.org/article/view/v088i01\nhttps://techdevguide.withgoogle.com/\nWhat the F-measure doesn’t measure: Features, Flaws, Fallacies and Fixes David M. W. Powers https://arxiv.org/abs/1503.06410\nWhen LOO and other cross-validation approaches are valid https://statmodeling.stat.columbia.edu/2018/08/03/loo-cross-validation-approaches-valid/\nHamiltonian Monte Carlo explained http://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html\nControlling for Unobserved Confounds in Classification Using Correlational Constraints Virgile Landeiro, Aron Culotta https://arxiv.org/abs/1703.01671\nThe Persistence of Underpowered Studies in Psychological Research: Causes, Consequences, and Remedies Scott E. Maxwell https://statmodeling.stat.columbia.edu/wp-content/uploads/2017/07/maxwell2004.pdf\nYou need 16 times the sample size to estimate an interaction than to estimate a main effect https://statmodeling.stat.columbia.edu/2018/03/15/need-16-times-sample-size-estimate-interaction-estimate-main-effect/\nMachine Learning of Sets http://akosiorek.github.io/ml/2020/08/12/machine_learning_of_sets.html\nWeak Supervision: A New Programming Paradigm for Machine Learning http://ai.stanford.edu/blog/weak-supervision/\nThe earth is flat (p>0.05): Significance thresholds and the crisis of unreplicable research https://peerj.com/preprints/2921/\nAdvanced Natural Language Processing with TensorFlow 2: Build effective real-world NLP applications using NER, RNNs, seq2seq models, Transformers, and more https://www.amazon.com/Advanced-Natural-Language-Processing-TensorFlow/dp/1800200935?encoding=UTF8&qid=&sr=&linkCode=sl1&tag=kirkdborne-20&linkId=4448e1a0cd126f52a2aba844c4bdb78e&language=en_US&ref=as_li_ss_tl\n3 reasons why you can’t always use predictive performance to choose among models https://statmodeling.stat.columbia.edu/2015/10/23/26857/\nUsing Heteroscedasticity to Identify and Estimate Mismeasured and Endogenous Regressor Models Arthur Lewbel https://www.tandfonline.com/doi/full/10.1080/07350015.2012.643126\nBatch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift Sergey Ioffe, Christian Szegedy https://arxiv.org/abs/1502.03167\nGradient Boosting explained [demonstration] http://arogozhnikov.github.io/2016/06/24/gradient_boosting_explained.html\nClustered standard errors vs. multilevel modeling https://statmodeling.stat.columbia.edu/2007/11/28/clustered_stand/\nAdvanced R https://adv-r.hadley.nz/index.html\nRegression to the mean continues to confuse people and lead to errors in published research https://statmodeling.stat.columbia.edu/2018/06/24/regression-mean-continues-confuse-people-lead-errors-published-research/\nThe statistical significance filter leads to overoptimistic expectations of replicability https://statmodeling.stat.columbia.edu/2018/05/22/statistical-significance-filter-leads-overoptimistic-expectations-replicability/\nHow to cross-validate PCA, clustering, and matrix decomposition models http://alexhwilliams.info/itsneuronalblog/2018/02/26/crossval/?mlreview\nInference in Experiments Conditional on Observed Imbalances in Covariates Per JohanssonORCID Icon &Mattias Nordin https://www.tandfonline.com/doi/full/10.1080/00031305.2022.2054859\nScientific progress despite irreproducibility: A seeming paradox Richard M. Shiffrin, Katy Borner, Stephen M. Stigler https://arxiv.org/abs/1710.01946\nOn Statistical Non-Significance Alberto Abadie https://arxiv.org/abs/1803.00609\nOn the number of signals in multivariate time series Markus Matilainen, Klaus Nordhausen, Joni Virta https://arxiv.org/abs/1801.04925\nData Science vs. Statistics: Two Cultures? Iain Carmichael, J.S. Marron https://arxiv.org/abs/1801.00371\nThe exploding gradient problem demystified - definition, prevalence, impact, origin, tradeoffs, and solutions George Philipp, Dawn Song, Jaime G. Carbonell https://arxiv.org/abs/1712.05577\nTheory of Deep Learning III: explaining the non-overfitting puzzle Tomaso Poggio, Kenji Kawaguchi, Qianli Liao, Brando Miranda, Lorenzo Rosasco, Xavier Boix, Jack Hidary, Hrushikesh Mhaskar https://arxiv.org/abs/1801.00173\nOn overfitting and post-selection uncertainty assessments Liang Hong, Todd A. Kuffner, Ryan Martin https://arxiv.org/abs/1712.02379\nA Theory of Statistical Inference for Ensuring the Robustness of Scientific Results Beau Coker, Cynthia Rudin, Gary King https://arxiv.org/abs/1804.08646\nLabelling as an unsupervised learning problem Terry Lyons, Imanol Perez Arribas https://arxiv.org/abs/1805.03911\nStructural Breaks in Time Series Alessandro Casini, Pierre Perron https://arxiv.org/abs/1805.03807\nOn consistency and inconsistency of nonparametric tests Mikhail Ermakov https://arxiv.org/abs/1807.09076\nA New Angle on L2 Regularization Thomas Tanay, Lewis D Griffin https://arxiv.org/abs/1806.11186\nOn the Robustness of Interpretability Methods David Alvarez-Melis, Tommi S. Jaakkola https://arxiv.org/abs/1806.08049\nIdentifying Causal Effects with the R Package causaleffect Santtu Tikka, Juha Karvanen https://arxiv.org/abs/1806.07161\nHow Does Batch Normalization Help Optimization? Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, Aleksander Madry https://arxiv.org/abs/1805.11604\nThe effect of the choice of neural network depth and breadth on the size of its hypothesis space Lech Szymanski, Brendan McCane, Michael Albert https://arxiv.org/abs/1806.02460\nIs preprocessing of text really worth your time for online comment classification? Fahim Mohammad https://arxiv.org/abs/1806.02908\nGeometric Understanding of Deep Learning Na Lei, Zhongxuan Luo, Shing-Tung Yau, David Xianfeng Gu https://arxiv.org/abs/1805.10451\nCross validation residuals for generalised least squares and other correlated data models Ingrid Annette Baade https://arxiv.org/abs/1809.01319\nOut-of-Distribution Detection Using an Ensemble of Self Supervised Leave-out Classifiers Apoorv Vyas, Nataraj Jammalamadaka, Xia Zhu, Dipankar Das, Bharat Kaul, Theodore L. Willke https://arxiv.org/abs/1809.03576\nHandling Imbalanced Dataset in Multi-label Text Categorization using Bagging and Adaptive Boosting Genta Indra Winata, Masayu Leylia Khodra https://arxiv.org/abs/1810.11612\nOn the Art and Science of Machine Learning Explanations Patrick Hall https://arxiv.org/abs/1810.02909\nCausal inference under over-simplified longitudinal causal models Lola Etievant, Vivian Viallon https://arxiv.org/abs/1810.01294\nRevisiting the Gelman-Rubin Diagnostic Dootika Vats, Christina Knudson https://arxiv.org/abs/1812.09384\nA Survey on Data Collection for Machine Learning: a Big Data – AI Integration Perspective Yuji Roh, Geon Heo, Steven Euijong Whang\nA Fundamental Measure of Treatment Effect Heterogeneity Jonathan Levy, Mark van der Laan, Alan Hubbard, Romain Pirracchio https://arxiv.org/abs/1811.03745\nCausal Discovery Toolbox: Uncover causal relationships in Python Diviyan Kalainathan, Olivier Goudet https://arxiv.org/abs/1903.02278\nDying ReLU and Initialization: Theory and Numerical Examples Lu Lu, Yeonjong Shin, Yanhui Su, George Em Karniadakis https://arxiv.org/abs/1903.06733\nROC and AUC with a Binary Predictor: a Potentially Misleading Metric John Muschelli https://arxiv.org/abs/1903.04881\nGamification in Science: A Study of Requirements in the Context of Reproducible Research Sebastian S. Feger, Sünje Dallmeier-Tiessen, Paweł W. Woźniak, Albrecht Schmidt https://arxiv.org/abs/1903.02446\nMatrix factorization for multivariate time series analysis Pierre Alquier, Nicolas Marie https://arxiv.org/abs/1903.05589\nOn the complexity of logistic regression models Nicola Bulso, Matteo Marsili, Yasser Roudi https://arxiv.org/abs/1903.00386"
   },
   {
-    "objectID": "computation.html#python",
-    "href": "computation.html#python",
-    "title": "4  Computation",
-    "section": "4.1 Python",
-    "text": "4.1 Python\nhttps://docs.python.org/3/\n\n4.1.1 Numpy\nhttps://numpy.org/\n\n\n4.1.2 Pandas\nhttps://pandas.pydata.org/docs/\nEffective Pandas https://store.metasnake.com/effective-pandas-book"
-  },
-  {
-    "objectID": "computation.html#jax",
-    "href": "computation.html#jax",
-    "title": "4  Computation",
-    "section": "4.2 jax",
-    "text": "4.2 jax\nhttps://github.com/google/jax"
-  },
-  {
-    "objectID": "computation.html#numpyro",
-    "href": "computation.html#numpyro",
-    "title": "4  Computation",
-    "section": "4.3 Numpyro",
-    "text": "4.3 Numpyro\nhttps://github.com/pyro-ppl/numpyro"
-  },
-  {
-    "objectID": "computation.html#sql",
-    "href": "computation.html#sql",
-    "title": "4  Computation",
-    "section": "4.4 SQL",
-    "text": "4.4 SQL\npostgresql https://www.postgresql.org/docs/"
+    "objectID": "markdown.html",
+    "href": "markdown.html",
+    "title": "4  Markdown",
+    "section": "",
+    "text": "R Markdown Cookbook"
   },
   {
     "objectID": "computation.html#git",
     "href": "computation.html#git",
-    "title": "4  Computation",
-    "section": "4.5 git",
-    "text": "4.5 git\nhttps://git-scm.com/doc"
-  },
-  {
-    "objectID": "computation.html#stan",
-    "href": "computation.html#stan",
-    "title": "4  Computation",
-    "section": "4.6 Stan",
-    "text": "4.6 Stan\nhttps://mc-stan.org/users/documentation/"
-  },
-  {
-    "objectID": "computation.html#brms",
-    "href": "computation.html#brms",
-    "title": "4  Computation",
-    "section": "4.7 brms",
-    "text": "4.7 brms\nhttps://github.com/paul-buerkner/brms"
-  },
-  {
-    "objectID": "computation.html#pyro",
-    "href": "computation.html#pyro",
-    "title": "4  Computation",
-    "section": "4.8 pyro",
-    "text": "4.8 pyro\nhttps://pyro.ai/\nThe StatQuest Introduction to PyTorch"
-  },
-  {
-    "objectID": "computation.html#tensorflow",
-    "href": "computation.html#tensorflow",
-    "title": "4  Computation",
-    "section": "4.9 tensorflow",
-    "text": "4.9 tensorflow\nhttps://www.tensorflow.org/"
+    "title": "5  Computation",
+    "section": "5.1 git",
+    "text": "5.1 git\nhttps://git-scm.com/doc"
   },
   {
     "objectID": "R.html",
     "href": "R.html",
-    "title": "5  R",
+    "title": "6  R",
     "section": "",
-    "text": "https://www.r-project.org/other-docs.html\nHands-On Programming with R, Garrett Grolemund\n\n5.0.1 Tidyverse\nhttps://www.tidyverse.org/\nR for Data Science\nThe Tidyverse Cookbook"
+    "text": "https://www.r-project.org/other-docs.html\nHands-On Programming with R, Garrett Grolemund\n\n6.0.1 Tidyverse\nhttps://www.tidyverse.org/\nR for Data Science\nThe Tidyverse Cookbook"
+  },
+  {
+    "objectID": "python.html",
+    "href": "python.html",
+    "title": "7  Python",
+    "section": "",
+    "text": "https://docs.python.org/3/\n\n7.0.1 Numpy\nhttps://numpy.org/\n\n\n7.0.2 Pandas\nhttps://pandas.pydata.org/docs/\nEffective Pandas https://store.metasnake.com/effective-pandas-book"
+  },
+  {
+    "objectID": "jax.html",
+    "href": "jax.html",
+    "title": "8  jax",
+    "section": "",
+    "text": "https://github.com/google/jax"
+  },
+  {
+    "objectID": "numpyro.html",
+    "href": "numpyro.html",
+    "title": "9  Numpyro",
+    "section": "",
+    "text": "https://github.com/pyro-ppl/numpyro"
+  },
+  {
+    "objectID": "stan.html#brms",
+    "href": "stan.html#brms",
+    "title": "10  Stan",
+    "section": "10.1 brms",
+    "text": "10.1 brms\nhttps://github.com/paul-buerkner/brms"
+  },
+  {
+    "objectID": "pytorch.html",
+    "href": "pytorch.html",
+    "title": "11  pyro",
+    "section": "",
+    "text": "https://pyro.ai/\nThe StatQuest Introduction to PyTorch"
+  },
+  {
+    "objectID": "tensorflow.html",
+    "href": "tensorflow.html",
+    "title": "12  tensorflow",
+    "section": "",
+    "text": "https://www.tensorflow.org/"
+  },
+  {
+    "objectID": "sql.html",
+    "href": "sql.html",
+    "title": "13  SQL",
+    "section": "",
+    "text": "postgresql https://www.postgresql.org/docs/"
+  },
+  {
+    "objectID": "filter.html",
+    "href": "filter.html",
+    "title": "14  Filter",
+    "section": "",
+    "text": "Instance of: Higher-order function\nAKA: Subset\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata\nCode\n\nRPythonSQLTorch\n\n\n\nBase\nsubset: Subsetting Vectors, Matrices and Data Frames\n\n\n\n\n\nDplyr\nSubset rows using column values\n\n\n\n\n\nDataTable\nSubsetting Rows\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+  },
+  {
+    "objectID": "regex.html",
+    "href": "regex.html",
+    "title": "16  Regex",
+    "section": "",
+    "text": "R Regular expressions"
+  },
+  {
+    "objectID": "fuzzyrecordmatching.html",
+    "href": "fuzzyrecordmatching.html",
+    "title": "17  Fuzzy Recording Matching",
+    "section": "",
+    "text": "Name Match"
   },
   {
     "objectID": "domain.html",
     "href": "domain.html",
-    "title": "6  Domain",
+    "title": "18  Domain",
     "section": "",
-    "text": "CHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULTS\nAn Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?"
+    "text": "CHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULTS\nAn Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?\nOutlier"
   },
   {
     "objectID": "outliers.html",
     "href": "outliers.html",
-    "title": "7  Outliers",
+    "title": "19  Outliers",
     "section": "",
     "text": "An Automatic Finite-Sample Robustness Metric: When Can Dropping a Little Data Make a Big Difference?"
   },
   {
+    "objectID": "unitofanalysis.html",
+    "href": "unitofanalysis.html",
+    "title": "23  Unit of Analysis",
+    "section": "",
+    "text": "Ecological Inference in the Social Sciences https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885825/\nRace to the bottom: Spatial aggregation and event data Scott J. CookORCID Icon&Nils B. Weidmann https://www.tandfonline.com/doi/abs/10.1080/03050629.2022.2025365\nExtremal Behavior of Aggregated Data with an Application to Downscaling Sebastian Engelke, Raphael de Fondeville, Marco Oesting https://arxiv.org/abs/1712.09816"
+  },
+  {
     "objectID": "estimand.html",
     "href": "estimand.html",
-    "title": "8  Estimand",
+    "title": "24  Estimand",
     "section": "",
     "text": "What Is Your Estimand? Defining the Target Quantity Connects Statistical Evidence to Theory"
   },
   {
     "objectID": "identification.html",
     "href": "identification.html",
-    "title": "9  Identification",
+    "title": "25  Identification",
     "section": "",
     "text": "Partial Identification in Econometrics"
   },
   {
+    "objectID": "GardenOfForkingPaths.html",
+    "href": "GardenOfForkingPaths.html",
+    "title": "26  Garden of Forking Paths",
+    "section": "",
+    "text": "The garden of forking paths: Why multiple comparisons can be a problem, even when there is no “fishing expedition” or “p-hacking” and the research hypothesis was posited ahead of time∗, Andrew Gelman† and Eric Loken\nAchieving Statistical Significance with Covariates and without Transparency"
+  },
+  {
     "objectID": "rct.html",
     "href": "rct.html",
-    "title": "19  Random Control Trials",
+    "title": "27  Random Control Trials",
     "section": "",
     "text": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015\nCHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULTS\nWarnings\n\nDicing RCT results up by coverates or in with a regression model instead of doing a simple T test can generate spurious results from a few high leverage outlier observations (Young 2019).\n\n\n\n\n\nYoung, Alwyn. 2019. “Channeling Fisher: Randomization Tests and the Statistical Insignificance of Seemingly Significant Experimental Results*.” The Quarterly Journal of Economics 134 (2): 557–98. https://doi.org/10.1093/qje/qjy029."
   },
   {
     "objectID": "iv.html",
     "href": "iv.html",
-    "title": "11  Instrumental Varibales",
+    "title": "28  Instrumental Variables",
     "section": "",
     "text": "How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on Over 60 Replicated Studies"
   },
   {
     "objectID": "diffindiff.html",
     "href": "diffindiff.html",
-    "title": "12  Difference in Difference",
+    "title": "29  Difference in Difference",
     "section": "",
-    "text": "How Much Should We Trust Differences-In-Differences Estimates?\nHow Much Should We Trust Staggered Difference-In-Differences Estimates?"
+    "text": "How Much Should We Trust Differences-In-Differences Estimates?\nHow Much Should We Trust Staggered Difference-In-Differences Estimates?\nWhen Is Parallel Trends Sensitive to Functional Form?∗"
+  },
+  {
+    "objectID": "placebotests.html",
+    "href": "placebotests.html",
+    "title": "31  Placebo Tests",
+    "section": "",
+    "text": "Do We Really Know the WTO Cures Cancer? https://www.cambridge.org/core/journals/british-journal-of-political-science/article/abs/do-we-really-know-the-wto-cures-cancer/B84A6FCF516FAE3ED7E0C20FE3DA42CF"
+  },
+  {
+    "objectID": "outofsampleperformance.html",
+    "href": "outofsampleperformance.html",
+    "title": "33  Out of Sample Performance",
+    "section": "",
+    "text": "Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure David R. Roberts,Volker Bahn,Simone Ciuti,Mark S. Boyce,Jane Elith,Gurutzeta Guillera-Arroita,Severin Hauenstein,José J. Lahoz-Monfort,Boris Schröder,Wilfried Thuiller,David I. Warton,Brendan A. Wintle,Florian Hartig,Carsten F. Dormann https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881\nCross-validation FAQ, Aki Vehtari\nWhen to Impute? Imputation before and during cross-validation\nLeakage and the Reproducibility Crisis in ML-based Science\nRescaling and other forms of unsupervised preprocessing introduce bias into cross-validation,Amit Moscovich, Saharon Rosset\nApproximate leave-future-out cross-validation for Bayesian time series models\ngroupdata2\nHow Cross-Validation Can Go Wrong and What to Do About it.\nMoving cross-validation from a research idea to a routine step in Bayesian data analysis\nModel selection tutorials and talks, Aki Vehtari Underspecification Presents Challenges for Credibility in Modern Machine Learning (Paper Explained) -Has a neet example of holding out on camera model shows massive degredation in medical mission vision application.\nUnderspecification Presents Challenges for Credibility in Modern Machine Learning\nCross-validation: what does it estimate and how well does it do it? Stephen Bates, Trevor Hastie, Robert Tibshirani\nConsensus features nested cross-validation\nYour Cross Validation Error Confidence Intervals are Wrong — here’s how to Fix Them"
+  },
+  {
+    "objectID": "regularization.html",
+    "href": "regularization.html",
+    "title": "34  Regularization",
+    "section": "",
+    "text": "Ridge Regression Can Produce Misleading Inferences in the Presence of Strong Confounders: The Case of Mass Polarization\nFast Penalized Regression and Cross Validation for Tall Data with the oem Package"
+  },
+  {
+    "objectID": "pvalues.html",
+    "href": "pvalues.html",
+    "title": "35  P Values",
+    "section": "",
+    "text": "Bayesian estimation supersedes the t test\nSequential sampling and testing Safe, anytime-valid inference: confidence sequences, p-values/e-values, and e-processes\nSome papers about p values"
   },
   {
     "objectID": "set.html",
     "href": "set.html",
-    "title": "13  Set",
+    "title": "36  Set",
     "section": "",
     "text": "Cites: Wikipedia; Wikidata; PlanetMath"
   },
   {
     "objectID": "list.html",
     "href": "list.html",
-    "title": "14  List (Sequence)",
+    "title": "37  List (Sequence)",
     "section": "",
     "text": "AKA: Sequence, \\(a_n\\) where n is the nth element, (1,2,3, ….)\nDistinct from: Set\nMeasure of:\nDescription: A list is a collection of objects with a specific ordering and where the same object can appear more than once. Call each object an element, and its location its index or rank. An index is a natural number counting upward from the first element in the list. Whether counting begins at 0 or 1 depends on local conventions.\nFormalization:\nAlgorithm:\nCites: Wikipedia Wikidata Encyclopedia Of Math Wolfram PlanetMath\n\nRPythonSQL\n\n\nDocumentation:\nlist: Lists – Generic and Dotted Pairs\nExamples:\n\nexample_list = list(1,2,3)\nexample_list\n\n[[1]]\n[1] 1\n\n[[2]]\n[1] 2\n\n[[3]]\n[1] 3\n\n\n\n\nDocumentation:\nMore on Lists\nExamples:\n\nexample_list =  [1,2,3]\nexample_list\n\n[1, 2, 3]\n\n\n\n\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\ncon <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\ndbListTables(con)\n\ncharacter(0)\n\ndbWriteTable(con, \"mtcars\", mtcars)\ndbListTables(con)\n\n[1] \"mtcars\"\n\n\n\ncreate table StatisticalNumbers(\n value int\n)\n\n\nSELECT * FROM mtcars LIMIT 5;\n\n\n5 records\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\n21.0\n6\n160\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\n21.0\n6\n160\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\n22.8\n4\n108\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\n18.7\n8\n360\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2"
   },
   {
     "objectID": "tensor.html",
     "href": "tensor.html",
-    "title": "15  Vector/Matrix/Tensor",
+    "title": "38  Vector/Matrix/Tensor",
     "section": "",
     "text": "Instance of: algebraic object / data structure\nAKA: array, matrices\nDistinct from: list\nEnglish: Vectors, matrices, and tensors are like lists in that they are a collection of objects which are indexed. They differ in that the index can be multi-dimensional, where vectors are 1-d indexed, matrices are 2-d indexed, and tensors are m-d indexed. They also are typically constrained to have objects that share the same type, e.g. numbers or strings.\nFormalization:\n\\[\n\\]\nCites:\nArray:\nWikipedia\n3Blue1Brown: Vectors | Chapter 1, Essence of linear algebra 3Blue1Brown: Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra\nMatrix:\nWikipedia\n3Blue1Brown: Linear transformations and matrices | Chapter 3, Essence of linear algebra\nTensor:\nWikipedia\nCode\n\nRPythonSQLJaxTorch\n\n\nVector\nNote unlike matrix and array, the basic vector function initializes an empty vector and you have to actually use as.vector to coerce something else to vector as the constructor.\nvector: Vectors\n\nexample_vector <- as.vector(c(1,2,3,4))\nclass(example_vector)\n\n[1] \"numeric\"\n\nexample_vector\n\n[1] 1 2 3 4\n\n\nMatrix\nNote we can choose which direction to fill the matrix with, either by row1-col1, row1-col2, row1-col3, row1-col4\nmatrix: Matrices\n\nexample_matrix <- matrix(c(1,2,3,4,\"A\",\"B\",\"C\",\"D\"), nrow = 2, ncol = 4, byrow = TRUE,\n               dimnames = list(c(\"row1\", \"row2\"),\n                               c(\"C.1\", \"C.2\", \"C.3\", \"C.4\")))\nclass(example_matrix)\n\n[1] \"matrix\" \"array\" \n\nexample_matrix\n\n     C.1 C.2 C.3 C.4\nrow1 \"1\" \"2\" \"3\" \"4\"\nrow2 \"A\" \"B\" \"C\" \"D\"\n\n\nArrays\nNote array dimensions are ordered, row, column, depth, …, M , and elements are filled row1-col1-depth1, row2-col1-depth1, row1-col2-depth1,… and so on. Note this was coerced to a string because any of the elements were a string.\narray: Multi-way Arrays\n\nexample_tensor= array(c(1,2,3,4,\"A\",\"B\",\"C\",\"D\",\"+\",\"-\",\"*\",\"/\"),dim=c(2,3,2,2)) \nclass(example_tensor)\n\n[1] \"array\"\n\nexample_tensor\n\n, , 1, 1\n\n     [,1] [,2] [,3]\n[1,] \"1\"  \"3\"  \"A\" \n[2,] \"2\"  \"4\"  \"B\" \n\n, , 2, 1\n\n     [,1] [,2] [,3]\n[1,] \"C\"  \"+\"  \"*\" \n[2,] \"D\"  \"-\"  \"/\" \n\n, , 1, 2\n\n     [,1] [,2] [,3]\n[1,] \"1\"  \"3\"  \"A\" \n[2,] \"2\"  \"4\"  \"B\" \n\n, , 2, 2\n\n     [,1] [,2] [,3]\n[1,] \"C\"  \"+\"  \"*\" \n[2,] \"D\"  \"-\"  \"/\" \n\n\n\n\nDocumentation:\nExamples:\n\n\n\n\n\nDocumentation:\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "table.html#introduction",
     "href": "table.html#introduction",
-    "title": "16  Table",
-    "section": "16.1 Introduction",
-    "text": "16.1 Introduction\nInstance of: arrangement of information or data\nAKA: Dataframe\nDistinct from:\nEnglish: A collection of rows and columns, where rows represent specific instances (AKA records, k-tuple, n-tuple, or a vector), and columns represent features (AKA variables, parameters, properties, attributes, or stanchions). The intersection of a row and column is called a sell.\nFormalization:\n\\[\n\\]\nCites: Wikipedia Table (information) ; Wikipedia Table Table (database) ; Wikidata ; Wolfram\nML Frameworks Interoperability Cheat Sheet\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: data.frame: Data Frames\nExamples:\n\ndf=data.frame(a=c(1,2,3,4), b=c('a','b','c','d'))\ndf\n\n  a b\n1 1 a\n2 2 b\n3 3 c\n4 4 d\n\n\n\n\nDocumentation: pandas.DataFrame\nExamples:\n\nimport pandas as pd\ndf = pd.DataFrame({'a': [1, 2,3,4], 'b': ['a','b','c','d']})\ndf\n\n   a  b\n0  1  a\n1  2  b\n2  3  c\n3  4  d\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\nDROP TABLE IF EXISTS df;\n\n\nCREATE TABLE IF NOT EXISTS df (\n    a INTEGER,\n    b CHAR\n);\n\n\nINSERT INTO df (a, b)\nVALUES\n    (1,'a'),\n    (2,'b'),\n    (3,'c'),\n    (4,'d');\n\n\nSELECT  * FROM  df;\n\n\n4 records\n\n\na\nb\n\n\n\n\n1\na\n\n\n2\nb\n\n\n3\nc\n\n\n4\nd\n\n\n\n\n\n\n\n\nimport torch"
+    "title": "39  Table",
+    "section": "39.1 Introduction",
+    "text": "39.1 Introduction\nInstance of: arrangement of information or data\nAKA: Dataframe\nDistinct from:\nEnglish: A collection of rows and columns, where rows represent specific instances (AKA records, k-tuple, n-tuple, or a vector), and columns represent features (AKA variables, parameters, properties, attributes, or stanchions). The intersection of a row and column is called a sell.\nFormalization:\n\\[\n\\]\nCites: Wikipedia Table (information) ; Wikipedia Table Table (database) ; Wikidata ; Wolfram\nML Frameworks Interoperability Cheat Sheet\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: data.frame: Data Frames\nExamples:\n\ndf=data.frame(a=c(1,2,3,4), b=c('a','b','c','d'))\ndf\n\n  a b\n1 1 a\n2 2 b\n3 3 c\n4 4 d\n\n\n\n\nDocumentation: pandas.DataFrame\nExamples:\n\nimport pandas as pd\ndf = pd.DataFrame({'a': [1, 2,3,4], 'b': ['a','b','c','d']})\ndf\n\n   a  b\n0  1  a\n1  2  b\n2  3  c\n3  4  d\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\nDROP TABLE IF EXISTS df;\n\n\nCREATE TABLE IF NOT EXISTS df (\n    a INTEGER,\n    b CHAR\n);\n\n\nINSERT INTO df (a, b)\nVALUES\n    (1,'a'),\n    (2,'b'),\n    (3,'c'),\n    (4,'d');\n\n\nSELECT  * FROM  df;\n\n\n4 records\n\n\na\nb\n\n\n\n\n1\na\n\n\n2\nb\n\n\n3\nc\n\n\n4\nd\n\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "add.html#introduction",
     "href": "add.html#introduction",
-    "title": "17  Addition",
-    "section": "17.1 Introduction",
-    "text": "17.1 Introduction\nInstance of: operation of arithmetic"
+    "title": "40  Addition",
+    "section": "40.1 Introduction",
+    "text": "40.1 Introduction\nInstance of: operation of arithmetic"
   },
   {
     "objectID": "add.html#frequentist",
     "href": "add.html#frequentist",
-    "title": "17  Addition",
-    "section": "17.2 Frequentist",
-    "text": "17.2 Frequentist\nAKA: + ; add\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "40  Addition",
+    "section": "40.2 Frequentist",
+    "text": "40.2 Frequentist\nAKA: + ; add\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "add.html#bayesian",
     "href": "add.html#bayesian",
-    "title": "17  Addition",
-    "section": "17.3 Bayesian",
-    "text": "17.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "40  Addition",
+    "section": "40.3 Bayesian",
+    "text": "40.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "subtract.html#frequentist",
     "href": "subtract.html#frequentist",
-    "title": "18  Introduction",
-    "section": "18.1 Frequentist",
-    "text": "18.1 Frequentist\nAKA: - ; minus\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "41  Introduction",
+    "section": "41.1 Frequentist",
+    "text": "41.1 Frequentist\nAKA: - ; minus\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "subtract.html#bayesian",
     "href": "subtract.html#bayesian",
-    "title": "18  Introduction",
-    "section": "18.2 Bayesian",
-    "text": "18.2 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "41  Introduction",
+    "section": "41.2 Bayesian",
+    "text": "41.2 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "multiply.html#introduction",
     "href": "multiply.html#introduction",
-    "title": "19  Multiplication",
-    "section": "19.1 Introduction",
-    "text": "19.1 Introduction\nInstance of: operation of arithmetic"
+    "title": "42  Multiplication",
+    "section": "42.1 Introduction",
+    "text": "42.1 Introduction\nInstance of: operation of arithmetic"
   },
   {
     "objectID": "multiply.html#frequentist",
     "href": "multiply.html#frequentist",
-    "title": "19  Multiplication",
-    "section": "19.2 Frequentist",
-    "text": "19.2 Frequentist\nAKA: * ; × ; ⋅ ; multiply\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\n3Blue1Brown: Matrix multiplication as composition | Chapter 4, Essence of linear algebra 3Blue1Brown: Cross products in the light of linear transformations | Chapter 11, Essence of linear algebra\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "42  Multiplication",
+    "section": "42.2 Frequentist",
+    "text": "42.2 Frequentist\nAKA: * ; × ; ⋅ ; multiply\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\n3Blue1Brown: Matrix multiplication as composition | Chapter 4, Essence of linear algebra 3Blue1Brown: Cross products in the light of linear transformations | Chapter 11, Essence of linear algebra\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "multiply.html#bayesian",
     "href": "multiply.html#bayesian",
-    "title": "19  Multiplication",
-    "section": "19.3 Bayesian",
-    "text": "19.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "42  Multiplication",
+    "section": "42.3 Bayesian",
+    "text": "42.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "divide.html#introduction",
     "href": "divide.html#introduction",
-    "title": "20  Division",
-    "section": "20.1 Introduction",
-    "text": "20.1 Introduction\nInstance of: operation of arithmetic"
+    "title": "43  Division",
+    "section": "43.1 Introduction",
+    "text": "43.1 Introduction\nInstance of: operation of arithmetic"
   },
   {
     "objectID": "divide.html#frequentist",
     "href": "divide.html#frequentist",
-    "title": "20  Division",
-    "section": "20.2 Frequentist",
-    "text": "20.2 Frequentist\nAKA: \\(/\\) ; \\(\\frac{numerator}{denominator}\\) ; ÷\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "43  Division",
+    "section": "43.2 Frequentist",
+    "text": "43.2 Frequentist\nAKA: \\(/\\) ; \\(\\frac{numerator}{denominator}\\) ; ÷\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "divide.html#bayesian",
     "href": "divide.html#bayesian",
-    "title": "20  Division",
-    "section": "20.3 Bayesian",
-    "text": "20.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "43  Division",
+    "section": "43.3 Bayesian",
+    "text": "43.3 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "dotproduct.html#introduction",
     "href": "dotproduct.html#introduction",
-    "title": "21  Dot product",
-    "section": "21.1 Introduction",
-    "text": "21.1 Introduction\nInstance of: algebraic operation\nAKA: scalar product; inner product ; projection product ; $ · $\nDistinct from:\nEnglish:\nFormalization:\n\\[\na \\cdot b\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\n3Blue1Brown: Dot products and duality | Chapter 9, Essence of linear algebra\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: \nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "title": "44  Dot product",
+    "section": "44.1 Introduction",
+    "text": "44.1 Introduction\nInstance of: algebraic operation\nAKA: scalar product; inner product ; projection product ; $ · $\nDistinct from:\nEnglish:\nFormalization:\n\\[\na \\cdot b\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\n3Blue1Brown: Dot products and duality | Chapter 9, Essence of linear algebra\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: \nExamples:\n\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "dotproduct.html#bayesian",
     "href": "dotproduct.html#bayesian",
-    "title": "21  Dot product",
-    "section": "21.2 Bayesian",
-    "text": "21.2 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "title": "44  Dot product",
+    "section": "44.2 Bayesian",
+    "text": "44.2 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
   },
   {
     "objectID": "mean.html#introduction",
     "href": "mean.html#introduction",
-    "title": "22  Mean",
-    "section": "22.1 Introduction",
-    "text": "22.1 Introduction\nMeasure of: Central tendency"
+    "title": "45  Mean",
+    "section": "45.1 Introduction",
+    "text": "45.1 Introduction\nMeasure of: Central tendency"
   },
   {
     "objectID": "mean.html#frequentist",
     "href": "mean.html#frequentist",
-    "title": "22  Mean",
-    "section": "22.2 Frequentist",
-    "text": "22.2 Frequentist\nAKA: Arithmetic mean; average; \\(\\bar{x}\\) (sample mean); \\(\\mu\\) (population mean); \\(\\mu_x\\) (population mean)\nDistinct from: Geometric mean (GM); Harmonic mean (HM); generalized mean/ Power mean; weighted arithmetic mean\nEnglish: Take a list of numbers, sum those numbers, and then divide by the number of numbers.\nFormalization:\n\\[\n\\bar{x}=\\frac{1}{n}(\\sum^{n}_{i=1}x_i)=\\frac{x_1+x_2+...+x_n}{n}\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\nx = c(1,2,3,4)\nx\n\n[1] 1 2 3 4\n\n#Algorithm\nx_bar = sum(x, na.rm=T)/length(x)\nx_bar\n\n[1] 2.5\n\n#Base Function\nx_bar = mean(x, na.rm=T)\nx_bar\n\n[1] 2.5\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\nx = [1,2,3,4]\nprint(x)\n\n[1, 2, 3, 4]\n\n\n\n#Algorithm\nx_bar= sum(x)/len(x)\nx_bar\n\n2.5\n\n\n\n#statistics Function\nimport statistics\nx_bar = statistics.mean(x)\nx_bar\n\n2.5\n\n\n\n#scipy Function\n#<string>:1: DeprecationWarning: scipy.mean is deprecated and will be removed in SciPy 2.0.0, use numpy.mean instead\nimport scipy\nx_bar = scipy.mean(x) \n\n<string>:1: DeprecationWarning: scipy.mean is deprecated and will be removed in SciPy 2.0.0, use numpy.mean instead\n\nx_bar\n\n2.5\n\n\n\n#numpy Function\nimport numpy as np\nx = np.array(x)\nx_bar = x.mean()\nx_bar\n\n2.5\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\nDROP TABLE IF EXISTS t1;\n\n\n\nCREATE TABLE IF NOT EXISTS t1 (\n    id serial PRIMARY KEY,\n    amount INTEGER\n);\n\n\nINSERT INTO t1 (amount)\nVALUES\n    (10),\n    (NULL),\n    (30);\n\n\nSELECT  * FROM  t1;\n\n\n3 records\n\n\nid\namount\n\n\n\n\n1\n10\n\n\n2\nNA\n\n\n3\n30\n\n\n\n\n\n\n\nSELECT AVG(amount)::numeric(10,2) \nFROM t1;\n\n\n1 records\n\n\navg\n\n\n\n\n20\n\n\n\n\n\n\n\n\nimport torch"
+    "title": "45  Mean",
+    "section": "45.2 Frequentist",
+    "text": "45.2 Frequentist\nAKA: Arithmetic mean; average; \\(\\bar{x}\\) (sample mean); \\(\\mu\\) (population mean); \\(\\mu_x\\) (population mean)\nDistinct from: Geometric mean (GM); Harmonic mean (HM); generalized mean/ Power mean; weighted arithmetic mean\nEnglish: Take a list of numbers, sum those numbers, and then divide by the number of numbers.\nFormalization:\n\\[\n\\bar{x}=\\frac{1}{n}(\\sum^{n}_{i=1}x_i)=\\frac{x_1+x_2+...+x_n}{n}\n\\]\nCites: Wikipedia ; Wikidata ; Wolfram\nCode\n\nRPythonSQLTorch\n\n\nDocumentation: mean: Arithmetic Mean\nExamples:\n\nx = c(1,2,3,4)\nx\n\n[1] 1 2 3 4\n\n#Algorithm\nx_bar = sum(x, na.rm=T)/length(x)\nx_bar\n\n[1] 2.5\n\n#Base Function\nx_bar = mean(x, na.rm=T)\nx_bar\n\n[1] 2.5\n\n\n\n\nDocumentation: numpy.mean\nExamples:\n\nx = [1,2,3,4]\nprint(x)\n\n[1, 2, 3, 4]\n\n\n\n#Algorithm\nx_bar= sum(x)/len(x)\nx_bar\n\n2.5\n\n\n\n#statistics Function\nimport statistics\nx_bar = statistics.mean(x)\nx_bar\n\n2.5\n\n\n\n#scipy Function\n#<string>:1: DeprecationWarning: scipy.mean is deprecated and will be removed in SciPy 2.0.0, use numpy.mean instead\nimport scipy\nx_bar = scipy.mean(x) \n\n<string>:1: DeprecationWarning: scipy.mean is deprecated and will be removed in SciPy 2.0.0, use numpy.mean instead\n\nx_bar\n\n2.5\n\n\n\n#numpy Function\nimport numpy as np\nx = np.array(x)\nx_bar = x.mean()\nx_bar\n\n2.5\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\nDROP TABLE IF EXISTS t1;\n\n\n\nCREATE TABLE IF NOT EXISTS t1 (\n    id serial PRIMARY KEY,\n    amount INTEGER\n);\n\n\nINSERT INTO t1 (amount)\nVALUES\n    (10),\n    (NULL),\n    (30);\n\n\nSELECT  * FROM  t1;\n\n\n3 records\n\n\nid\namount\n\n\n\n\n1\n10\n\n\n2\nNA\n\n\n3\n30\n\n\n\n\n\n\n\nSELECT AVG(amount)::numeric(10,2) \nFROM t1;\n\n\n1 records\n\n\navg\n\n\n\n\n20\n\n\n\n\n\n\n\n\nimport torch"
   },
   {
     "objectID": "mean.html#bayesian",
     "href": "mean.html#bayesian",
-    "title": "22  Mean",
-    "section": "22.3 Bayesian",
-    "text": "22.3 Bayesian\nBayesian average; Solving an age-old problem using Bayesian Average; Of bayesian average and star ratings; Bayesian Average Ratings ;\nEnglish: The Bayesian average is the weighted average of a prior and the observed sample average. When would you want this? When you have strong beliefs about the true mean, or when sample size is too small to reliable calculate a mean. For example a movie rating website where a movie may have only a single 5 star rating and so would rank higher than the Godfather with over a 100 almost all 5 star ratings.\nFormalization:\n\\[\n\\bar{x}=\\frac{C*m+(\\sum^{n}_{i=1}x_i)}{c+n}\n\\]\nWhere \\(m\\) is a prior for true mean, and \\(C\\) is a constant representing how many elements would be necessary to reliably estimate a sample mean.\nCode"
+    "title": "45  Mean",
+    "section": "45.3 Bayesian",
+    "text": "45.3 Bayesian\nBayesian average; Solving an age-old problem using Bayesian Average; Of bayesian average and star ratings; Bayesian Average Ratings ;\nEnglish: The Bayesian average is the weighted average of a prior and the observed sample average. When would you want this? When you have strong beliefs about the true mean, or when sample size is too small to reliable calculate a mean. For example a movie rating website where a movie may have only a single 5 star rating and so would rank higher than the Godfather with over a 100 almost all 5 star ratings.\nFormalization:\n\\[\n\\bar{x}=\\frac{C*m+(\\sum^{n}_{i=1}x_i)}{c+n}\n\\]\nWhere \\(m\\) is a prior for true mean, and \\(C\\) is a constant representing how many elements would be necessary to reliably estimate a sample mean.\nCode"
   },
   {
     "objectID": "gradientboosted.html",
@@ -287,17 +350,17 @@
     "text": "Videos\nStatQuest with Josh Starmer Gradient Boost Part 1 (of 4): Regression Main Ideas XGBoost Part 1 (of 4): Regression\nXGBoost LightGBM"
   },
   {
-    "objectID": "filter.html#bayesian",
-    "href": "filter.html#bayesian",
-    "title": "13  Filter",
-    "section": "13.1 Bayesian",
-    "text": "13.1 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+    "objectID": "gaussianprocesses.html",
+    "href": "gaussianprocesses.html",
+    "title": "50  Gaussian Processes",
+    "section": "",
+    "text": "GPJax “GPJax aims to provide a low-level interface to Gaussian process (GP) models in Jax, structured to give researchers maximum flexibility in extending the code to suit their own needs.”"
   },
   {
-    "objectID": "filter.html",
-    "href": "filter.html",
-    "title": "14  Filter",
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
     "section": "",
-    "text": "Instance of: Higher-order function\nAKA: Subset\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata\nCode\n\nRPythonSQLTorch\n\n\n\nBase\nsubset: Subsetting Vectors, Matrices and Data Frames\n\n\n\n\n\nDplyr\nSubset rows using column values\n\n\n\n\n\nDataTable\nSubsetting Rows\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
+    "text": "Young, Alwyn. 2019. “Channeling Fisher:\nRandomization Tests and the Statistical\nInsignificance of Seemingly Significant Experimental\nResults*.” The Quarterly Journal of Economics 134\n(2): 557–98. https://doi.org/10.1093/qje/qjy029."
   }
 ]
