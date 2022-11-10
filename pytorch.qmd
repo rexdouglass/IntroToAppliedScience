@@ -1,0 +1,4 @@
+# pyro
+https://pyro.ai/
+
+[The StatQuest Introduction to PyTorch](https://www.youtube.com/watch?v=FHdlXe1bSe4)

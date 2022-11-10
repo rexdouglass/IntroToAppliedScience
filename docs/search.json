@@ -114,16 +114,16 @@
   {
     "objectID": "identification.html",
     "href": "identification.html",
-    "title": "Introduction to Applied Science",
+    "title": "9  Identification",
     "section": "",
     "text": "Partial Identification in Econometrics"
   },
   {
     "objectID": "rct.html",
     "href": "rct.html",
-    "title": "10  Random Control Trials",
+    "title": "19  Random Control Trials",
     "section": "",
-    "text": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015\nCHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULTS"
+    "text": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015\nCHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULTS\nWarnings\n\nDicing RCT results up by coverates or in with a regression model instead of doing a simple T test can generate spurious results from a few high leverage outlier observations (Young 2019).\n\n\n\n\n\nYoung, Alwyn. 2019. “Channeling Fisher: Randomization Tests and the Statistical Insignificance of Seemingly Significant Experimental Results*.” The Quarterly Journal of Economics 134 (2): 557–98. https://doi.org/10.1093/qje/qjy029."
   },
   {
     "objectID": "iv.html",
@@ -285,5 +285,19 @@
     "title": "Introduction to Applied Science",
     "section": "",
     "text": "Videos\nStatQuest with Josh Starmer Gradient Boost Part 1 (of 4): Regression Main Ideas XGBoost Part 1 (of 4): Regression\nXGBoost LightGBM"
+  },
+  {
+    "objectID": "filter.html#bayesian",
+    "href": "filter.html#bayesian",
+    "title": "13  Filter",
+    "section": "13.1 Bayesian",
+    "text": "13.1 Bayesian\nEnglish: Formalization:\n\\[\n\\]\nCites:\nCode"
+  },
+  {
+    "objectID": "filter.html",
+    "href": "filter.html",
+    "title": "14  Filter",
+    "section": "",
+    "text": "Instance of: Higher-order function\nAKA: Subset\nDistinct from:\nEnglish:\nFormalization:\n\\[\n\\]\nCites: Wikipedia ; Wikidata\nCode\n\nRPythonSQLTorch\n\n\n\nBase\nsubset: Subsetting Vectors, Matrices and Data Frames\n\n\n\n\n\nDplyr\nSubset rows using column values\n\n\n\n\n\nDataTable\nSubsetting Rows\n\n\n\nDocumentation: numpy.mean\nExamples:\n\n\n\n\n\nDocumentation: PostgreSQL AVG Function\n\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n\nLoading required package: RPostgres\n\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n\n\n\n\n\n\n\nimport torch"
   }
 ]

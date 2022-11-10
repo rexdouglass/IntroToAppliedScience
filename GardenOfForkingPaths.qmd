@@ -1,0 +1,6 @@
+# Garden of Forking Paths
+
+[The garden of forking paths: Why multiple comparisons can be a problem, even when there is no “fishing expedition” or “p-hacking” and the research hypothesis was posited ahead of time∗, Andrew Gelman† and Eric Loken](http://stat.columbia.edu/~gelman/research/unpublished/forking.pdf)
+
+
+[Achieving Statistical Significance with Covariates and without Transparency](https://www.cambridge.org/core/journals/political-analysis/article/abs/achieving-statistical-significance-with-control-variables-and-without-transparency/1E867C357835019E0C9322B918414045)

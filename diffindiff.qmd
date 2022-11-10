@@ -4,3 +4,4 @@
 
 [How Much Should We Trust Staggered Difference-In-Differences Estimates?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3794018)
 
+[When Is Parallel Trends Sensitive to Functional Form?∗](https://www.econometricsociety.org/system/files/19402-3.pdf)

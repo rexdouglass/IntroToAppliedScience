@@ -1,0 +1,34 @@
+# Out of Sample Performance
+
+Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure
+David R. Roberts,Volker Bahn,Simone Ciuti,Mark S. Boyce,Jane Elith,Gurutzeta Guillera-Arroita,Severin Hauenstein,José J. Lahoz-Monfort,Boris Schröder,Wilfried Thuiller,David I. Warton,Brendan A. Wintle,Florian Hartig,Carsten F. Dormann
+[https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881)
+
+[Cross-validation FAQ, Aki Vehtari](https://avehtari.github.io/modelselection/CV-FAQ.html)
+
+
+[When to Impute? Imputation before and during cross-validation](https://arxiv.org/pdf/2010.00718.pdf)
+
+[Leakage and the Reproducibility Crisis in ML-based Science](https://arxiv.org/pdf/2207.07048.pdf)
+
+[Rescaling and other forms of unsupervised preprocessing introduce bias into cross-validation,Amit Moscovich, Saharon Rosset](https://arxiv.org/abs/1901.08974)
+
+[Approximate leave-future-out cross-validation for Bayesian time series models](https://arxiv.org/pdf/1902.06281.pdf)
+
+[groupdata2](https://github.com/LudvigOlsen/groupdata2)
+
+[How Cross-Validation Can Go Wrong and What to Do About it.](https://www.marcel-neunhoeffer.com/pdf/papers/pa_cross-validation.pdf)
+
+[Moving cross-validation from a research idea to a routine step in Bayesian data analysis](https://statmodeling.stat.columbia.edu/2022/06/30/47790/)
+
+[Model selection tutorials and talks, Aki Vehtari](https://avehtari.github.io/modelselection/index.html)
+[Underspecification Presents Challenges for Credibility in Modern Machine Learning (Paper Explained)](https://www.youtube.com/watch?v=gch94ttuy5s)
+-Has a neet example of holding out on camera model shows massive degredation in medical mission vision application.
+
+[Underspecification Presents Challenges for Credibility in Modern Machine Learning](https://arxiv.org/abs/2011.03395)
+
+[Cross-validation: what does it estimate and how well does it do it? Stephen Bates, Trevor Hastie, Robert Tibshirani](https://arxiv.org/abs/2104.00673)
+
+[Consensus features nested cross-validation](https://academic.oup.com/bioinformatics/article/36/10/3093/5716331)
+
+[Your Cross Validation Error Confidence Intervals are Wrong — here’s how to Fix Them](https://towardsdatascience.com/your-cross-validation-error-confidence-intervals-are-wrong-heres-how-to-fix-them-abbfe28d390)

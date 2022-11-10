@@ -1,5 +1,10 @@
 # Random Control Trials
 
+
 [Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015](https://www.nature.com/articles/s41562-018-0399-z)
 
 [CHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULTS](https://personal.lse.ac.uk/YoungA/ChannellingFisherQJE.pdf)
+
+**Warnings**
+
+* Dicing RCT results up by coverates or in with a regression model instead of doing a simple T test can generate spurious results from a few high leverage outlier observations [@youngChannelingFisherRandomization2019].

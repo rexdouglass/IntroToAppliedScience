@@ -1,0 +1,8 @@
+# P Values
+
+[Bayesian estimation supersedes the t test](https://pubmed.ncbi.nlm.nih.gov/22774788/)
+
+Sequential sampling and testing
+[Safe, anytime-valid inference: confidence sequences, p-values/e-values, and e-processes](https://www.stat.cmu.edu/~aramdas/pubs-topic.html)
+
+[Some papers about p values](http://www.onemol.org.uk/?page_id=456)

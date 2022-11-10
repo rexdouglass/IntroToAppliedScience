@@ -19,20 +19,50 @@ book:
         - index.qmd
         - intro.qmd
         - lit.qmd
+    - part: "Presentation"
+      chapters:
+        - markdown.qmd
     - part: "Computation"
       chapters:
         - computation.qmd
         - R.qmd
-    - part: "Research Design"
+        - python.qmd
+        - jax.qmd
+        - numpyro.qmd
+        - stan.qmd
+        - pytorch.qmd
+        - tensorflow.qmd
+        - sql.qmd
+    - part: "Data management"
+      chapters:
+        - filter.qmd
+        - joins.qmd
+        - regex.qmd
+        - fuzzyrecordmatching.qmd
+    - part: "Domain"
       chapters:
         - domain.qmd
         - outliers.qmd
+        - regimechange.qmd
+        - poststratification.qmd
+    - part: "Research Design"
+      chapters:
+        - projectdesign.qmd 
+        - unitofanalysis.qmd
         - estimand.qmd
         - identification.qmd
+        - GardenOfForkingPaths.qmd
         - rct.qmd
         - iv.qmd
         - diffindiff.qmd
-    - part: "Estimation"    
+        - biasvariancetradeoff.qmd
+        - placebotests.qmd
+    - part: "Estimation"
+      chapters:
+        - performance.qmd
+        - outofsampleperformance.qmd
+        - regularization.qmd
+        - pvalues.qmd
     - part: "Mathematical Objects"
       chapters:
         - set.qmd
@@ -57,6 +87,7 @@ book:
         - decisiontree.qmd
         - randomforest.qmd
         - gradientboosted.qmd
+        - gaussianprocesses.qmd
     - part: "Unsupervised Learning"
       chapters:
         - distancemetrics.qmd

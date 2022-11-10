@@ -1,0 +1,5 @@
+# Stan
+https://mc-stan.org/users/documentation/
+
+## brms
+https://github.com/paul-buerkner/brms

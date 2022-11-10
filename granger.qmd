@@ -1,0 +1,5 @@
+# Granger Causality
+
+Structure Learning from Time Series with False Discovery Control
+Bernat Guillen Pegueroles, Bhanukiran Vinzamuri, Karthikeyan Shanmugam, Steve Hedden, Jonathan D. Moyer, Kush R. Varshney
+https://arxiv.org/abs/1805.09909

@@ -26,7 +26,7 @@ $$
 ::: panel-tabset
   
 ### R
-**Documentation**: [mean: Arithmetic Mean](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean)
+[]()
   
 Examples:
     
@@ -36,7 +36,7 @@ Examples:
 
 ### Python
 
-**Documentation**: [numpy.mean](https://numpy.org/doc/stable/reference/generated/numpy.mean.html)
+[]()
 
 Examples:
   
@@ -46,7 +46,7 @@ Examples:
 
 ### SQL
 
-**Documentation**: [PostgreSQL AVG Function](https://www.postgresqltutorial.com/postgresql-aggregate-functions/postgresql-avg-function/)
+[]()
 
 ```{r}
 library(DBI)

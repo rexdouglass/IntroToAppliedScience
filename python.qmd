@@ -1,0 +1,12 @@
+# Python
+
+https://docs.python.org/3/
+
+### Numpy
+https://numpy.org/
+
+### Pandas
+https://pandas.pydata.org/docs/
+
+Effective Pandas
+[https://store.metasnake.com/effective-pandas-book](https://store.metasnake.com/effective-pandas-book)
