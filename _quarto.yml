@@ -19,12 +19,15 @@ book:
         - index.qmd
         - intro.qmd
         - lit.qmd
+        - sociologyofinference.qmd
+        - practicecoding.qmd
     - part: "Presentation"
       chapters:
         - markdown.qmd
     - part: "Computation"
       chapters:
         - computation.qmd
+        - bash.qmd
         - R.qmd
         - python.qmd
         - jax.qmd

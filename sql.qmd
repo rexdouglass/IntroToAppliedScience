@@ -1,3 +1,6 @@
 # SQL
 postgresql
 https://www.postgresql.org/docs/
+
+For practice
+https://www.hackerrank.com/domains/sql

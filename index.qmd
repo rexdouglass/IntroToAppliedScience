@@ -1,9 +1,54 @@
 # Preface
 
-This is a Quarto book.
+Mathematics is the language of the Universe, and like any foreign language, it's not something you learn, it's something you get used to. This book is an artifact of getting used to it over ten years as working scientists and before that 9 years of Phd/MA/BA. 
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+[@lundbergWhatYourEstimand2021]
 
-```{r}
-1 + 1
+```{r, eval=F}
+
+library(data.table)
+library("readr")
+files <- list.files(path="/mnt/8tb_a/rwd_github_private/IntroToAppliedScience/", pattern="*.qmd", full.names=TRUE, recursive=FALSE)
+file="/mnt/8tb_a/rwd_github_private/IntroToAppliedScience//lit.qmd"
+file_txts <- list()
+for(file in files){
+  file_txts[[file]] <- read_lines(file)
+}
+length(file_txts)
+
+library(stringr)
+url_pattern <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+url_pattern <- "https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
+                      
+urls <- str_extract_all(file_txts %>% unlist, url_pattern)
+urls_vec <- urls %>% unlist() %>% str_replace("\\)$","") %>% unique()
+length(urls_vec) #1219
+urls_vec %>% paste("<br>") %>% writeLines("/mnt/8tb_a/rwd_github_private/IntroToAppliedScience/urls.html")
+length(urls_vec)
+#for(url in urls_vec[1101:1200]){browseURL(url=url)}
+
+scraped <- read_csv("/home/skynet3/Documents/IntroToAppliedScience.csv") %>% janitor::clean_names()
+scraped %>%  janitor::clean_names() %>% write_csv("/home/skynet3/Documents/IntroToAppliedScience_tolabel2.csv")
+
+library(jsonlite)
+temp <- fromJSON("/home/skynet3/Documents/IntroToAppliedScience.json")
+temp %>% jsonlite::flatten() %>% janitor::clean_names() %>% write_csv("/home/skynet3/Documents/IntroToAppliedScience_tolabel.csv")
+
+#This is obnoxious, but I have to pull the bibextra id from the json and everything else from the csv
+combined <- scraped %>% 
+  left_join(temp %>%  janitor::clean_names() %>% dplyr::select(doi, url, title, citation_key) )
+dim(combined)
+#combined$citation_key
+#256 don't have abstracts
+combined %>% write_csv("/home/skynet3/Documents/IntroToAppliedScience_tolabel3.csv")
+
+
+
+url_missing <- setdiff(urls_vec, scraped$Url)
+length(url_missing) #698 #oh wow only missed 98
+#for(url in url_missing[601:700]){browseURL(url=url)}
+
+url_missing[!url_missing %>% str_detect('arxiv|wikipedia|tandfonline|ssrn|ncbi|onlinelibrary|sagepub|iomedcentral|elifesciences|academic')] %>% sort() #322 that didn't pull
+#There's about 200 I can't immediately dismiss as just pulling with a different URL and will need sort out more
+
 ```
