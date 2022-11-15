@@ -1,5 +1,8 @@
-# Regression Discontinuity Design
+# Regression Discontinuity (RDD)
 
-[On the reliability of published findings using the regression discontinuity design in political science](https://arxiv.org/pdf/2109.14526.pdf)
 
-[Noise-Induced Randomization in Regression Discontinuity Designs](https://arxiv.org/abs/2004.09458)
+[6  Regression Discontinuity](https://mixtape.scunning.com/06-regression_discontinuity)[@cunninghamCausalInference2021]
+
+[Chapter 20 - Regression Discontinuity](https://theeffectbook.net/ch-RegressionDiscontinuity.html)(@huntington-kleinEffectIntroductionResearch)
+
+[Regression Discontinuity Designs in Economics](https://www.princeton.edu/~davidlee/wp/RDDEconomics.pdf)[@leeRegressionDiscontinuityDesigns2010]

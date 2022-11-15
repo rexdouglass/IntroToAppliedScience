@@ -1,0 +1,3 @@
+# Data Validity
+
+English: A measure is valid to the degree that it represents what you are trying to measure. The validity of a measuring process can be measured as representing what you're trying to measure in some aggregate, e.g. on average [@gelmanRegressionOtherStories2020].

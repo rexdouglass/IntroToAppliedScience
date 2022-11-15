@@ -4040,10 +4040,6 @@ The Influence of Hidden Researcher
 Decisions in Applied Microeconomics
 https://docs.iza.org/dp13233.pdf
 
-Using Time Dependent Covariates and Time Dependent
-Coecients in the Cox Model
-https://cran.r-project.org/web/packages/survival/vignettes/timedep.pdf
-
 Introducing geofacet
 https://ryanhafen.com/blog/geofacet/
 
@@ -4150,7 +4146,12 @@ https://arxiv.org/abs/2208.07339
 Understanding Machine Learning: From Theory to Algorithms
 https://www.cs.huji.ac.il/w~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf
 
+Known broken ones that didn't get sorted
 
+Confounder Selection: Objectives and Approaches
+F. Richard Guo, Anton Rask Lundborg, Qingyuan Zhao
 
+[2011.01808](https:/arxiv.org/abs/2011.01808] Article identifier not recognized
+[2108.02497](https:/arxiv.org/abs/2108.02497] Article identifier not recognized
 
 

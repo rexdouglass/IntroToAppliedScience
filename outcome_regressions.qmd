@@ -1,0 +1,8 @@
+# Outcome regressions / Response Surface Modeling
+
+[@degtiarReviewGeneralizabilityTransportability2023]
+"fit an outcome regression in study
+sample data to estimate conditional means, then obtain PATEs by marginalizing
+over (i.e., standardizing to) the target sample covariate distribution by predicting counterfactuals for the target sample
+If the target sample is not a simple random sample from the target population,
+this would be a weighted average using sampling weights (Kim et al., 2018)."

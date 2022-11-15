@@ -1,1 +1,6 @@
 # Bias Variance Tradeoff
+
+
+[On the Bias-Variance Tradeoff: Textbooks Need an Update A Modern Perspective Posted on January 5, 2020](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update)[@nealBiasVarianceTradeoffTextbooks2020]
+TL;DR: It is not always necessary to trade bias for variance when increasing model complexity.
+

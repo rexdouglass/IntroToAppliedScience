@@ -5,3 +5,10 @@
 [How Much Should We Trust Staggered Difference-In-Differences Estimates?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3794018)
 
 [When Is Parallel Trends Sensitive to Functional Form?∗](https://www.econometricsociety.org/system/files/19402-3.pdf)
+
+[Chapter 18 - Difference-in-Differences](https://theeffectbook.net/ch-DifferenceinDifference.html)(@huntington-kleinEffectIntroductionResearch)
+
+[9  Difference-in-Differences](https://mixtape.scunning.com/09-difference_in_differences)[@cunninghamCausalInference2021]
+
+
+[@kahn-langPromisePitfallsDifferencesinDifferences2018]

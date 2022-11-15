@@ -1,0 +1,5 @@
+# Power Calculation
+
+[Quantitative Political Science Research is Greatly Underpowered](https://osf.io/7vy2f/)[@arel-bundockQuantitativePoliticalScience2022]
+
+[You need 16 times the sample size to estimate an interaction than to estimate a main effect](https://statmodeling.stat.columbia.edu/2018/03/15/need-16-times-sample-size-estimate-interaction-estimate-main-effect/)[@YouNeed16]

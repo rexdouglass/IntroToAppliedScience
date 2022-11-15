@@ -1,0 +1,3 @@
+# Fixed Effects
+
+[Chapter 16 - Fixed Effects](https://theeffectbook.net/ch-FixedEffects.html)[@huntington-kleinEffectIntroductionResearch]

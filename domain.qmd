@@ -1,4 +1,8 @@
-# Domain
+# Domain / Generalizability / Transportability
+
+
+Surveys
+[@degtiarReviewGeneralizabilityTransportability2023]
 
 [CHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULTS](https://personal.lse.ac.uk/YoungA/ChannellingFisherQJE.pdf)
 

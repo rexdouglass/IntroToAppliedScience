@@ -1,0 +1,19 @@
+# Research Design Directed Acyclic Graphs (DAGs)
+
+[Directed Acyclic Graphs](https://mixtape.scunning.com/03-directed_acyclical_graphs)[@cunninghamCausalInference2021]
+
+[@pearlDoesObesityShorten2018]
+
+[3.1 - Graphical Models (Intro and Outline)](https://www.youtube.com/watch?v=Go4EkHN_PcA&list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0&index=20)[@GraphicalModelsIntro]
+[The Flow of Association and Causation in Graphs, Brady Neal](https://www.bradyneal.com/slides/3%20-%20The%20Flow%20of%20Association%20and%20Causation%20in%20Graphs.pdf)[@nealGraphTerminologyBayesian]
+
+[Single World Intervention Graphs (SWIGs): A Unification of the Counterfactual and Graphical Approaches to Causality](https://web.lists.fas.harvard.edu/archive/list/gov3009-l@lists.fas.harvard.edu/message/LDAWMEPQRYWZUS2KVELIJ4LPI6INHVQG/attachment/4/wp128.pdf)[@richardsonSingleWorldIntervention2013]
+
+
+[4.7 - Structural Causal Models SCMs](https://www.youtube.com/watch?v=dQeRqb0N6gs)[@bradyneal-causalinferenceStructuralCausalModels2020]
+
+[@janzingQuantifyingCausalInfluences2013]
+
+[@pearlInterpretation2019]
+
+[@pearlTRYGVEHAAVELMOEMERGENCE2015]

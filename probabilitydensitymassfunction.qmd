@@ -1,0 +1,86 @@
+# Probability Mass/Density Function (PMF/PDF)
+
+**Instance of**: function
+
+**AKA**: Discrete density function; density; Probability Function
+
+**Distinct from**: 
+
+**English**: A function that takes in a value, and returns the relative likelihood that a random variable takes on that value. Probability mass functions refer to discrete distributions, e.g. what is the probability that a 6 sided die lands on 5? Probability density functions refer to continuous probability distributions and are usually discussed in terms of ranges or cut ponts, e.g., what is the probability that a sample from a random normal value is above 2?
+
+**Formalization**:
+
+In the continous case, the probability that a random variable $X$ takes on a value between $a$ and $b$ is the integration of its density over that range.
+$$ 
+Pr[a \le X \le b]= \int_{a}^{b} f_x(x)dx
+$$
+
+::: {.column-margin}
+Where $a$ and $b$ are the range of values, and $f_x$ is the density of the random variable.
+:::
+
+
+
+    
+**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Probability_density_function) ; [Wikidata]() ; [Wolfram]()
+  
+**Code**
+    
+::: panel-tabset
+  
+### R
+[]()
+  
+Examples:
+    
+```{r}
+```
+
+
+### Python
+
+[]()
+
+Examples:
+  
+```{python}
+```
+
+
+### SQL
+
+[]()
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+```
+
+### Torch
+
+```{python}
+import torch
+
+```
+
+:::

@@ -1,0 +1,103 @@
+# Likelihood Function
+
+**Instance of**: joint probability
+
+**AKA**: Likelihood
+
+**Distinct from**: 
+
+**English**: The joint probability of the data, conditional on the parameters parameters. How likely are we to observe these data, given this paramater is the True one.
+
+[@etzIntroductionConceptLikelihood2017]
+
+* Likelihood is not probability, but is proportional to a probability.
+
+* Likelihoods are relative, scaled by an arbitrary constant, and need not sum to one.
+
+* Under likelihood the data are fixed, and the hypothesis vary.
+
+**Formalization**:
+
+
+$$ 
+\mathcal{L}(\theta|X)
+$$
+
+::: {.column-margin}
+Where $\theta$ are the parameters, and $X$ is the evidence.
+:::
+
+
+
+Also written in terms of a probability of observing X given the a parameter value
+$$ 
+\mathcal{L}(\theta) = K \times P(X|\theta)
+$$
+
+::: {.column-margin}
+Where $\theta$ are the parameters, and $X$ is the evidence, and $K$ is an arbitrary scaling constant.
+:::
+
+    
+**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Likelihood_function) ; [Wikidata]() ; [Wolfram]()
+  
+**Code**
+    
+::: panel-tabset
+  
+### R
+[]()
+  
+Examples:
+    
+```{r}
+```
+
+
+### Python
+
+[]()
+
+Examples:
+  
+```{python}
+```
+
+
+### SQL
+
+[]()
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+```
+
+### Torch
+
+```{python}
+import torch
+
+```
+
+:::

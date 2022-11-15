@@ -1,0 +1,6 @@
+# Synthetic Controls
+
+
+
+
+[10  Synthetic Control](https://mixtape.scunning.com/10-synthetic_control)[@cunninghamCausalInference2021]

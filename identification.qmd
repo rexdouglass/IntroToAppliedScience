@@ -4,3 +4,5 @@
 
 Identity Crisis
 https://betanalpha.github.io/assets/case_studies/identifiability.html
+
+[Identifiability of Path-Specific Effects](https://ftp.cs.ucla.edu/pub/stat_ser/r321-ijcai05.pdf)[@avinIdentifiabilityPathSpecificEffects]

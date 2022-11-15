@@ -1,0 +1,8 @@
+# Backdoor Adjustment
+
+AKA controlling for confounders
+
+[4.6 - The Backdoor Adjustment
+](https://www.youtube.com/watch?v=U1S8Rq8IcrY)[@bradyneal-causalinferenceBackdoorAdjustment2020]
+
+[Causal Models, Brady Neal](https://www.bradyneal.com/slides/4%20-%20Causal%20Models.pdf)

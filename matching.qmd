@@ -1,0 +1,7 @@
+# Matching
+
+AKA: Subclassification
+
+[5  Matching and Subclassification](https://mixtape.scunning.com/05-matching_and_subclassification)[@cunninghamCausalInference2021]
+
+[Chapter 14 - Matching](https://theeffectbook.net/ch-Matching.html)(@huntington-kleinEffectIntroductionResearch)

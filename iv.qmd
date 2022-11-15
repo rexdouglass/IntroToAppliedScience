@@ -1,3 +1,7 @@
 # Instrumental Variables
 
 [How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on Over 60 Replicated Studies](https://yiqingxu.org/papers/english/2021_iv/LLXZ.pdf)
+
+[Chapter 19 - Instrumental Variables](https://theeffectbook.net/ch-InstrumentalVariables.html)[@huntington-kleinEffectIntroductionResearch]
+
+[Deep IV: A Flexible Approach for Counterfactual Prediction](http://proceedings.mlr.press/v70/hartford17a.html)[@hartfordDeepIVFlexible2017]

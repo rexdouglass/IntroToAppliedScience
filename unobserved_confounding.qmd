@@ -1,0 +1,9 @@
+# Unobserved Confounding
+
+AKA: Sensitivity Analysis
+
+[@veitchSenseSensitivityAnalysis2020]
+
+[A causal framework for distribution generalization](https://arxiv.org/abs/2006.07433)[@A causal framework for distribution generalization]
+
+[Invariant Risk Minimization](https://arxiv.org/abs/1907.02893)[@arjovskyInvariantRiskMinimization2020]

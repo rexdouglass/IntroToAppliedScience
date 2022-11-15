@@ -1,0 +1,13 @@
+/* css styles */
+/* https://stackoverflow.com/questions/73611184/how-do-i-increase-the-width-of-the-content-column-in-quarto */
+
+#quarto-document-content {
+  width: 2000px;
+}
+
+#quarto-margin-sidebar {
+  margin-right: 100px;
+  margin-left: -100px;
+}
+
+$grid-screen-inset-padding: 1.5em;

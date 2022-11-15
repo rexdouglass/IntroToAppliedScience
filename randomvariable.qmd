@@ -1,0 +1,91 @@
+# Random Variable
+
+**Instance of**: measurable function
+
+**AKA**: random quantity, aleatory variable, or stochastic variable
+
+**Distinct from**: 
+
+**English**: A variable which takes values from a sample space, where a probablity distribution describes which values/sets of values are more likely to be taken.
+
+**Formalization**:
+
+A random variable is just a function mapping outcomes to some measurement space.
+$$ 
+X:\Omega \mapsto E
+$$
+
+::: {.column-margin}
+The measurement space is usually the reals, $\mathbb{R}$. The outcomes are formally supposed to be [probability spaces](https://en.wikipedia.org/wiki/Probability_space), which are defined as triples $(\omega, \mathcal{F}, P)$. Where $\mathcal{F}$ could be sets of more than 1 of the possible outcomes, and $P$ maps each possible set to a 0-1 probaility.
+:::
+
+
+
+$$ 
+P(X \in S)=P({\omega\in \Omega| X(\omega) \in S})
+$$
+
+
+    
+**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Random_variable) ; [Wikidata]() ; [Wolfram]()
+  
+**Code**
+    
+::: panel-tabset
+  
+### R
+[]()
+  
+Examples:
+    
+```{r}
+```
+
+
+### Python
+
+[]()
+
+Examples:
+  
+```{python}
+```
+
+
+### SQL
+
+[]()
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+```
+
+### Torch
+
+```{python}
+import torch
+
+```
+
+:::

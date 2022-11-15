@@ -1,0 +1,6 @@
+# Frequentism
+
+AKA:
+
+[Introduction to the Concept of Likelihood
+and Its Applications](https://journals.sagepub.com/doi/pdf/10.1177/2515245917744314)[@etzIntroductionConceptLikelihood2017]

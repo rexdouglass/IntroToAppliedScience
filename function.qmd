@@ -1,0 +1,109 @@
+# Function
+
+## Introduction
+  
+**Instance of**: 
+
+## Frequentist
+
+**AKA**: $f: X \mapsto Y$, $f(x)$, map, mapping, linear map, linear function, transformation, morphism
+
+**Distinct from**: 
+
+**English**: A function from a set X to a set Y is an assignment of an element of Y to each element of X. The set X is the domain, and the set Y is the codomain.
+
+**Formalization**:
+
+The formalization is annoying in that there are multiple conventions for writing a function which are equivalent.
+
+Psuedo code
+```
+f = function(X){
+  Y=X+1 #some operation
+  return(Y)
+}
+```
+Where the domain is all flatoing point numbers and so is the codomain (up to the precision of the computer).
+
+That can also be written.
+
+$$
+f: X \mapsto Y
+$$
+Where $f$ is the name of the function, $\mapsto$  is the "maps to" or "Maplet" symbol.
+  
+**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()
+  
+**Code**
+    
+::: panel-tabset
+  
+### R
+[]()
+  
+Examples:
+    
+```{r}
+```
+
+
+### Python
+
+[]()
+
+Examples:
+  
+```{python}
+```
+
+
+### SQL
+
+[]()
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+```
+
+### Torch
+
+```{python}
+import torch
+
+```
+
+:::
+
+## Bayesian
+
+**English**: 
+**Formalization**:
+
+$$
+$$
+  
+Cites:
+
+**Code**
+  

@@ -1,10 +1,12 @@
 # Preface
 
-Mathematics is the language of the Universe, and like any foreign language, it's not something you learn, it's something you get used to. This book is an artifact of getting used to it over ten years as working scientists and before that 9 years of Phd/MA/BA. 
+[UNDER CONSTRUCTION NOT FOR CICRULATION]
 
-[@lundbergWhatYourEstimand2021]
+Mathematics is the language of the Universe, and like any foreign language, it's not something you learn, it's something you get used to. This book is an artifact resulting from getting used to it over ten years as working scientists and before that 9 years of Phd/MA/BA. Its design philsophy is not to be a coherent text but rather a reference guide. The reader should be able to quickly turn to a topic (or find it through the search bar), and see multiple representations of that idea in english, formalism, code, and relevant papers. It is not designed to teach these topics for the first time, rather it is to help a working applied scientist quickly relearn and apply a topic.
 
-```{r, eval=F}
+
+
+```{r, echo=F, eval=F}
 
 library(data.table)
 library("readr")
@@ -52,3 +54,83 @@ url_missing[!url_missing %>% str_detect('arxiv|wikipedia|tandfonline|ssrn|ncbi|o
 #There's about 200 I can't immediately dismiss as just pulling with a different URL and will need sort out more
 
 ```
+
+
+# Overviews
+
+[Regression and Other Stories](https://users.aalto.fi/~ave/ROS.pdf) [@gelmanRegressionOtherStories2020]
+
+[Applied Bayesian Modelling](http://www.leg.ufpr.br/lib/exe/fetch.php/wiki:internas:biblioteca:cogdon.pdf) [@congdonAppliedBayesianModelling2014]
+
+[Causal Inference The Mixtape](https://mixtape.scunning.com/01-introduction) [@cunninghamCausalInference2021]
+
+[Introduction to the concept of likelihood and its applications](https://journals.sagepub.com/doi/pdf/10.1177/2515245917744314) [@etzIntroductionConceptLikelihood2017]
+
+[Introduction to Probability for Data Science](https://forms.gle/QiRxvYc2qLjQHD7q9) [@IntroductionProbabilityData]
+
+[A Review of Generalizability and Transportability](https://arxiv.org/abs/2102.11904) [@degtiarReviewGeneralizabilityTransportability2023]
+
+[Regression and Causality](https://arxiv.org/pdf/2006.11754.pdf) [@schomakerRegressionCausality2021]
+
+[What are the most important statistical ideas of the past 50 years?](https://arxiv.org/abs/2012.00174) [@gelmanWhatAreMost2021]
+
+[https://statquest.org/](https://statquest.org/)
+
+[The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/) [@huntington-kleinEffectIntroductionResearch]
+
+[Natural Language Processing Advancements By Deep Learning: A Survey](https://arxiv.org/abs/2003.01200) [@torfiNaturalLanguageProcessing2021]
+
+[Minimum Viable Study Plan for Machine Learning Interviews](https://github.com/khangich/machine-learning-interview) [@phamMinimumViableStudy2022]
+
+https://www.bradyneal.com/causal-inference-course
+[Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course) [@nealIntroductionCausalInference2020]
+
+[What Is Your Estimand? Defining the Target Quantity Connects Statistical Evidence to Theory](https://journals.sagepub.com/doi/full/10.1177/00031224211004187?casa_token=Uus7XlaPF-wAAAAA%3Ag6lQuKAfp0prijn7KpeeuxYC1bz0BmnscVm0-sGQ-SjLY-R_Mok-GU71zT4OuhaDEauKZ9tX0n8) [@lundbergWhatYourEstimand2021]
+
+[applied-ml](https://github.com/eugeneyan/applied-ml)
+
+[ML use cases by company](https://github.com/khangich/machine-learning-interview/blob/master/appliedml.md#Alibaba)
+
+[https://github.com/khangich/machine-learning-interview/blob/master/extra.md](https://github.com/khangich/machine-learning-interview/blob/master/extra.md)
+
+[The Ultimate Guide to Machine Learning Job Interviews](https://s3.amazonaws.com/external_clips/3406172/1568840998_The_Ultimate_Guide_to_AI_and_Machine_Learning_Job_Interviews_1_1_.pdf?1587691917)
+
+[InfoQ](https://www.youtube.com/channel/UCkQX1tChV7Z7l1LFF4L9j_g)
+
+[Introducing the Facebook Field Guide to Machine Learning video series](https://research.facebook.com/blog/2018/05/the-facebook-field-guide-to-machine-learning-video-series/)
+
+[Advice On Interviewing With Amazon](https://www.youtube.com/watch?v=gjDcT-Ik--Q)
+
+
+Do you see companies asking to implement algorithm from scratch? Yes, some companies like LinkedIn, Intuit did. The common questions include: implement kmeans, linear/logistic regression. You can find the code here.
+backprop
+https://github.com/khangich/machine-learning-interview/blob/master/sample/backprop.py
+kmeans
+https://github.com/khangich/machine-learning-interview/blob/master/sample/kmeans.ipynb
+logit
+https://github.com/khangich/machine-learning-interview/blob/master/sample/logistic_regression.ipynb
+
+
+[BAYES AND FREQUENTIST](https://drive.google.com/file/d/13Ab0przJ3m-CEQKgto4ssKcTMBDOUR09/view)
+
+[Machine Learning engineer onsite interview: one week checklist](https://mlengineer.io/machine-learning-engineer-onsite-interview-one-week-checklist-cfd19d57fa02)
+
+[@pearlBookWhyNew2018]
+[The Book of Why: The New Science of Cause and Effect](http://bayes.cs.ucla.edu/WHY/jmde-why-review2018.pdf)http://bayes.cs.ucla.edu/WHY/jmde-why-review2018.pdf
+
+[@ComputationalLinearAlgebra]
+[Computational Linear Algebra for Coders](https://github.com/fastai/numerical-linear-algebra)[@FastaiNumericallinearalgebra2022]
+
+[Which causal inference book you should read A flowchart and a list of short book reviews](https://www.bradyneal.com/which-causal-inference-book)[@nealWhichCausalInference2019]
+
+[Detexify](https://detexify.kirelabs.org/classify.html)
+
+[https://bookdown.org/kevin_davisross/probsim-book/](https://bookdown.org/kevin_davisross/probsim-book/)[@rossIntroductionProbabilitySimulation2022]
+
+## References {.unnumbered}
+
+
+
+
+
+

@@ -2,9 +2,10 @@ project:
   type: book
   output-dir: docs
 
-
 book:
-  search: true
+  sidebar:
+    style: "docked"
+    search: true
   repo-url: https://github.com/rexdouglass/IntroToAppliedScience
   repo-actions: [source]
   repo-branch: master
@@ -24,6 +25,7 @@ book:
     - part: "Presentation"
       chapters:
         - markdown.qmd
+    - part: "-------Computation------"
     - part: "Computation"
       chapters:
         - computation.qmd
@@ -42,36 +44,14 @@ book:
         - joins.qmd
         - regex.qmd
         - fuzzyrecordmatching.qmd
-    - part: "Domain"
-      chapters:
-        - domain.qmd
-        - outliers.qmd
-        - regimechange.qmd
-        - poststratification.qmd
-    - part: "Research Design"
-      chapters:
-        - projectdesign.qmd 
-        - unitofanalysis.qmd
-        - estimand.qmd
-        - identification.qmd
-        - GardenOfForkingPaths.qmd
-        - rct.qmd
-        - iv.qmd
-        - diffindiff.qmd
-        - biasvariancetradeoff.qmd
-        - placebotests.qmd
-    - part: "Estimation"
-      chapters:
-        - performance.qmd
-        - outofsampleperformance.qmd
-        - regularization.qmd
-        - pvalues.qmd
+    - part: "-------Certainty------"
     - part: "Mathematical Objects"
       chapters:
         - set.qmd
         - list.qmd
         - tensor.qmd
         - table.qmd
+        - function.qmd
     - part: "Operations of Arithmetic"
       chapters:
         - add.qmd
@@ -80,27 +60,119 @@ book:
         - divide.qmd
     - part: "Operations of Algebra"
       chapters:
-        - dotproduct.qmd    
+        - dotproduct.qmd
+    - part: "-------Uncertainty------"
+    - part: "Probability"
+      chapters:
+        - probabilitydistribution.qmd
+        - randomvariable.qmd      
+        - probabilitydensitymassfunction.qmd
     - part: "Moments of a Distribution"
       chapters:
         - mean.qmd
+    - part: "Distributions"
+    - part: "Information"
+      chapters:
+        - entropy.qmd
+    - part: "Inference"
+      chapters:
+        - bayesianism.qmd
+        - frequentism.qmd
+    - part: "Estimation"
+      chapters:
+        - performance.qmd
+        - outofsampleperformance.qmd
+        - regularization.qmd
+        - pvalues.qmd
+        - biasvariancetradeoff.qmd
+        - bias.qmd
+        - variance.qmd
+        - asymptotics.qmd
+    - part: domain.qmd
+      chapters:
+        - outliers.qmd
+        - regimechange.qmd
+        - internal_validity.qmd
+        - transportability.qmd
+        - external_validity.qmd
+        - matching.qmd
+        - poststratification.qmd
+        - outcome_regressions.qmd
+    - part: Likelihood
+      chapters:
+        - likelihood.qmd
+        - mle.qmd
+    - part: "-------Measurement------"
+    - part: "Data and Measurement"
+      chapters:
+        - validity.qmd
+        - reliability.qmd
+    - part: "Research Design"
+      chapters:
+        - dags_scms.qmd
+        - potentialoutcomes.qmd
+        - projectdesign.qmd 
+        - unitofanalysis.qmd
+        - estimand.qmd
+        - identification.qmd
+        - GardenOfForkingPaths.qmd
+        - confounder.qmd
+        - unobserved_confounding.qmd
+    - part: "Prediction/Forcasting"
+    - part: "Counterfactual causal inference"
+    - part: "Causality the 12 Assumptions"
+      chapters:
+        - no_unmeasured_confounders.qmd
+        - correct_model_specification.qmd
+        - no_conditioning_on_a_collider.qmd
+        - no_conditioning_on_a_mediator.qmd
+        - positivity.qmd
+        - consistency.qmd
+        - no_interference.qmd
+        - no_relevant_effect_modification.qmd
+        - collapsibility.qmd
+        - compliance.qmd
+        - missing_data_mechanism.qmd
+        - transparency.qmd
+        - recoverability.qmd
+        - testability.qmd
+        - no_relevant_measurement_error.qmd
+    - part: "Exogeneity"
+      chapters:
+        - rct.qmd
+        - iv.qmd
+        - diffindiff.qmd
+        - placebotests.qmd
+        - rdd.qmd
+        - fixedeffects.qmd
+        - synthetic_controls.qmd 
     - part: "Supervised Learning"
       chapters:
         - ols.qmd
+        - interactions.qmd        
         - decisiontree.qmd
         - randomforest.qmd
         - gradientboosted.qmd
         - gaussianprocesses.qmd
+    - part: reinforcementlearning.qmd
+      chapters:
+        - reinforcementlearning.qmd
     - part: "Unsupervised Learning"
       chapters:
         - distancemetrics.qmd
-    - references.qmd
+    - part: "Neural Networks"
+      chapters:
+        - neural_network_debugging.qmd
+#    - references.qmd
 
 bibliography: IntroToAppliedScience.bib
 
 format:
   html:
-    theme: cosmo
+    theme: journal
+    #css: styles.css
+    grid:
+      sidebar-width: 400px
   pdf:
     documentclass: scrreprt
 
