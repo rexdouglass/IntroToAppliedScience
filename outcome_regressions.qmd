@@ -1,4 +1,4 @@
-# Outcome regressions / Response Surface Modeling
+# Outcome regressions / Response Surface Modeling  {.unnumbered}
 
 [@degtiarReviewGeneralizabilityTransportability2023]
 "fit an outcome regression in study

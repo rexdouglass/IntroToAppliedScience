@@ -1,4 +1,4 @@
-# Probability Mass/Density Function (PMF/PDF)
+# Probability Mass/Density Function (PMF/PDF)  {.unnumbered}
 
 **Instance of**: function
 

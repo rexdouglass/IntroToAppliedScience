@@ -1,4 +1,4 @@
-# Data Reliability
+# Data Reliability {.unnumbered}
 
 English: A reliable measure is one that is precise and stable, when you measure the same thing again you get the same answer (even it's wrong, you get the same wrong answer again) [@gelmanRegressionOtherStories2020].
 

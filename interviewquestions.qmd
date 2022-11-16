@@ -1,3 +1,23 @@
+# Interview Questions  {.unnumbered}
+
+[Amazon Data Scientist Interview Prep | Interview Coach](https://www.youtube.com/watch?v=0kdthwyye2I)
+
+[A Programmatic Approach to Pre-Revenue Pharmacofinance and Clinical Trial Planning with Michael Kane](https://www.youtube.com/watch?v=AC-f8Y7ufHM)
+
+[Amazon Data Scientist Mock Interview - Fraud Model](https://www.youtube.com/watch?v=68I67w63IpY)
+
+[Amazon Machine Learning Engineer Interview: K-Means Clustering](https://www.youtube.com/watch?v=xKZHH-UOsUM&t=1231s)
+
+[Amazon Prep Video - Applied Scientist (AS)](https://www.youtube.com/watch?v=Y4qYcglrYnI)
+* Data structures and algorithms, data sorting, searching, mergin, recursion, loops, function definitions, o-notation
+* live code, amazon's platform
+* think about edge cases, consider memory/speed tradeoffs
+* practice easy medium question on hacker rank/leet code
+* For science breadth they'll ask you about your research ML, Math, Statistics
+* Data training, machine learning frameworks, mathematical optimization and statistics, model training and deployment
+* Deep learning, nlp, computer vision, operational research modeling, optimization, robotics if you're worked in those areas
+* Star method
+* case study, requirement gathering, data collection, modeling deployment, performance tuning
 
 
 Pen and Paper Exercises in Machine Learning

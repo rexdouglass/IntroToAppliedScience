@@ -1,3 +1,3 @@
-# Fuzzy Recording Matching
+# Fuzzy Recording Matching {.unnumbered}
 
 [Name Match](https://github.com/urban-labs/namematch)

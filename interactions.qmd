@@ -1,4 +1,4 @@
-# Interactions
+# Interactions {.unnumbered}
 
 [@limLearningInteractionsHierarchical2015]
 

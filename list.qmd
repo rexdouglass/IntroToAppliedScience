@@ -1,4 +1,4 @@
-# List (Sequence)
+# List (Sequence) {.unnumbered}
 
 AKA: Sequence, $a_n$ where n is the nth element, (1,2,3, ....)
 

@@ -1,4 +1,4 @@
-# Potential Outcomes
+# Potential Outcomes {.unnumbered}
 
 [4  Potential Outcomes Causal Model](https://mixtape.scunning.com/04-potential_outcomes)[@cunninghamCausalInference2021]
 

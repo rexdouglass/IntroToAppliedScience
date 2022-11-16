@@ -1,5 +1,6 @@
-# Random Control Trials
+# Random Control Trials  {.unnumbered}
 
+AKA: RCT
 
 [Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015](https://www.nature.com/articles/s41562-018-0399-z)
 

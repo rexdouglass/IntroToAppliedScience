@@ -1,4 +1,4 @@
-# Research Design Directed Acyclic Graphs (DAGs)
+# Research Design Directed Acyclic Graphs (DAGs) {.unnumbered}
 
 [Directed Acyclic Graphs](https://mixtape.scunning.com/03-directed_acyclical_graphs)[@cunninghamCausalInference2021]
 

@@ -1,2 +1,2 @@
-# Maximum Likelihood Estimation (MLE)
+# Maximum Likelihood Estimation (MLE) {.unnumbered}
 

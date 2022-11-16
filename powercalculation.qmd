@@ -1,4 +1,4 @@
-# Power Calculation
+# Power Calculation {.unnumbered}
 
 [Quantitative Political Science Research is Greatly Underpowered](https://osf.io/7vy2f/)[@arel-bundockQuantitativePoliticalScience2022]
 

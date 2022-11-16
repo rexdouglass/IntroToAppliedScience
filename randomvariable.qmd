@@ -1,4 +1,4 @@
-# Random Variable
+# Random Variable  {.unnumbered}
 
 **Instance of**: measurable function
 

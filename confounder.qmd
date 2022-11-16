@@ -1,4 +1,4 @@
-# Confounder
+# Confounder {.unnumbered}
 
 
 Confounder Selection: Objectives and Approaches [@guoConfounderSelectionObjectives2022]

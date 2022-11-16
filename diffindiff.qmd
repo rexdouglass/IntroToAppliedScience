@@ -1,4 +1,4 @@
-# Difference in Difference
+# Difference in Difference {.unnumbered}
 
 [How Much Should We Trust Differences-In-Differences Estimates?](https://academic.oup.com/qje/article-abstract/119/1/249/1876068)
 

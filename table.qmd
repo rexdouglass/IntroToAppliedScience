@@ -1,6 +1,5 @@
----
-title: "Table"
----
+# Table  {.unnumbered}
+
   
 ## Introduction
   

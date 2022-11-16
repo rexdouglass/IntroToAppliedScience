@@ -1,4 +1,4 @@
-# Likelihood Function
+# Likelihood Function {.unnumbered}
 
 **Instance of**: joint probability
 

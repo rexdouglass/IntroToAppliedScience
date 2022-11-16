@@ -1,4 +1,4 @@
-# Bash
+# Bash {.unnumbered}
 
 Bash scripting cheatsheet
 https://devhints.io/bash

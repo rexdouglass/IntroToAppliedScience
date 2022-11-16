@@ -1,4 +1,4 @@
-# Regularization
+# Regularization {.unnumbered}
 
 [Ridge Regression Can Produce Misleading Inferences in the Presence of Strong Confounders: The Case of Mass Polarization](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189012)
 

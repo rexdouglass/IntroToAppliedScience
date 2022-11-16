@@ -1,4 +1,4 @@
-# Unit of Analysis
+# Unit of Analysis  {.unnumbered}
 
 Ecological Inference in the Social Sciences
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885825/

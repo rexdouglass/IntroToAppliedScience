@@ -1,0 +1,149 @@
+# And  {.unnumbered}
+
+**Instance of**: logic
+
+**AKA**: 
+
+**Distinct from**: 
+
+**English**: 
+
+**Formalization**:
+
+$$ 
+$$
+
+**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()
+
+**Code**
+
+::: panel-tabset
+
+### R
+[]()
+
+Examples:
+
+```{r}
+a=TRUE
+b=FALSE
+a & b
+```
+
+
+### Python
+
+[]()
+
+Examples:
+
+Note do not use & or you will get a different result
+
+```{python}
+a=True
+b=False
+a and b
+```
+
+Note do not use & or you will get a different result
+&' is a bitwise operator in Python that acts on bits and performs bit by bit operation
+
+[https://www.geeksforgeeks.org/difference-between-and-and-in-python/#:~:text=and%20is%20a%20Logical%20AND,otherwise%20True%20when%20using%20logically.](https://www.geeksforgeeks.org/difference-between-and-and-in-python/#:~:text=and%20is%20a%20Logical%20AND,otherwise%20True%20when%20using%20logically.)
+
+```{python}
+a=14
+b=4
+a & b
+```
+
+### Numpy
+
+[]()
+https://numpy.org/doc/stable/reference/generated/numpy.logical_and.html
+
+Examples:
+
+```{python}
+import numpy as np
+a=np.array(True)
+b=np.array(False)
+np.logical_and(a, b)
+```
+
+### Jax
+
+[]()
+
+Examples:
+
+```{python}
+import jax.numpy as jnp
+a=jnp.array(True)
+b=jnp.array(False)
+jnp.logical_and(a, b)
+```
+
+
+### SQL
+https://www.w3schools.com/sql/sql_operators.asp
+https://www.databasestar.com/sql-boolean-data-type/#:~:text=SQL%20Server%20Boolean,TRUE%20and%200%20for%20FALSE.
+[]()
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+SELECT TRUE AND FALSE;
+```
+```{sql, connection=con}
+SELECT TRUE AND TRUE;
+```
+
+### Torch
+
+https://pytorch.org/docs/stable/generated/torch.logical_and.html
+
+```{python}
+import torch
+a = torch.tensor(True)
+b = torch.tensor(False)
+torch.logical_and(a, b)
+
+```
+
+:::
+
+### Tensorflow
+
+https://www.tensorflow.org/api_docs/python/tf/math/logical_and
+
+```{python}
+import tensorflow as tf
+a = tf.constant(True)
+b = tf.constant(False)
+tf.math.logical_and(a, b)
+
+```
+
+
+
+  

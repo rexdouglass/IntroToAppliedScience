@@ -1,4 +1,4 @@
-# Synthetic Controls
+# Synthetic Controls {.unnumbered}
 
 
 

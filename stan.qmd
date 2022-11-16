@@ -1,4 +1,5 @@
-# Stan
+# Stan {.unnumbered}
+
 https://mc-stan.org/users/documentation/
 
 ## brms

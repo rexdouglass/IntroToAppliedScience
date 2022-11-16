@@ -1,0 +1,130 @@
+# Modulo  {.unnumbered}
+
+**Instance of**: modular arithmetic
+
+**AKA**: 
+
+**Distinct from**: 
+
+**English**: A modulo operation retrieves the remainder following euclidean division. Euclidean division is division with a remainder. The quotient is an integer count of the number of times the whole divisor can be placed in the dividend. The remainder is the dividend minus the quotient times the divisor.
+
+**Formalization**:
+
+$$ 
+$$
+
+**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()
+
+**Code**
+
+::: panel-tabset
+
+### R
+[]()
+
+Examples:
+
+```{r}
+dividend=10
+divisor=3
+remainder= 10 %% 3
+remainder
+```
+
+
+### Python
+
+[]()
+
+Examples:
+
+```{python}
+dividend=10
+divisor=3
+remainder= 10 % 3
+remainder
+```
+### Numpy
+
+[]()
+
+Examples:
+
+```{python}
+import numpy as np
+dividend=np.array(10)
+divisor=np.array(3)
+remainder= np.mod(10,3)
+remainder
+```
+
+### Jax
+
+[]()
+
+Examples:
+
+```{python}
+import jax.numpy as jnp
+dividend=jnp.array(10)
+divisor=jnp.array(3)
+remainder= jnp.mod(10,3)
+remainder
+```
+
+
+### SQL
+
+[]()
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+SELECT MOD(10, 3);
+```
+
+### Torch
+
+```{python}
+import torch
+dividend = torch.tensor(10)
+divisor = torch.tensor(3)
+remainder=torch.remainder(dividend, divisor)
+remainder
+```
+
+:::
+
+### Tensorflow
+
+```{python}
+import tensorflow as tf
+dividend = tf.constant(10)
+divisor = tf.constant(3)
+remainder=tf.math.floormod(dividend, divisor)
+remainder
+```
+
+
+
+  

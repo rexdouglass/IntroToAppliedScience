@@ -1,6 +1,4 @@
----
-title: "Vector/Matrix/Tensor"
----
+# Vector/Matrix/Tensor {.unnumbered}
 
 **Instance of**: algebraic object / data structure
 

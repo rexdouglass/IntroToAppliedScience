@@ -1,3 +1,3 @@
-# Neural Network Debugging
+# Neural Network Debugging {.unnumbered}
 
 "Since this seriously helped a friend the other day: If your network doesn't learn, reduce the dataset to a small batch (eg 32 examples) and try to overfit on it. The loss should be near zero (because the network should be able to memorize it); if not, there's a bug in your code."

@@ -1,4 +1,4 @@
-# Out of Sample Performance
+# Out of Sample Performance {.unnumbered}
 
 Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure
 David R. Roberts,Volker Bahn,Simone Ciuti,Mark S. Boyce,Jane Elith,Gurutzeta Guillera-Arroita,Severin Hauenstein,José J. Lahoz-Monfort,Boris Schröder,Wilfried Thuiller,David I. Warton,Brendan A. Wintle,Florian Hartig,Carsten F. Dormann

@@ -1,4 +1,4 @@
-# Reinforcement Learning
+# Reinforcement Learning {.unnumbered}
 
 Overviews
 * Reinforcement Learning: A Six Part Series [@mutualinformationReinforcementLearningSix2022]

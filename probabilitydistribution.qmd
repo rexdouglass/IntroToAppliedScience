@@ -1,4 +1,4 @@
-# Probability distribution
+# Probability distribution {.unnumbered}
 
 **Instance of**: function
 

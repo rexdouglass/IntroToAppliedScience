@@ -1,4 +1,4 @@
-# Instrumental Variables
+# Instrumental Variables {.unnumbered}
 
 [How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on Over 60 Replicated Studies](https://yiqingxu.org/papers/english/2021_iv/LLXZ.pdf)
 

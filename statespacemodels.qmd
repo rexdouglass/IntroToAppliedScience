@@ -1,3 +1,3 @@
-# 
+# State Space Models  {.unnumbered}
 
 [Dynamic State Space Models in JAX](https://github.com/probml/dynamax)

@@ -1,2 +1,2 @@
-# Numpyro
+# Numpyro  {.unnumbered}
 https://github.com/pyro-ppl/numpyro

@@ -1,6 +1,4 @@
----
-title: "Mean"
----
+# Mean  {.unnumbered}
 
 ## Introduction
 

@@ -1,4 +1,5 @@
-# SQL
+# SQL {.unnumbered}
+
 postgresql
 https://www.postgresql.org/docs/
 

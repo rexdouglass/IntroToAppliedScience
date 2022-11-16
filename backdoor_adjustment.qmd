@@ -1,4 +1,4 @@
-# Backdoor Adjustment
+# Backdoor Adjustment {.unnumbered}
 
 AKA controlling for confounders
 

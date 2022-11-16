@@ -1,1 +1,1 @@
-# No conditioning on a collider
+# No conditioning on a collider {.unnumbered}

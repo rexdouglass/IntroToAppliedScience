@@ -1,4 +1,4 @@
-# P Values
+# P Values {.unnumbered}
 
 [Bayesian estimation supersedes the t test](https://pubmed.ncbi.nlm.nih.gov/22774788/)
 

@@ -1,4 +1,4 @@
-# Gaussian Processes
+# Gaussian Processes {.unnumbered}
 
 [GPJax](https://github.com/thomaspinder/GPJax)
 "GPJax aims to provide a low-level interface to Gaussian process (GP) models in Jax, structured to give researchers maximum flexibility in extending the code to suit their own needs."

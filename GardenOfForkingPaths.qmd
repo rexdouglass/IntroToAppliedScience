@@ -1,4 +1,4 @@
-# Garden of Forking Paths
+# Garden of Forking Paths {.unnumbered}
 
 [The garden of forking paths: Why multiple comparisons can be a problem, even when there is no “fishing expedition” or “p-hacking” and the research hypothesis was posited ahead of time∗, Andrew Gelman† and Eric Loken](http://stat.columbia.edu/~gelman/research/unpublished/forking.pdf)
 

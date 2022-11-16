@@ -1,6 +1,4 @@
----
-title: ""
----
+# Outcome Binary  {.unnumbered}
   
 ## Introduction
   

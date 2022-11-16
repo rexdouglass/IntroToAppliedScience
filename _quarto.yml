@@ -2,6 +2,7 @@ project:
   type: book
   output-dir: docs
 
+
 book:
   sidebar:
     style: "docked"
@@ -13,7 +14,7 @@ book:
   sharing: [twitter, facebook]
   title: "Introduction to Applied Science"
   author: "Rex W. Douglass"
-  date: "11/4/2022"
+  date: "11/15/2022"
   chapters:
     - part: "Introduction"
       chapters:
@@ -22,6 +23,7 @@ book:
         - lit.qmd
         - sociologyofinference.qmd
         - practicecoding.qmd
+        - salaries.qmd
     - part: "Presentation"
       chapters:
         - markdown.qmd
@@ -52,12 +54,16 @@ book:
         - tensor.qmd
         - table.qmd
         - function.qmd
+    - part: "Operations of Logic"
+      chapters:
+        - and.qmd
     - part: "Operations of Arithmetic"
       chapters:
         - add.qmd
         - subtract.qmd
         - multiply.qmd
         - divide.qmd
+        - modulo.qmd
     - part: "Operations of Algebra"
       chapters:
         - dotproduct.qmd
