@@ -127,6 +127,8 @@ https://github.com/khangich/machine-learning-interview/blob/master/sample/logist
 
 [https://bookdown.org/kevin_davisross/probsim-book/](https://bookdown.org/kevin_davisross/probsim-book/)[@rossIntroductionProbabilitySimulation2022]
 
+[Algorithms & Data Structures Super Study Guide](https://superstudy.guide/algorithms-data-structures/foundations/algorithmic-concepts)
+
 ## References {.unnumbered}
 
 

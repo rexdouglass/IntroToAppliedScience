@@ -1,4 +1,4 @@
-# Vector/Matrix/Tensor {.unnumbered}
+# Vector / Matrix / Tensor {.unnumbered}
 
 **Instance of**: algebraic object / data structure
 
@@ -22,6 +22,10 @@ Array:
 
 [3Blue1Brown: Vectors | Chapter 1, Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs)
 [3Blue1Brown: Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra](https://www.youtube.com/watch?v=k7RM-ot2NWY)
+
+[https://superstudy.guide/algorithms-data-structures/data-structures/arrays-strings](https://superstudy.guide/algorithms-data-structures/data-structures/arrays-strings)
+*Kadane's algorithm
+
 
 Matrix:
 
@@ -118,6 +122,13 @@ con <- dbConnect(RPostgres::Postgres())
 ```
 
 ### Jax
+
+"JAX provides a multidimensional array data structure called DeviceArray that implements many typical properties and methods of the numpy.ndarray"
+
+```{python}
+import torch
+
+```
 
 ### Torch
 

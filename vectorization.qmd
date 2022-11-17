@@ -1,0 +1,104 @@
+# Vectorization {.unnumbered}
+
+
+**Instance of**: 
+
+
+**AKA**: 
+
+**Distinct from**: 
+
+**English**: 
+
+**Formalization**:
+  
+$$ 
+$$
+    
+**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()
+  
+**Code**
+    
+::: panel-tabset
+  
+### R
+[]()
+  
+Examples:
+    
+```{r}
+```
+
+
+### Python
+
+[]()
+
+Examples:
+  
+```{python}
+```
+
+### Jax
+
+Jax handles automatic-vectorization using vmap()
+
+
+```{python}
+
+```
+
+
+### SQL
+
+[]()
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+```
+
+### Torch
+
+```{python}
+import torch
+
+```
+
+:::
+
+## Bayesian
+
+**English**: 
+**Formalization**:
+
+$$
+$$
+  
+Cites:
+
+**Code**
+  
+    
+  
+    

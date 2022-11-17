@@ -1,0 +1,91 @@
+# XLA {.unnumbered}
+
+## Introduction
+  
+**Instance of**: 
+
+
+**AKA**: 
+
+**Distinct from**: 
+
+**English**: "XLA is Google’s domain-specific compiler for linear algebra called Accelerated Linear Algebra. It compiles your Python functions with linear algebra operations to high-performance code for running on GPU or TPU."
+
+Originally developed for tensorflow, it has now also been included in Jax's design. XLA compiles a program's graph into a sequence of computation kernels, specifically optimized for that model's constraints. 
+
+**Formalization**:
+  
+$$ 
+$$
+    
+**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()
+
+[@sabneXLACompilingMachine2020]
+
+[XLA: Optimizing Compiler for Machine Learning](https://www.tensorflow.org/xla)
+
+[Known Issues](https://www.tensorflow.org/xla/known_issues)
+
+[XLA Architecture](https://www.tensorflow.org/xla/architecture)
+
+**Code**
+    
+::: panel-tabset
+  
+### R
+[]()
+  
+Examples:
+    
+```{r}
+```
+
+
+### Python
+
+[]()
+
+Examples:
+  
+```{python}
+```
+
+
+### Torch
+
+Pytorch can compile to XLA for use on TPUs
+[PyTorch/XLA](https://github.com/pytorch/xla)
+
+```{python}
+import torch
+
+```
+
+### Tensorflow
+
+[Enable XLA for TensorFlow models](https://www.tensorflow.org/xla)
+
+You can enable or disable jit at a function specific level
+
+```{python}
+import tensorflow as tf
+@tf.function(jit_compile=True)
+def example_function():
+  return None
+
+```
+
+### Jax
+
+Jax automatically performs XLA compilation for you.
+
+"What’s new is that JAX uses XLA to compile and run your NumPy programs on GPUs and TPUs. Compilation happens under the hood by default, with library calls getting just-in-time compiled and executed. But JAX also lets you just-in-time compile your own Python functions into XLA-optimized kernels using a one-function API, jit. Compilation and automatic differentiation can be composed arbitrarily, so you can express sophisticated algorithms and get maximal performance without leaving Python. You can even program multiple GPUs or TPU cores at once using pmap, and differentiate through the whole thing."
+https://github.com/google/jax
+
+```{python}
+```
+
+:::
+
+  
+    

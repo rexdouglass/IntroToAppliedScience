@@ -19,11 +19,11 @@ book:
     - part: "Introduction"
       chapters:
         - index.qmd
-        - intro.qmd
         - lit.qmd
         - sociologyofinference.qmd
         - practicecoding.qmd
         - salaries.qmd
+        - gossip.qmd
     - part: "Presentation"
       chapters:
         - markdown.qmd
@@ -40,6 +40,9 @@ book:
         - pytorch.qmd
         - tensorflow.qmd
         - sql.qmd
+        - o_notation.qmd
+        - vectorization.qmd
+        - parallelization.qmd
     - part: "Data management"
       chapters:
         - filter.qmd
@@ -47,16 +50,25 @@ book:
         - regex.qmd
         - fuzzyrecordmatching.qmd
     - part: "-------Certainty------"
-    - part: "Mathematical Objects"
+    - part: "Mathematical and Data Structures"
       chapters:
         - set.qmd
         - list.qmd
         - tensor.qmd
         - table.qmd
         - function.qmd
+        - stacks_queues.qmd
+        - hash_table.qmd
+        - graphs.qmd
+        - trees.qmd
+        - sorting_algorithms.qmd
+        - search_algorithms.qmd
     - part: "Operations of Logic"
       chapters:
         - and.qmd
+    - part: "Operations of Control Flow"
+      chapters:
+        - ifelse.qmd
     - part: "Operations of Arithmetic"
       chapters:
         - add.qmd
@@ -67,6 +79,10 @@ book:
     - part: "Operations of Algebra"
       chapters:
         - dotproduct.qmd
+    - part: "Operations of Calculus"
+      chapters:
+        - derivative.qmd
+        - automatic_differentiation.qmd        
     - part: "-------Uncertainty------"
     - part: "Probability"
       chapters:
@@ -77,9 +93,12 @@ book:
       chapters:
         - mean.qmd
     - part: "Distributions"
+      chapters:
+        - distribution_normal.qmd  
     - part: "Information"
       chapters:
         - entropy.qmd
+        - maximum_entropy_probability_distribution.qmd
     - part: "Inference"
       chapters:
         - bayesianism.qmd

@@ -1,0 +1,156 @@
+# Normal Distribution {.unnumbered}
+
+
+**Instance of**: probability distribution
+
+
+**AKA**: Normal; Gaussian distribution; Standard normal; bell curve; $\varphi(x)$; $X \sim \mathrm{N}()$; $\Phi(x)$; normal deviate
+
+**Distinct from**: 
+
+**English**: The normal distribution is a symmetric bell shaped distribution that has several important mathematical properties: it the distribution with maximum entropy of all possible distributions with a specified mean and variance; it is the distribution that a binomial distribution tends toward as the sample goes to infinity (infinite coin flips); and it is the distribution that the mean of samples from any other distribution with finite mean and variance will tend towards (central limit theorem). Because of its centrality and generality, many real world natural phenomenon will tend to be normally distributed.
+
+Some related ideas
+* The mean of any set of variates with finite mean and variance tends to be normally distributed, [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem).
+* The sum or subtraction of two normally distributed variables is also normally distributed.
+* The ratio of two normally distributed variables is Cauchy distributed.
+
+**Formalization**:
+
+Some intuition for the formalization of the pdf 
+
+* It approximates the pdf of a Binomial Distribution with the same mean and variance as N goes to infinity [@tushevSimpleIntuitionNormal2021].
+
+* The denominator $\frac{1}{\sigma\sqrt(2\pi)}$ can be thought of as a constant for normalizing/scaling the distribution taking into account the variance and making sure it sums to 1.
+* The numerator $\mathrm{e}^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$ can be thought of as several cascading functions that together pound the curve into the desired shaped
+
+* Euler's number appears $e^A$ as an arbitrary convenient base and could be replaced with any other positive constant with some modification[@tushevSimpleIntuitionNormal2021]
+
+
+
+Standard normal distribution with mean zero and standard deviation one
+$$
+f(x)=\frac{\mathrm{e}^{-\frac{1}{2}(x)^2}}{\sqrt{2\pi}}
+$$
+
+
+::: {.column-margin}
+Where $\mathrm{e}$ is [Euler's number](https://en.wikipedia.org/wiki/E_(mathematical_constant)). <br> x is event. <br> The denominator $\sqrt{2\pi}$  acts to scale.
+:::
+
+```{r}
+x=0
+numerator=exp(-1*0.5*x^2)
+denominator=sqrt(2*pi)
+numerator/denominator
+
+dnorm(0)
+```
+
+```{r}
+library(ggplot2)
+x=seq(-3,3,0.1)
+ggplot() + geom_point(aes(x=x,y=dnorm(x=x,mean = 0, sd = 1)))
+```
+
+
+Including $\mu$ and $\sigma$ allow us to shift and stretch the distribution
+$$
+f(x)=\frac{\mathrm{e}^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}}{\sigma\sqrt{2\pi}}
+$$
+
+```{r}
+library(ggplot2)
+x=seq(-3,3,0.1)
+ggplot() + geom_point(aes(x=x,y=dnorm(x=x,mean = 1, sd = 1)))
+ggplot() + geom_point(aes(x=x,y=dnorm(x=x,mean = 0, sd = 2)))
+```
+
+
+**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram](https://mathworld.wolfram.com/NormalDistribution.html)
+
+[A Simple Intuition Behind The Normal Distribution Equation](https://miroslavtushev.medium.com/a-simple-intuition-behind-the-normal-distribution-formula-91512fd81ae2)[@tushevSimpleIntuitionNormal2021]
+
+[The Normal Distribution as a Limit of Binomial Distributions](https://openpress.usask.ca/introtoappliedstatsforpsych/chapter/5-2-the-normal-distribution-as-a-limit-of-binomial-distributions/)[@sartyNormalDistributionLimit2022]
+
+
+**Code**
+
+::: panel-tabset
+
+### R
+[]()
+
+Examples:
+
+```{r}
+```
+
+
+### Python
+
+[]()
+
+Examples:
+
+```{python}
+```
+
+### Jax
+
+```{python}
+
+```
+
+
+### SQL
+
+[]()
+
+```{r}
+library(DBI)
+# Create an ephemeral in-memory RSQLite database
+#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+#dbListTables(con)
+#dbWriteTable(con, "mtcars", mtcars)
+#dbListTables(con)
+
+#Configuration failed because libpq was not found. Try installing:
+#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
+#install.packages('RPostgres')
+#remotes::install_github("r-dbi/RPostgres")
+#Took forever because my file permissions were broken
+#pg_lsclusters
+require(RPostgres)
+# Connect to the default postgres database
+#I had to follow these instructions and create both a username and database that matched my ubuntu name
+#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+con <- dbConnect(RPostgres::Postgres())
+
+```
+
+```{sql, connection=con}
+```
+
+### Torch
+
+```{python}
+import torch
+
+```
+
+:::
+
+## Bayesian
+
+**English**: 
+**Formalization**:
+
+$$
+$$
+
+Cites:
+
+**Code**
+
+  

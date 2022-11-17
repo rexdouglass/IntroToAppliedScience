@@ -1,3 +1,25 @@
 # jax {.unnumbered}
 
+[JAX: composable transformations of Python+ NumPy programs](https://github.com/google/jax#citing-jax)[@bradburyJAXComposableTransformations2018]
+
+[Wikipedia- Google JAX](https://en.wikipedia.org/wiki/Google_JAX)
+
 https://github.com/google/jax
+
+[JAX in Action](https://livebook.manning.com/book/jax-in-action/welcome/v-2/)[@WelcomeJAXAction]
+* Compared to pytorch and tensorflow which organizes code in classes, jax typically organizes code into functions.
+* Jax is minimalistic, no data loaders no high level model components, those are being backfilled by other packages.
+
+
+[JAX Quickstart](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html)
+
+[Get started with JAX!](https://github.com/gordicaleksa/get-started-with-JAX)
+
+[Jax Vs PyTorch Key Differences](https://pythonguides.com/jax-vs-pytorch/)
+
+[JAX Crash Course - Accelerating Machine Learning code!](https://www.youtube.com/watch?v=juo5G3t4qAo)
+
+[Why You Should (or Shouldn't) be Using Google's JAX in 2022](https://www.assemblyai.com/blog/why-you-should-or-shouldnt-be-using-jax-in-2022/)
+
+[The Autodiff Cookbook](https://jax.readthedocs.io/en/latest/notebooks/autodiff_cookbook.html)
+

@@ -1,7 +1,7 @@
-# If Else
+# If / Else / Where
 
 
-**Instance of**: logic
+**Instance of**: operation of control flow
 
 **AKA**: 
 
@@ -14,21 +14,25 @@
 $$ 
 $$
 
-**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()
+**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)) ; [Wikidata]() ; [Wolfram]()
 
 **Code**
 
 ::: panel-tabset
 
 ### R
-[]()
+[ifelse: Conditional Element Selection](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/ifelse)
 
 Examples:
 
 ```{r}
-a=TRUE
-b=FALSE
-a & b
+if(TRUE){
+  "A"
+} else {
+  "B"
+}
+  
+ifelse(TRUE, "A", "B" )
 ```
 
 
@@ -41,39 +45,61 @@ Examples:
 Note do not use & or you will get a different result
 
 ```{python}
-a=True
-b=False
-a and b
+
+if True:
+  print("A")
+else:
+  print("B")
+
+
 ```
-
-Note do not use & or you will get a different result
-&' is a bitwise operator in Python that acts on bits and performs bit by bit operation
-
-[https://www.geeksforgeeks.org/difference-between-and-and-in-python/#:~:text=and%20is%20a%20Logical%20AND,otherwise%20True%20when%20using%20logically.](https://www.geeksforgeeks.org/difference-between-and-and-in-python/#:~:text=and%20is%20a%20Logical%20AND,otherwise%20True%20when%20using%20logically.)
 
 ```{python}
-a=14
-b=4
-a & b
+
+if False:
+  print("1")
+elif True:
+  print("2")
+else:
+  print("3")
+
 ```
+
 
 ### Numpy
 
-[]()
-https://numpy.org/doc/stable/reference/generated/numpy.logical_and.html
+[numpy.where](https://numpy.org/doc/stable/reference/generated/numpy.where.html)
+You can use np.where masks as a kind of vectorized if else statement, choosing between elements from either A or B
 
 Examples:
 
 ```{python}
+
 import numpy as np
-a=np.array(True)
-b=np.array(False)
-np.logical_and(a, b)
+x=np.array(True) #
+np.where(x , "A", "B")
+
 ```
 
 ### Jax
 
 []()
+
+The first option in jax is to use where statements as in the numpy example
+
+```{python}
+
+import jax.numpy as jnp
+x=jnp.array(True) #
+#TypeError: Value 'A' with dtype <U1 is not a valid JAX array type. Only arrays of numeric types are supported by JAX.
+jnp.where(x , 1, 2) #Note jax doesn't allow string types
+
+```
+
+If doing autograd if statements have more constraints.
+
+[Control Flow](https://jax.readthedocs.io/en/latest/notebooks/Common_Gotchas_in_JAX.html#control-flow)
+* In jax, grad works through if statements unconstrained
 
 Examples:
 

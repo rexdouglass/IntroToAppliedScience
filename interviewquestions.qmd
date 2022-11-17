@@ -1,5 +1,10 @@
 # Interview Questions  {.unnumbered}
 
+[Stripe Data Science Mock Interview: Retry Transaction ft. Paypal Data Scientist](https://www.youtube.com/watch?v=uCiBkaA4V6M)
+* A transaction gets declined, say for a subscription paid by a credit card, how do you optimize when to hit that credit card again hoping it goes through?
+
+[Applied Scientist -I interview @ Amazon | Mtech CSE |](https://www.youtube.com/watch?v=TqRrmx_ZKaM)
+
 [Amazon Data Scientist Interview Prep | Interview Coach](https://www.youtube.com/watch?v=0kdthwyye2I)
 
 [A Programmatic Approach to Pre-Revenue Pharmacofinance and Clinical Trial Planning with Michael Kane](https://www.youtube.com/watch?v=AC-f8Y7ufHM)
