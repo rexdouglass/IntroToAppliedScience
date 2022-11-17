@@ -2,7 +2,9 @@
 
 [UNDER CONSTRUCTION NOT FOR CICRULATION]
 
-Mathematics is the language of the Universe, and like any foreign language, it's not something you learn, it's something you get used to. This book is an artifact resulting from getting used to it over ten years as working scientists and before that 9 years of Phd/MA/BA. Its design philsophy is not to be a coherent text but rather a reference guide. The reader should be able to quickly turn to a topic (or find it through the search bar), and see multiple representations of that idea in english, formalism, code, and relevant papers. It is not designed to teach these topics for the first time, rather it is to help a working applied scientist quickly relearn and apply a topic.
+Mathematics is the language of the Universe, and like any foreign language, it's not something you learn, it's something you get used to. This book is an artifact resulting from getting used to it over ten years as a working scientists and before that 9 years of Phd/MA/BA. 
+
+It is designed to be a reference guide not a coherent text. Its design philosophy is maximize first order retrievability, like an encyclopedia. The reader should be able to quickly turn to a topic (or find it through the search bar), and see multiple representations of that idea in english, formalism, code, and relevant papers. It is not designed to teach these topics for the first time, rather it is to help a working applied scientist quickly relearn and apply a topic.
 
 
 

@@ -30,6 +30,23 @@ example_list = list(1,2,3)
 example_list
 ```
 
+Sorting a list in R
+[Sorting or Ordering Vectors](https://stat.ethz.ch/R-manual/R-devel/library/base/html/sort.html)
+
+You can specify auto, shell, quick, or radix algorithms. Auto typically chooses [radix](https://en.wikipedia.org/wiki/Radix_sort). Radix applies to lexigraphical data, e.g. string and numbers. Radix has $O(nw)$ time where $n$ is the number of keys and $w$ is the length of the keys.
+
+[Fast, stable and scalable true radix sorting](https://user2015.math.aau.dk/presentations/234.pdf)
+
+*Radix because it's fast for R's use case
+
+*It is [stable](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability). Stable sorts preserve the original order of two elements if they are equal by the sorting criteria.
+
+```{r}
+temp <- 5:1
+sort(temp)
+```
+
+
 ## Python
 
 Documentation:
@@ -41,6 +58,30 @@ Examples:
 ```{python}
 example_list =  [1,2,3]
 example_list
+```
+
+The 'range' function returns a generator for integers from between start to (stop-1). It'll do reverse as well but you have to pass a third decrement term. 
+[The Python range() Function (Guide)](https://realpython.com/python-range/)
+```{python}
+[q for q in range(5,10)]
+[q for q in range(10,5,-1)]
+
+```
+
+Python lists have to ways to sort, in palce with "sort" or returning a new list with "sorted".
+[Sorting HOW TO](https://docs.python.org/3/howto/sorting.html)
+
+Python uses [Timsort](https://en.wikipedia.org/wiki/Timsort) whose best case is $O(n)$ and worst and average case are both $O(nlog(n))$
+
+```{python}
+temp=[q for q in range(10,5,-1)]
+temp
+temp.sort()
+temp
+
+temp=[q for q in range(10,5,-1)]
+sorted(temp)
+
 ```
 
 ## SQL

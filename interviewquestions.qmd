@@ -1,5 +1,9 @@
 # Interview Questions  {.unnumbered}
 
+[Engineering Manager Mock Interview ft. Robinhood EM](https://www.youtube.com/watch?v=sOX_Xl1TKic)
+
+[Climbing Stairs - Dynamic Programming - Leetcode 70 - Python](https://www.youtube.com/watch?v=uCiBkaA4V6M)
+
 [Stripe Data Science Mock Interview: Retry Transaction ft. Paypal Data Scientist](https://www.youtube.com/watch?v=uCiBkaA4V6M)
 * A transaction gets declined, say for a subscription paid by a credit card, how do you optimize when to hit that credit card again hoping it goes through?
 

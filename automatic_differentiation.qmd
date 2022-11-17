@@ -1,4 +1,4 @@
-# Automatic Differentiation
+# Automatic Differentiation  {.unnumbered}
 
 AKA: automatic differentiation (AD);  called algorithmic differentiation;  computational differentiation; auto-differentiation; simply autodiff
 
