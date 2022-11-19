@@ -1,0 +1,14 @@
+{
+  "hash": "676e217f5a0a8afc98afd7afd1869ade",
+  "result": {
+    "markdown": "# Or {.unnumbered}\n\n\n**Instance of**: \n\n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n  \n$$ \n$$\n    \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='or_cache/html/unnamed-chunk-1_0151fb2868ffefce564bdac4dce8401e'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='or_cache/html/unnamed-chunk-2_99c2de126fea8b06a1e1d7d0bb5bd961'}\n\n:::\n\n\n### Jax\n\n\n::: {.cell hash='or_cache/html/unnamed-chunk-3_98250500e4bd56104baaf3593ba3e5be'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='or_cache/html/unnamed-chunk-4_c051f69cd2ad89e047b454c3abc08208'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='or_cache/html/unnamed-chunk-5_8d1a7e4acc1dbc1a5fae9c694dc5ee8d'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='or_cache/html/unnamed-chunk-6_5ef62fb83390c277a492c2e5444db3d4'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

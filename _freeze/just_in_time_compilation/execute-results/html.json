@@ -1,0 +1,14 @@
+{
+  "hash": "a503aeee6a579aa197b0358ba7231755",
+  "result": {
+    "markdown": "# Just in Time Compilation {.unnumbered}\n\n[Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)\n\n## Introduction\n  \n**Instance of**: \n\n**AKA**: just-in-time (JIT) compilation; dynamic translation or run-time compilations\n\n**Distinct from**: \n\n**English**: An approach that compiles either source code or bytecode to machine code just prior to execution in order to achieve the speed benefits of compiled code without the preparation cost of compiling code ahead of time interrupting the development cycle.\n\n**Formalization**:\n  \n$$ \n$$\n    \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='just_in_time_compilation_cache/html/unnamed-chunk-1_40f50daaa7131841836a9032efe254e0'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='just_in_time_compilation_cache/html/unnamed-chunk-2_895a57995baa8c55cbdc351b4c4a424c'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='just_in_time_compilation_cache/html/unnamed-chunk-3_816b7050a384dca550f6a55d29f1eb6c'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='just_in_time_compilation_cache/html/unnamed-chunk-4_a8b1d399bebac5a3781205f991e249c9'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='just_in_time_compilation_cache/html/unnamed-chunk-5_730b7f41c2f1fa63f8ffca282feacdb2'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9c529ba89831ab0b073a3a5f7b38051f",
+  "result": {
+    "markdown": "# Dot product  {.unnumbered}\n\n  \n## Introduction\n  \n**Instance of**: algebraic operation\n\n**AKA**: scalar product; inner product ; projection product ; $ · $\n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n  \n$$\na \\cdot b\n$$\n    \n**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Dot_product) ; [Wikidata]() ; [Wolfram]()\n\n[3Blue1Brown: Dot products and duality | Chapter 9, Essence of linear algebra](https://www.youtube.com/watch?v=LyGKycYT2v0)\n\n**Code**\n    \n::: panel-tabset\n  \n### R\n**Documentation**: []()\n  \nExamples:\n    \n\n::: {.cell hash='dotproduct_cache/html/unnamed-chunk-1_340d449dcb6a7b4ba66ef35dc8c9f8ca'}\n\n:::\n\n\n\n\n\n### Python\n\n**Documentation**: [numpy.mean](https://numpy.org/doc/stable/reference/generated/numpy.mean.html)\n\nExamples:\n  \n\n::: {.cell hash='dotproduct_cache/html/unnamed-chunk-2_f0d33f2fd839b5b0cb90fb379fa31ee5'}\n\n:::\n\n\n\n### SQL\n\n**Documentation**: [PostgreSQL AVG Function](https://www.postgresqltutorial.com/postgresql-aggregate-functions/postgresql-avg-function/)\n\n\n::: {.cell hash='dotproduct_cache/html/unnamed-chunk-3_6d46ad5c26aefa8a203d23fc4eec05f5'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='dotproduct_cache/html/unnamed-chunk-4_3cdeca709017cc6a1defa2a75830ffdc'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='dotproduct_cache/html/unnamed-chunk-5_c850a54918c5b55aaec3358729bbf6e3'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

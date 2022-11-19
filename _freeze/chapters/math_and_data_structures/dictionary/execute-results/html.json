@@ -1,0 +1,14 @@
+{
+  "hash": "349e5b346b12fa318afdb2cad1ea87c4",
+  "result": {
+    "markdown": "# Dictionary {.unnumbered}\n\n**Instance of**: data structure\n\n**AKA**: associative array, key-value store\n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n  \n$$ \n$$\n    \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='dictionary_cache/html/unnamed-chunk-1_d1759bacfc3801dce1b79b1b308e4dcb'}\n\n:::\n\n\n\n### Python\n\n[5.5. Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)\n\nExamples:\n  \n\n::: {.cell hash='dictionary_cache/html/unnamed-chunk-2_38a5d99f85f5e85d75c7a713105c75e3'}\n\n:::\n\n\n### Jax\n\n\n::: {.cell hash='dictionary_cache/html/unnamed-chunk-3_b483360c41befa7c6c365db1ffd30b14'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='dictionary_cache/html/unnamed-chunk-4_1c38d02c329fd5a3abdd9bdd50fb3667'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='dictionary_cache/html/unnamed-chunk-5_3b974e0e0b6af407080ad38331e35d8a'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='dictionary_cache/html/unnamed-chunk-6_dd64bfc9a8fb69a415e6e5acbfd9da29'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

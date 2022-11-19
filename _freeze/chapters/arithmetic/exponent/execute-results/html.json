@@ -1,0 +1,14 @@
+{
+  "hash": "7f721275f834262081b4eb35621d6fa9",
+  "result": {
+    "markdown": "# Exponent {.unnumbered}\n\n\n**Instance of**: \n\n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n\n$$ \n$$\n\n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n\n**Code**\n\n::: panel-tabset\n\n### R\n[]()\n\nExamples:\n\n\n::: {.cell hash='exponent_cache/html/unnamed-chunk-1_64c2fd9a1e26b60c9b7bc4b19f27af5c'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n\nFor reasons that are beyond me \"^\" is bitwise or (XOR) in python and ** is exponent.\n\n\n::: {.cell hash='exponent_cache/html/unnamed-chunk-2_88f52ca550de4c99516be8cab61d8c5b'}\n\n```{.python .cell-code}\n4 ** 3\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n64\n```\n:::\n:::\n\n\n### Jax\n\n\n::: {.cell hash='exponent_cache/html/unnamed-chunk-3_82423d05d7e8c28881742e6092415487'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='exponent_cache/html/unnamed-chunk-4_4c654491f9819f540aceaabd0a22f1c1'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='exponent_cache/html/unnamed-chunk-5_143017aba34caf86a0f1ac993a422bac'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='exponent_cache/html/unnamed-chunk-6_10f80c34fe334c3f9744320cbea8af8e'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n\nCites:\n\n**Code**\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

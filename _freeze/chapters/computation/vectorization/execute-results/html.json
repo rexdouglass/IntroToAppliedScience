@@ -1,0 +1,14 @@
+{
+  "hash": "2b028827b5c9615478fada3f7ce9b9b9",
+  "result": {
+    "markdown": "# Vectorization {.unnumbered}\n\n\n**Instance of**: \n\n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n  \n$$ \n$$\n    \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='vectorization_cache/html/unnamed-chunk-1_85469b1d091410ac7c3db3e7be763b96'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='vectorization_cache/html/unnamed-chunk-2_89dfb528f9af4b2141220886b7ba802f'}\n\n:::\n\n\n### Jax\n\nJax handles automatic-vectorization using vmap()\n\n\n\n::: {.cell hash='vectorization_cache/html/unnamed-chunk-3_1519f77f1debb507db235dffb87ed3e9'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='vectorization_cache/html/unnamed-chunk-4_0447b219b45e312b5ba9aa31a7958d92'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='vectorization_cache/html/unnamed-chunk-5_2415ad0f70f8bfa624e2c07e5472004a'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='vectorization_cache/html/unnamed-chunk-6_8791c2eab0a5eebe95f875d6f828a31b'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  \n    \n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

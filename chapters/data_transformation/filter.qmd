@@ -1,0 +1,159 @@
+# Filter  {.unnumbered}
+
+**Instance of**: Higher-order function
+
+**AKA**: Subset
+
+**Distinct from**: 
+
+**English**: 
+
+**Formalization**:
+
+$$ 
+$$
+    
+**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Filter_(higher-order_function)) ; [Wikidata](https://www.wikidata.org/wiki/Q2672873) 
+  
+**Code**
+
+{{< include ../../include_toy_data.qmd >}}
+
+## R
+
+#### Base {.unnumbered}
+
+[subset: Subsetting Vectors, Matrices and Data Frames](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset)
+  
+```{r}
+
+toy_vector_numeric[toy_vector_numeric > 1]
+
+toy_matrix[toy_matrix>5]
+
+toy_df |> subset(x>1)
+
+toy_df[toy_df$x>1,]
+
+```
+
+#### Dplyr {.unnumbered}
+
+[Subset rows using column values](https://dplyr.tidyverse.org/reference/filter.html)
+
+```{r}
+
+toy_df %>% dplyr::filter(x>1)
+
+```
+
+#### DataTable {.unnumbered}
+
+[Subsetting Rows](https://datatable.readthedocs.io/en/latest/manual/comparison_with_rdatatable.html)
+
+```{r}
+
+toy_dt |> subset(x>1)
+
+toy_dt[x>1,,]
+
+```
+
+## Python
+
+[How to Filter List Elements in Python](https://www.pythontutorial.net/python-basics/python-filter-list/)
+[filter(function, iterable, /)](https://docs.python.org/3/library/functions.html#filter)
+
+```{python}
+
+filtered = []
+for element in toy_list:
+  if type(element)==type([]):
+    filtered.append(element)
+filtered
+
+```
+
+[Python Filter()](https://www.techbeamers.com/python-filter-function/#:~:text=Python%20filter()%20function%20applies,is%20of%20the%20iterable%20type.)
+
+```{python}
+
+def fun(element):
+  return( type(element)==type([]) )
+filtered = filter(fun, toy_list)
+type(filtered)
+list(filtered)
+
+```
+
+```{python}
+
+#filtered = filter(  lamda element : type(element)==type([]) , toy_list) #I don't know why this example fails but the next works
+#type(filtered)
+#list(filtered)
+
+scores = [70, 60, 80, 90, 50]
+filtered = filter(lambda score: score >= 70, scores)
+print(list(filtered))
+
+```
+
+[Filtering Elements in List Comprehensions](https://realpython.com/lessons/filtering-elements-list-comprehensions/)
+
+```{python}
+[element for element in toy_list if type(element)==type([])]
+```
+
+[filter items in a python dictionary where keys contain a specific  string](https://stackoverflow.com/questions/23862406/filter-items-in-a-python-dictionary-where-keys-contain-a-specific-string)
+
+```{python}
+{k:v for k,v in toy_dictionary.items() if v>1}
+```
+
+```{python}
+# filter by key
+dict(filter(lambda e : e[0]=='a', toy_dictionary.items() ) ) 
+# filter by value
+dict(filter(lambda e : e[1]>1, toy_dictionary.items() ) ) 
+
+```
+
+
+[Filtering (reducing) a NumPy Array](https://stackoverflow.com/questions/58422690/filtering-reducing-a-numpy-array)
+
+```{python}
+toy_vector_numeric[toy_vector_numeric>1]
+```
+
+[Filter pandas Dataframes](https://chrisalbon.com/code/python/data_wrangling/filter_dataframes/)
+#This actually fitlers on row and column names not values
+[pandas.DataFrame.filter](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.filter.html)
+
+```{python}
+toy_df[toy_df['x']>1]
+```
+
+[pandas.DataFrame.query](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.query.html)
+
+```{python}
+toy_df.query('x > 1')
+```
+
+
+## PostgreSQL
+
+[PostgreSQL WHERE](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-where/)
+
+```{sql, connection=con_Postgres}
+
+SELECT	* FROM 	toy_df
+where x>1;
+
+```
+
+## Torch
+
+```{python}
+import torch
+
+```

@@ -1,0 +1,14 @@
+{
+  "hash": "2c4d8947b3fe3f68285cb50f34e6bb7f",
+  "result": {
+    "markdown": "# XLA {.unnumbered}\n\n## Introduction\n  \n**Instance of**: \n\n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \"XLA is Google’s domain-specific compiler for linear algebra called Accelerated Linear Algebra. It compiles your Python functions with linear algebra operations to high-performance code for running on GPU or TPU.\"\n\nOriginally developed for tensorflow, it has now also been included in Jax's design. XLA compiles a program's graph into a sequence of computation kernels, specifically optimized for that model's constraints. \n\n**Formalization**:\n  \n$$ \n$$\n    \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n\n[@sabneXLACompilingMachine2020]\n\n[XLA: Optimizing Compiler for Machine Learning](https://www.tensorflow.org/xla)\n\n[Known Issues](https://www.tensorflow.org/xla/known_issues)\n\n[XLA Architecture](https://www.tensorflow.org/xla/architecture)\n\n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='xla_cache/html/unnamed-chunk-1_d0345f7e7619cd666cee4492ee328f7f'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='xla_cache/html/unnamed-chunk-2_dac430fe13f9ea1f80fe47d965871619'}\n\n:::\n\n\n\n### Torch\n\nPytorch can compile to XLA for use on TPUs\n[PyTorch/XLA](https://github.com/pytorch/xla)\n\n\n::: {.cell hash='xla_cache/html/unnamed-chunk-3_ccc65b1e821753ebeda068d3a889cdb3'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n### Tensorflow\n\n[Enable XLA for TensorFlow models](https://www.tensorflow.org/xla)\n\nYou can enable or disable jit at a function specific level\n\n\n::: {.cell hash='xla_cache/html/unnamed-chunk-4_e0320aacfbb223111e9f47da3d032e86'}\n\n```{.python .cell-code}\nimport tensorflow as tf\n@tf.function(jit_compile=True)\ndef example_function():\n  return None\n```\n:::\n\n\n### Jax\n\nJax automatically performs XLA compilation for you.\n\n\"What’s new is that JAX uses XLA to compile and run your NumPy programs on GPUs and TPUs. Compilation happens under the hood by default, with library calls getting just-in-time compiled and executed. But JAX also lets you just-in-time compile your own Python functions into XLA-optimized kernels using a one-function API, jit. Compilation and automatic differentiation can be composed arbitrarily, so you can express sophisticated algorithms and get maximal performance without leaving Python. You can even program multiple GPUs or TPU cores at once using pmap, and differentiate through the whole thing.\"\nhttps://github.com/google/jax\n\n\n::: {.cell hash='xla_cache/html/unnamed-chunk-5_bce9df7934b4d9215a33d54af4cfdfac'}\n\n:::\n\n\n:::\n\n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

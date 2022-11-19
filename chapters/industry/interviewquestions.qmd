@@ -1,0 +1,73 @@
+# Interview Questions  {.unnumbered}
+
+[You Are Not Expected to Understand This": How 26 Lines of Code Changed the World Paperback – November 15, 2022](https://www.amazon.com/You-Are-Expected-Understand-This/dp/0691208484)
+
+[Solutions Architect Mock Customer Demo (with Salesforce SA)](https://www.youtube.com/watch?v=JnmpeY540Ig)
+
+[4 CR+ SALARY for DATA SCIENTISTS ??🔥GATE AIR-2 to MACHINE LEARNING @ AMAZON🔥 Scaler Data Science](https://www.youtube.com/watch?v=6Gd9i3DxhkM)
+
+[Engineering Manager Mock Interview ft. Robinhood EM](https://www.youtube.com/watch?v=sOX_Xl1TKic)
+
+[Climbing Stairs - Dynamic Programming - Leetcode 70 - Python](https://www.youtube.com/watch?v=uCiBkaA4V6M)
+
+[Stripe Data Science Mock Interview: Retry Transaction ft. Paypal Data Scientist](https://www.youtube.com/watch?v=uCiBkaA4V6M)
+* A transaction gets declined, say for a subscription paid by a credit card, how do you optimize when to hit that credit card again hoping it goes through?
+
+[Applied Scientist -I interview @ Amazon | Mtech CSE |](https://www.youtube.com/watch?v=TqRrmx_ZKaM)
+
+[Amazon Data Scientist Interview Prep | Interview Coach](https://www.youtube.com/watch?v=0kdthwyye2I)
+
+[A Programmatic Approach to Pre-Revenue Pharmacofinance and Clinical Trial Planning with Michael Kane](https://www.youtube.com/watch?v=AC-f8Y7ufHM)
+
+[Amazon Data Scientist Mock Interview - Fraud Model](https://www.youtube.com/watch?v=68I67w63IpY)
+
+[Amazon Machine Learning Engineer Interview: K-Means Clustering](https://www.youtube.com/watch?v=xKZHH-UOsUM&t=1231s)
+
+[Amazon Prep Video - Applied Scientist (AS)](https://www.youtube.com/watch?v=Y4qYcglrYnI)
+* Data structures and algorithms, data sorting, searching, mergin, recursion, loops, function definitions, o-notation
+* live code, amazon's platform
+* think about edge cases, consider memory/speed tradeoffs
+* practice easy medium question on hacker rank/leet code
+* For science breadth they'll ask you about your research ML, Math, Statistics
+* Data training, machine learning frameworks, mathematical optimization and statistics, model training and deployment
+* Deep learning, nlp, computer vision, operational research modeling, optimization, robotics if you're worked in those areas
+* Star method
+* case study, requirement gathering, data collection, modeling deployment, performance tuning
+
+
+Pen and Paper Exercises in Machine Learning
+Michael U. Gutmann
+https://arxiv.org/abs/2206.13446
+
+
+Deep Learning Interviews: Hundreds of fully solved job interview questions from a wide range of key topics in AI
+Shlomo Kashani, Amir Ivry
+https://arxiv.org/abs/2201.00650
+
+
+
+"How would you help us filter spam?"
+
+Behavioral interview questions
+Behavioral (experience-based or patterned behavioral) interviews are past-oriented in that they ask respondents to relate what they did in past jobs or life situations that are relevant to the particular job-relevant knowledge, skills, and abilities required for success.[56][66] The idea is that past behavior is the best predictor of future performance in similar situations. By asking questions about how job applicants have handled situations in the past that are similar to those they will face on the job, employers can gauge how they might perform in future situations.[64]
+
+Behavioral interview questions include:[67]
+
+Describe a situation in which you were able to use persuasion to successfully convince someone to see things your way.
+Give me an example of a time when you set a goal and were able to meet or achieve it.
+Tell me about a time when you had to use your presentation skills to influence someone's opinion.
+Give me an example of a time when you had to conform to a policy with which you did not agree.
+Examples include the STAR and SOARA techniques.
+
+Other types of questions
+Other possible types of questions that may be asked alongside structured interview questions or in a separate interview include background questions, job knowledge questions, and puzzle-type questions. A brief explanation of each follows.
+
+Background questions include a focus on work experience, education, and other qualifications.[68] For instance, an interviewer may ask "What experience have you had with direct sales phone calls?" Interviews composed primarily of these types of questions are often labeled "conventional interviews".
+Job knowledge questions may ask candidates to describe or demonstrate knowledge, skills, and abilities (KSAs) relevant to the job. These are typically highly specific questions.[69] For example, one question may be "What steps would you take to conduct a manager training session on safety?"
+The puzzle interview was popularized by Microsoft in the 1990s and is now used in other organizations. The most common types of questions either ask the applicant to solve puzzles or brain teasers (e.g., "Why are manhole covers round?") or to solve unusual problems (e.g., "How would you weigh an airplane without a scale?").[70]
+Specialized formats
+Case
+Further information: Case interview
+A case interview is an interview form used mostly by management consulting firms and investment banks in which the job applicant is given a question, situation, problem or challenge and asked to resolve the situation. The case problem is often a business situation or a business case that the interviewer has worked on in real life.[citation needed]
+
+In recent years, companies in other sectors like Design, Architecture, Marketing, Advertising, Finance, and Strategy have adopted a similar approach to interviewing candidates. Technology has transformed the Case-based and Technical interview process from a purely private in-person experience to an online exchange of job skills and endorsements.

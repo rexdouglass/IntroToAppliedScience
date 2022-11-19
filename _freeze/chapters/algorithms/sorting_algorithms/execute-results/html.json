@@ -1,0 +1,14 @@
+{
+  "hash": "6ebe7e7b6c389ab5c93c5c949c0ff43b",
+  "result": {
+    "markdown": "# Sorting Algorithms {.unnumbered}\n\n\n**Instance of**: \n\n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n\n$$ \n$$\n\n**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm) ; [Wikidata]() ; [Wolfram]()\n\n[Sorting algorithms](https://superstudy.guide/algorithms-data-structures/sorting-search/sorting-algorithms)\n\n**Code**\n\n::: panel-tabset\n\n### R\n[]()\n\nExamples:\n\n\n::: {.cell hash='sorting_algorithms_cache/html/unnamed-chunk-1_22d24cc0fbc9e90e2028518a4dad022f'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n\n\n::: {.cell hash='sorting_algorithms_cache/html/unnamed-chunk-2_ec002838657f9d50b4c6b300744e7645'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='sorting_algorithms_cache/html/unnamed-chunk-3_7231bcbbca9c356f009955e133352da8'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='sorting_algorithms_cache/html/unnamed-chunk-4_8a80eaeffcb94b0035a64a52fd2b63d5'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='sorting_algorithms_cache/html/unnamed-chunk-5_a66cf11af90ad74de491d7676e8db119'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n\nCites:\n\n**Code**\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

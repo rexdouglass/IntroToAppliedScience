@@ -1,0 +1,14 @@
+{
+  "hash": "27b7c39032461423dded0cb9e325737f",
+  "result": {
+    "markdown": "# Outcome Binary  {.unnumbered}\n  \n## Introduction\n  \n**Instance of**: \n\n## Frequentist\n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n  \n$$ \n$$\n    \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='outcome_binary_cache/html/unnamed-chunk-1_60d4e34b39dd023469e5550dcab85fe5'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='outcome_binary_cache/html/unnamed-chunk-2_6fafb199b6de7b554feda03cc1e89616'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='outcome_binary_cache/html/unnamed-chunk-3_06b4545c8946d902de21708dbfee3335'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='outcome_binary_cache/html/unnamed-chunk-4_c8f173c3441f86ddcb8383678734cc91'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='outcome_binary_cache/html/unnamed-chunk-5_b98cd88a90bc0a3597cd777b11dcb68d'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n\nNotes:\n\n**OLS**\n* Unbiased only within very specific conditions that don't typically hold [@horraceResultsBiasInconsistency2006]\n* Almost always inconsistent [@horraceResultsBiasInconsistency2006]\n\n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

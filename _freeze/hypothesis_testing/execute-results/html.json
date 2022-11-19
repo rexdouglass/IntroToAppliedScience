@@ -1,0 +1,14 @@
+{
+  "hash": "313806e1cfbbe8f210b6eef99fa0d2ff",
+  "result": {
+    "markdown": "# Hypothesis Testing {.unnumbered}\n\n**Instance of**: joint probability\n\n**AKA**: hypo testing\n\n**Distinct from**: \n\n**English**: The probability of a hypothesis being true given the data.\n\n* Not probability, but proportional to a probability [@etzIntroductionConceptLikelihood2017]\n\n\n**Formalization**:\n\nWritten as a probability of a hypothesis being true, where the hypothesis is framed in values of a parameter\n\n\n$$ \n\\mathcal{L}(H|X)\n$$\n\n::: {.column-margin}\nWhere $H$ are the hypotheses, and $X$ is the evidence.\n:::\n \n    \n**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Likelihood_function) ; [Wikidata]() ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='hypothesis_testing_cache/html/unnamed-chunk-1_d78cc212cc5a507ad97183a1a4501cce'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='hypothesis_testing_cache/html/unnamed-chunk-2_42cc4369cb39c4f62f7228a715f4c199'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='hypothesis_testing_cache/html/unnamed-chunk-3_0697d78db1613dca24d84360d0c4102f'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='hypothesis_testing_cache/html/unnamed-chunk-4_346140d84dbc3cce6505094928056edc'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='hypothesis_testing_cache/html/unnamed-chunk-5_ea4c5c9e31486d5cb67589624a1fd56a'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

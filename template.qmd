@@ -1,99 +1,118 @@
-# {.unnumbered}
+# Filter  {.unnumbered}
 
+**Instance of**: Higher-order function
 
-**Instance of**: 
-
-
-**AKA**: 
+**AKA**: Subset
 
 **Distinct from**: 
 
 **English**: 
 
 **Formalization**:
-  
+
 $$ 
 $$
     
-**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()
+**Cites**: [Wikipedia]()) ; [Wikidata]() 
   
 **Code**
-    
-::: panel-tabset
-  
-### R
-[]()
-  
-Examples:
-    
-```{r}
-```
 
+{{< include ../../include_postgresql.qmd >}}
 
-### Python
+## R
 
-[]()
-
-Examples:
-  
-```{python}
-```
-
-### Jax
-
-```{python}
-
-```
-
-
-### SQL
+#### Base {.unnumbered}
 
 []()
 
 ```{r}
-library(DBI)
-# Create an ephemeral in-memory RSQLite database
-#con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
-#dbListTables(con)
-#dbWriteTable(con, "mtcars", mtcars)
-#dbListTables(con)
 
-#Configuration failed because libpq was not found. Try installing:
-#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)
-#install.packages('RPostgres')
-#remotes::install_github("r-dbi/RPostgres")
-#Took forever because my file permissions were broken
-#pg_lsclusters
-require(RPostgres)
-# Connect to the default postgres database
-#I had to follow these instructions and create both a username and database that matched my ubuntu name
-#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
-con <- dbConnect(RPostgres::Postgres())
 
 ```
+
+#### Tidyverse {.unnumbered}
+
+[]()
+
+```{r}
+
+
+
+```
+
+#### DataTable {.unnumbered}
+
+[]()
+
+```{r}
+
+```
+
+#### Arrow {.unnumbered}
+
+
+## Python
+
+#### 3.x / math/ statistics
+
+[]()
+
+```{python}
+
+
+
+```
+
+#### NumPy / SciPy / scikit-learn
+
+
+#### Pandas
+
+[]()
+
+```{python}
+
+```
+
+## Jax
+
+```{python}
+
+```
+
+## Numpyro
+
+```{python}
+
+```
+
+## Stan
+
+```{python}
+
+```
+
+## Torch
+
+```{python}
+
+```
+
+## Tensorflow
+
+```{python}
+
+```
+
+## PostgreSQL
+
+[]()
 
 ```{sql, connection=con}
-```
-
-### Torch
-
-```{python}
-import torch
 
 ```
 
-:::
+## DuckDB
 
-## Bayesian
+[]()
 
-**English**: 
-**Formalization**:
-
-$$
-$$
-  
-Cites:
-
-**Code**
-  
-    

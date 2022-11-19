@@ -1,0 +1,14 @@
+{
+  "hash": "0f31690ad27c4b9e877d2b9210e6f094",
+  "result": {
+    "markdown": "# Function {.unnumbered}\n\n## Introduction\n  \n**Instance of**: \n\n## Frequentist\n\n**AKA**: $f: X \\mapsto Y$, $f(x)$, map, mapping, linear map, linear function, transformation, morphism\n\n**Distinct from**: \n\n**English**: A function from a set X to a set Y is an assignment of an element of Y to each element of X. The set X is the domain, and the set Y is the codomain.\n\n**Formalization**:\n\nThe formalization is annoying in that there are multiple conventions for writing a function which are equivalent.\n\nPsuedo code\n```\nf = function(X){\n  Y=X+1 #some operation\n  return(Y)\n}\n```\nWhere the domain is all flatoing point numbers and so is the codomain (up to the precision of the computer).\n\nThat can also be written.\n\n$$\nf: X \\mapsto Y\n$$\nWhere $f$ is the name of the function, $\\mapsto$  is the \"maps to\" or \"Maplet\" symbol.\n  \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='function_cache/html/unnamed-chunk-1_2c5200aa0a88f404703c398b899e178a'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='function_cache/html/unnamed-chunk-2_24e14106e69a5de633f4e861329b3f0a'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='function_cache/html/unnamed-chunk-3_f86b8be4aa4b74ed9f8eed64cfecc8ab'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='function_cache/html/unnamed-chunk-4_559a7e76ff8c2d6d585f7a90ef82df8f'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='function_cache/html/unnamed-chunk-5_5557c3feb627b33e91647f46c049e2aa'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

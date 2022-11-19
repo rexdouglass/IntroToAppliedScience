@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>filter</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#filter" id="toc-filter" class="nav-link active" data-scroll-target="#filter">Filter</a>
+  <ul>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a>
+  <ul>
+  <li><a href="#base" id="toc-base" class="nav-link" data-scroll-target="#base">Base</a></li>
+  <li><a href="#dplyr" id="toc-dplyr" class="nav-link" data-scroll-target="#dplyr">Dplyr</a></li>
+  <li><a href="#datatable" id="toc-datatable" class="nav-link" data-scroll-target="#datatable">DataTable</a></li>
+  </ul></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
+  <li><a href="#postgresql" id="toc-postgresql" class="nav-link" data-scroll-target="#postgresql">PostgreSQL</a></li>
+  <li><a href="#torch" id="toc-torch" class="nav-link" data-scroll-target="#torch">Torch</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="filter" class="level1 unnumbered">
+<h1 class="unnumbered">Filter</h1>
+<p><strong>Instance of</strong>: Higher-order function</p>
+<p><strong>AKA</strong>: Subset</p>
+<p><strong>Distinct from</strong>:</p>
+<p><strong>English</strong>:</p>
+<p><strong>Formalization</strong>:</p>
+<p><span class="math display">\[
+\]</span></p>
+<p><strong>Cites</strong>: <a href="https://en.wikipedia.org/wiki/Filter_(higher-order_function)">Wikipedia</a> ; <a href="https://www.wikidata.org/wiki/Q2672873">Wikidata</a></p>
+<p><strong>Code</strong></p>
+<details>
+<summary>
+Spin up toy data objects and databases
+</summary>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>toy_vector_numeric <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>)</span>
+<span id="cb1-2"><a href="#cb1-2"></a>toy_vector_character <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">'a'</span>,<span class="st">'b'</span>,<span class="st">'c'</span>,<span class="st">'d'</span>,<span class="st">'e'</span>)</span>
+<span id="cb1-3"><a href="#cb1-3"></a>toy_matrix <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>, <span class="at">nrow=</span><span class="dv">3</span>,<span class="at">ncol=</span><span class="dv">3</span>)</span>
+<span id="cb1-4"><a href="#cb1-4"></a>toy_list <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="st">'a'</span>,<span class="st">'1'</span>,T,<span class="fu">c</span>(<span class="st">'red'</span>,<span class="st">'green'</span>))</span>
+<span id="cb1-5"><a href="#cb1-5"></a>toy_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">id=</span><span class="fu">c</span>(<span class="st">'unit1'</span>,<span class="st">'unit2'</span>,<span class="st">'unit3'</span>), <span class="at">y=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>), <span class="at">x=</span> <span class="fu">c</span>(<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">1</span>))</span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="fu">library</span>(data.table)</span>
+<span id="cb1-7"><a href="#cb1-7"></a>toy_dt <span class="ot">&lt;-</span> <span class="fu">data.table</span>(<span class="at">id=</span><span class="fu">c</span>(<span class="st">'unit1'</span>,<span class="st">'unit2'</span>,<span class="st">'unit3'</span>), <span class="at">y=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>), <span class="at">x=</span> <span class="fu">c</span>(<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">1</span>))</span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6      ✔ purrr   0.3.5 
+✔ tibble  3.1.8      ✔ dplyr   1.0.10
+✔ tidyr   1.2.1      ✔ stringr 1.4.1 
+✔ readr   2.1.3      ✔ forcats 0.5.2 
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::between()   masks data.table::between()
+✖ dplyr::filter()    masks stats::filter()
+✖ dplyr::first()     masks data.table::first()
+✖ dplyr::lag()       masks stats::lag()
+✖ dplyr::last()      masks data.table::last()
+✖ purrr::transpose() masks data.table::transpose()</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-2"><a href="#cb3-2"></a>toy_vector_numeric <span class="op">=</span> np.array([<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>])</span>
+<span id="cb3-3"><a href="#cb3-3"></a>toy_vector_character <span class="op">=</span> np.array([<span class="st">'a'</span>,<span class="st">'b'</span>,<span class="st">'c'</span>,<span class="st">'d'</span>,<span class="st">'e'</span>])</span>
+<span id="cb3-4"><a href="#cb3-4"></a>toy_list <span class="op">=</span> [<span class="st">'a'</span>,<span class="st">'1'</span>,<span class="va">True</span>,[<span class="st">'red'</span>,<span class="st">'green'</span>]]</span>
+<span id="cb3-5"><a href="#cb3-5"></a>toy_dictionary <span class="op">=</span> { <span class="st">'a'</span>:<span class="dv">1</span> , <span class="st">'b'</span>:<span class="dv">2</span>, <span class="st">'c'</span>:<span class="dv">3</span>}</span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-7"><a href="#cb3-7"></a>toy_df <span class="op">=</span> pd.DataFrame(data<span class="op">=</span>{<span class="st">'id'</span>: [<span class="st">'unit1'</span>,<span class="st">'unit2'</span>,<span class="st">'unit3'</span>], <span class="st">'y'</span>: [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], <span class="st">'x'</span>: [<span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">1</span>]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">library</span>(DBI)</span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="co"># Create an ephemeral in-memory RSQLite database</span></span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="co">#con &lt;- dbConnect(RSQLite::SQLite(), dbname = ":memory:")</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="co">#dbListTables(con)</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="co">#dbWriteTable(con, "mtcars", mtcars)</span></span>
+<span id="cb4-6"><a href="#cb4-6"></a><span class="co">#dbListTables(con)</span></span>
+<span id="cb4-7"><a href="#cb4-7"></a></span>
+<span id="cb4-8"><a href="#cb4-8"></a><span class="co">#Configuration failed because libpq was not found. Try installing:</span></span>
+<span id="cb4-9"><a href="#cb4-9"></a><span class="co">#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)</span></span>
+<span id="cb4-10"><a href="#cb4-10"></a><span class="co">#install.packages('RPostgres')</span></span>
+<span id="cb4-11"><a href="#cb4-11"></a><span class="co">#remotes::install_github("r-dbi/RPostgres")</span></span>
+<span id="cb4-12"><a href="#cb4-12"></a><span class="co">#Took forever because my file permissions were broken</span></span>
+<span id="cb4-13"><a href="#cb4-13"></a><span class="co">#pg_lsclusters</span></span>
+<span id="cb4-14"><a href="#cb4-14"></a><span class="fu">require</span>(RPostgres)</span>
+<span id="cb4-15"><a href="#cb4-15"></a><span class="co"># Connect to the default postgres database</span></span>
+<span id="cb4-16"><a href="#cb4-16"></a><span class="co">#I had to follow these instructions and create both a username and database that matched my ubuntu name</span></span>
+<span id="cb4-17"><a href="#cb4-17"></a><span class="co">#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart</span></span>
+<span id="cb4-18"><a href="#cb4-18"></a>con_Postgres <span class="ot">&lt;-</span> <span class="fu">dbConnect</span>(RPostgres<span class="sc">::</span><span class="fu">Postgres</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb5-1"><a href="#cb5-1"></a></span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="kw">DROP</span> <span class="kw">TABLE</span> <span class="cf">IF</span> <span class="kw">EXISTS</span> toy_df;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb6-1"><a href="#cb6-1"></a></span>
+<span id="cb6-2"><a href="#cb6-2"></a><span class="kw">CREATE</span> <span class="kw">TABLE</span> <span class="cf">IF</span> <span class="kw">NOT</span> <span class="kw">EXISTS</span> toy_df (</span>
+<span id="cb6-3"><a href="#cb6-3"></a>  <span class="kw">id</span> <span class="dt">varchar</span>(<span class="dv">5</span>),</span>
+<span id="cb6-4"><a href="#cb6-4"></a>    y <span class="dt">INTEGER</span>,</span>
+<span id="cb6-5"><a href="#cb6-5"></a>    x <span class="dt">INTEGER</span></span>
+<span id="cb6-6"><a href="#cb6-6"></a>);</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb7-1"><a href="#cb7-1"></a></span>
+<span id="cb7-2"><a href="#cb7-2"></a><span class="kw">INSERT</span> <span class="kw">INTO</span> toy_df (<span class="kw">id</span>, y, x)</span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="kw">VALUES</span></span>
+<span id="cb7-4"><a href="#cb7-4"></a>    (<span class="st">'unit1'</span>,<span class="dv">1</span>,<span class="dv">3</span>),</span>
+<span id="cb7-5"><a href="#cb7-5"></a>    (<span class="st">'unit2'</span>,<span class="dv">2</span>,<span class="dv">2</span>),</span>
+<span id="cb7-6"><a href="#cb7-6"></a>    (<span class="st">'unit3'</span>,<span class="dv">3</span>,<span class="dv">1</span>);</span>
+<span id="cb7-7"><a href="#cb7-7"></a>    </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-7_731c282b1a879e4e5ed82e8b0d5a3642">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="co">#install.packages("duckdb")</span></span>
+<span id="cb8-2"><a href="#cb8-2"></a><span class="fu">library</span>(<span class="st">"DBI"</span>)</span>
+<span id="cb8-3"><a href="#cb8-3"></a>con_duckdb <span class="ot">=</span> <span class="fu">dbConnect</span>(duckdb<span class="sc">::</span><span class="fu">duckdb</span>(), <span class="st">":memory:"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-8_4c326168e17fa46a90701f77a8810cda">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1"></a><span class="co">#pip install duckdb==0.6.0</span></span>
+<span id="cb9-2"><a href="#cb9-2"></a><span class="im">import</span> duckdb</span>
+<span id="cb9-3"><a href="#cb9-3"></a>cursor_duckdb <span class="op">=</span> duckdb.<span class="ex">connect</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</details>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<section id="base" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="base">Base</h4>
+<p><a href="https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset">subset: Subsetting Vectors, Matrices and Data Frames</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-9_ca3568bc533e8038ba16aee86f88a21b">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a>toy_vector_numeric[toy_vector_numeric <span class="sc">&gt;</span> <span class="dv">1</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2 3 4 5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a>toy_matrix[toy_matrix<span class="sc">&gt;</span><span class="dv">5</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6 7 8 9</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a>toy_df <span class="sc">|&gt;</span> <span class="fu">subset</span>(x<span class="sc">&gt;</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     id y x
+1 unit1 1 3
+2 unit2 2 2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a>toy_df[toy_df<span class="sc">$</span>x<span class="sc">&gt;</span><span class="dv">1</span>,]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     id y x
+1 unit1 1 3
+2 unit2 2 2</code></pre>
+</div>
+</div>
+</section>
+<section id="dplyr" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="dplyr">Dplyr</h4>
+<p><a href="https://dplyr.tidyverse.org/reference/filter.html">Subset rows using column values</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-10_4547d187d57331994a5c702c8718face">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a>toy_df <span class="sc">%&gt;%</span> dplyr<span class="sc">::</span><span class="fu">filter</span>(x<span class="sc">&gt;</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     id y x
+1 unit1 1 3
+2 unit2 2 2</code></pre>
+</div>
+</div>
+</section>
+<section id="datatable" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="datatable">DataTable</h4>
+<p><a href="https://datatable.readthedocs.io/en/latest/manual/comparison_with_rdatatable.html">Subsetting Rows</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-11_66bbdaca9b6c2544e9ce7914d13d023e">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1"></a>toy_dt <span class="sc">|&gt;</span> <span class="fu">subset</span>(x<span class="sc">&gt;</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      id y x
+1: unit1 1 3
+2: unit2 2 2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a>toy_dt[x<span class="sc">&gt;</span><span class="dv">1</span>,,]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      id y x
+1: unit1 1 3
+2: unit2 2 2</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="python" class="level2">
+<h2 class="anchored" data-anchor-id="python">Python</h2>
+<p><a href="https://www.pythontutorial.net/python-basics/python-filter-list/">How to Filter List Elements in Python</a> <a href="https://docs.python.org/3/library/functions.html#filter">filter(function, iterable, /)</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-12_92521614ea49c0f83077d97009aaea51">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1"></a></span>
+<span id="cb24-2"><a href="#cb24-2"></a>filtered <span class="op">=</span> []</span>
+<span id="cb24-3"><a href="#cb24-3"></a><span class="cf">for</span> element <span class="kw">in</span> toy_list:</span>
+<span id="cb24-4"><a href="#cb24-4"></a>  <span class="cf">if</span> <span class="bu">type</span>(element)<span class="op">==</span><span class="bu">type</span>([]):</span>
+<span id="cb24-5"><a href="#cb24-5"></a>    filtered.append(element)</span>
+<span id="cb24-6"><a href="#cb24-6"></a>filtered</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[['red', 'green']]</code></pre>
+</div>
+</div>
+<p><a href="https://www.techbeamers.com/python-filter-function/#:~:text=Python%20filter()%20function%20applies,is%20of%20the%20iterable%20type.">Python Filter()</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-13_b5c0b68699ec01e76eb9d30e6bc77eff">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1"></a></span>
+<span id="cb26-2"><a href="#cb26-2"></a><span class="kw">def</span> fun(element):</span>
+<span id="cb26-3"><a href="#cb26-3"></a>  <span class="cf">return</span>( <span class="bu">type</span>(element)<span class="op">==</span><span class="bu">type</span>([]) )</span>
+<span id="cb26-4"><a href="#cb26-4"></a>filtered <span class="op">=</span> <span class="bu">filter</span>(fun, toy_list)</span>
+<span id="cb26-5"><a href="#cb26-5"></a><span class="bu">type</span>(filtered)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt;class 'filter'&gt;</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1"></a><span class="bu">list</span>(filtered)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[['red', 'green']]</code></pre>
+</div>
+</div>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-14_dcc97c5d922274a8342fe8aac204fed5">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1"></a></span>
+<span id="cb30-2"><a href="#cb30-2"></a><span class="co">#filtered = filter(  lamda element : type(element)==type([]) , toy_list) #I don't know why this example fails but the next works</span></span>
+<span id="cb30-3"><a href="#cb30-3"></a><span class="co">#type(filtered)</span></span>
+<span id="cb30-4"><a href="#cb30-4"></a><span class="co">#list(filtered)</span></span>
+<span id="cb30-5"><a href="#cb30-5"></a></span>
+<span id="cb30-6"><a href="#cb30-6"></a>scores <span class="op">=</span> [<span class="dv">70</span>, <span class="dv">60</span>, <span class="dv">80</span>, <span class="dv">90</span>, <span class="dv">50</span>]</span>
+<span id="cb30-7"><a href="#cb30-7"></a>filtered <span class="op">=</span> <span class="bu">filter</span>(<span class="kw">lambda</span> score: score <span class="op">&gt;=</span> <span class="dv">70</span>, scores)</span>
+<span id="cb30-8"><a href="#cb30-8"></a><span class="bu">print</span>(<span class="bu">list</span>(filtered))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[70, 80, 90]</code></pre>
+</div>
+</div>
+<p><a href="https://realpython.com/lessons/filtering-elements-list-comprehensions/">Filtering Elements in List Comprehensions</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-15_5b1eeca9137eafcbe3afd1108203f656">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1"></a>[element <span class="cf">for</span> element <span class="kw">in</span> toy_list <span class="cf">if</span> <span class="bu">type</span>(element)<span class="op">==</span><span class="bu">type</span>([])]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[['red', 'green']]</code></pre>
+</div>
+</div>
+<p><a href="https://stackoverflow.com/questions/23862406/filter-items-in-a-python-dictionary-where-keys-contain-a-specific-string">filter items in a python dictionary where keys contain a specific string</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-16_a65aa85140decf927330d854b85ecd03">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1"></a>{k:v <span class="cf">for</span> k,v <span class="kw">in</span> toy_dictionary.items() <span class="cf">if</span> v<span class="op">&gt;</span><span class="dv">1</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{'b': 2, 'c': 3}</code></pre>
+</div>
+</div>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-17_a23bbb34baf313f6c2fce76b274ed1ba">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1"></a><span class="co"># filter by key</span></span>
+<span id="cb36-2"><a href="#cb36-2"></a><span class="bu">dict</span>(<span class="bu">filter</span>(<span class="kw">lambda</span> e : e[<span class="dv">0</span>]<span class="op">==</span><span class="st">'a'</span>, toy_dictionary.items() ) ) </span>
+<span id="cb36-3"><a href="#cb36-3"></a><span class="co"># filter by value</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{'a': 1}</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1"></a><span class="bu">dict</span>(<span class="bu">filter</span>(<span class="kw">lambda</span> e : e[<span class="dv">1</span>]<span class="op">&gt;</span><span class="dv">1</span>, toy_dictionary.items() ) ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{'b': 2, 'c': 3}</code></pre>
+</div>
+</div>
+<p><a href="https://stackoverflow.com/questions/58422690/filtering-reducing-a-numpy-array">Filtering (reducing) a NumPy Array</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-18_928264f73f37f9a358fd06b7f61d27b2">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1"></a>toy_vector_numeric[toy_vector_numeric<span class="op">&gt;</span><span class="dv">1</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>array([2, 3, 4, 5])</code></pre>
+</div>
+</div>
+<p><a href="https://chrisalbon.com/code/python/data_wrangling/filter_dataframes/">Filter pandas Dataframes</a> #This actually fitlers on row and column names not values <a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.filter.html">pandas.DataFrame.filter</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-19_458ae3055fee4057f00b87b96afe0482">
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1"></a>toy_df[toy_df[<span class="st">'x'</span>]<span class="op">&gt;</span><span class="dv">1</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      id  y  x
+0  unit1  1  3
+1  unit2  2  2</code></pre>
+</div>
+</div>
+<p><a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.query.html">pandas.DataFrame.query</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-20_f5b4cb8ccdeb7ff568f79f52e7d58d2d">
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1"></a>toy_df.query(<span class="st">'x &gt; 1'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      id  y  x
+0  unit1  1  3
+1  unit2  2  2</code></pre>
+</div>
+</div>
+</section>
+<section id="postgresql" class="level2">
+<h2 class="anchored" data-anchor-id="postgresql">PostgreSQL</h2>
+<p><a href="https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-where/">PostgreSQL WHERE</a></p>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-21_4168ed64793f9812db3f1c2c443662d8">
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb46-1"><a href="#cb46-1"></a></span>
+<span id="cb46-2"><a href="#cb46-2"></a><span class="kw">SELECT</span>  <span class="op">*</span> <span class="kw">FROM</span>  toy_df</span>
+<span id="cb46-3"><a href="#cb46-3"></a><span class="kw">where</span> x<span class="op">&gt;</span><span class="dv">1</span>;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="knitsql-table">
+<table class="table table-sm table-striped">
+<caption>2 records</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">id</th>
+<th style="text-align: right;">y</th>
+<th style="text-align: right;">x</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">unit1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">unit2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="torch" class="level2">
+<h2 class="anchored" data-anchor-id="torch">Torch</h2>
+<div class="cell" data-hash="filter_cache/html/unnamed-chunk-22_daaa93c2e8867a48c043e9dcfb90ad35">
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1"></a><span class="im">import</span> torch</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

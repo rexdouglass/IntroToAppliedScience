@@ -1,0 +1,38 @@
+# Set {.unnumbered}
+
+**Instance of**: mathematical model
+
+**AKA**: empty set;  singleton; infinite set
+
+**Distinct from**: list
+
+**English**: A set is a collection of elements with no ordering, e.g. $\{1,2,3\}=\{3,2,1\}$.
+
+**Formalization**:
+
+Roster notation
+$$
+A=\{4,2,1,3\}
+$$
+Abbreviation with ellipsis
+$$
+A=\{1,2,3,...,1000\}
+$$
+Infinite sets beginning and or ending in ellipsis
+$$
+A=\{1,2,3,...\}
+$$
+
+$$
+A=\{...,-3,-2,-1,0,1,2,3,...\}
+$$
+
+Semantic definition uses a natural language rule to determine which elements belong in a set
+
+> Let A be the set whose members are the first four positive integers.
+
+> Let B be the set of colors of the French flag.
+
+[Set-builder notation](https://en.wikipedia.org/wiki/Set-builder_notation)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Set_(mathematics)); [Wikidata](https://www.wikidata.org/wiki/Q36161); [PlanetMath](https://planetmath.org/set)

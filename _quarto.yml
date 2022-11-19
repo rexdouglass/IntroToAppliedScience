@@ -1,214 +1,232 @@
 project:
-  type: book
+  type: website
   output-dir: docs
 
-
-book:
-  sidebar:
-    style: "docked"
+website:
+  navbar:
+    background: primary
     search: true
-  repo-url: https://github.com/rexdouglass/IntroToAppliedScience
-  repo-actions: [source]
-  repo-branch: master
-  downloads: [pdf, epub]
-  sharing: [twitter, facebook]
-  title: "Introduction to Applied Science"
-  author: "Rex W. Douglass"
-  date: "11/15/2022"
-  chapters:
-    - part: "Introduction"
-      chapters:
-        - index.qmd
-        - lit.qmd
-        - practicecoding.qmd
-        - salaries.qmd
-        - gossip.qmd
-    - part: "Meta-Science"
-      chapters:
-        - sociologyofinference.qmd
-        - null_results.qmd    
-    - part: "Presentation"
-      chapters:
-        - markdown.qmd
-    - part: "-------Computation------"
-    - part: "Computation"
-      chapters:
-        - computation.qmd
-        - bash.qmd
-        - R.qmd
-        - python.qmd
-        - jax.qmd
-        - numpyro.qmd
-        - stan.qmd
-        - pytorch.qmd
-        - tensorflow.qmd
-        - sql.qmd
-        - o_notation.qmd
-        - vectorization.qmd
-        - parallelization.qmd
-    - part: "Data management"
-      chapters:
-        - filter.qmd
-        - joins.qmd
-        - regex.qmd
-        - fuzzyrecordmatching.qmd
-        - dataloaders.qmd
-    - part: "-------Certainty------"
-    - part: "Mathematical and Data Structures"
-      chapters:
-        - set.qmd
-        - list.qmd
-        - dictionary.qmd
-        - tensor.qmd
-        - table.qmd
-        - function.qmd
-        - stacks_queues.qmd
-        - hash_table.qmd
-        - graphs.qmd
-        - trees.qmd
-        - sorting_algorithms.qmd
-        - search_algorithms.qmd
-    - part: "Operations of Logic"
-      chapters:
-        - and.qmd
-        - or.qmd
-    - part: "Operations of Control Flow"
-      chapters:
-        - ifelse.qmd
-    - part: "Operations of Arithmetic"
-      chapters:
-        - equality.qmd
-        - add.qmd
-        - subtract.qmd
-        - multiply.qmd
-        - divide.qmd
-        - integer_division.qmd
-        - exponent.qmd
-        - modulo.qmd
-    - part: "Operations of Algebra"
-      chapters:
-        - dotproduct.qmd
-    - part: "Operations of Calculus"
-      chapters:
-        - derivative.qmd
-        - automatic_differentiation.qmd        
-    - part: "-------Uncertainty------"
-    - part: "Probability"
-      chapters:
-        - probabilitydistribution.qmd
-        - randomvariable.qmd      
-        - probabilitydensitymassfunction.qmd
-    - part: "Moments of a Distribution"
-      chapters:
-        - mean.qmd
-    - part: "Distributions"
-      chapters:
-        - distribution_normal.qmd  
-    - part: "Information"
-      chapters:
-        - entropy.qmd
-        - maximum_entropy_probability_distribution.qmd
-    - part: "Inference"
-      chapters:
-        - bayesianism.qmd
-        - frequentism.qmd
-    - part: "Estimation"
-      chapters:
-        - performance.qmd
-        - outofsampleperformance.qmd
-        - regularization.qmd
-        - pvalues.qmd
-        - biasvariancetradeoff.qmd
-        - bias.qmd
-        - variance.qmd
-        - asymptotics.qmd
-    - part: domain.qmd
-      chapters:
-        - outliers.qmd
-        - regimechange.qmd
-        - internal_validity.qmd
-        - transportability.qmd
-        - external_validity.qmd
-        - matching.qmd
-        - poststratification.qmd
-        - outcome_regressions.qmd
-    - part: Likelihood
-      chapters:
-        - likelihood.qmd
-        - mle.qmd
-    - part: "-------Measurement------"
-    - part: "Data and Measurement"
-      chapters:
-        - validity.qmd
-        - reliability.qmd
-    - part: "Research Design"
-      chapters:
-        - dags_scms.qmd
-        - potentialoutcomes.qmd
-        - projectdesign.qmd 
-        - unitofanalysis.qmd
-        - estimand.qmd
-        - identification.qmd
-        - GardenOfForkingPaths.qmd
-        - confounder.qmd
-        - unobserved_confounding.qmd
-    - part: "Prediction/Forcasting"
-    - part: "Counterfactual causal inference"
-    - part: "Causality the 12 Assumptions"
-      chapters:
-        - no_unmeasured_confounders.qmd
-        - correct_model_specification.qmd
-        - no_conditioning_on_a_collider.qmd
-        - no_conditioning_on_a_mediator.qmd
-        - positivity.qmd
-        - consistency.qmd
-        - no_interference.qmd
-        - no_relevant_effect_modification.qmd
-        - collapsibility.qmd
-        - compliance.qmd
-        - missing_data_mechanism.qmd
-        - transparency.qmd
-        - recoverability.qmd
-        - testability.qmd
-        - no_relevant_measurement_error.qmd
-    - part: "Exogeneity"
-      chapters:
-        - rct.qmd
-        - iv.qmd
-        - diffindiff.qmd
-        - placebotests.qmd
-        - rdd.qmd
-        - fixedeffects.qmd
-        - synthetic_controls.qmd 
-    - part: "Supervised Learning"
-      chapters:
-        - ols.qmd
-        - interactions.qmd        
-        - decisiontree.qmd
-        - randomforest.qmd
-        - gradientboosted.qmd
-        - gaussianprocesses.qmd
-    - part: reinforcementlearning.qmd
-      chapters:
-        - reinforcementlearning.qmd
-    - part: "Unsupervised Learning"
-      chapters:
-        - distancemetrics.qmd
-    - part: "Neural Networks"
-      chapters:
-        - neural_network_debugging.qmd
+    left:
+      - text: "Home"
+        file: index.qmd
+      
+execute:
+  freeze: auto 
+  cache: true
+
+# book:
+#   sidebar:
+#     style: "docked"
+#     search: true
+#   repo-url: https://github.com/rexdouglass/IntroToAppliedScience
+#   repo-actions: [source]
+#   repo-branch: master
+#   downloads: [pdf, epub]
+#   sharing: [twitter, facebook]
+#   title: "Introduction to Applied Science"
+#   author: "Rex W. Douglass"
+#   date: "11/15/2022"
+#   chapters:
+#     - part: "Introduction"
+#       chapters:
+#         - index.qmd
+#         - lit.qmd
+#         - practicecoding.qmd
+#         - salaries.qmd
+#         - gossip.qmd
+#     - part: "Meta-Science"
+#       chapters:
+#         - sociologyofinference.qmd
+#         - null_results.qmd    
+#     - part: "Presentation"
+#       chapters:
+#         - markdown.qmd
+#     - part: "-------Computation------"
+#     - part: "Computation"
+#       chapters:
+#         - computation.qmd
+#         - bash.qmd
+#         - R.qmd
+#         - python.qmd
+#         - jax.qmd
+#         - numpyro.qmd
+#         - stan.qmd
+#         - pytorch.qmd
+#         - tensorflow.qmd
+#         - sql.qmd
+#         - o_notation.qmd
+#         - vectorization.qmd
+#         - parallelization.qmd
+#     - part: "Data management"
+#       chapters:
+#         - filter.qmd
+#         - joins.qmd
+#         - regex.qmd
+#         - fuzzyrecordmatching.qmd
+#         - dataloaders.qmd
+#     - part: "-------Certainty------"
+#     - part: "Mathematical and Data Structures"
+#       chapters:
+#         - set.qmd
+#         - list.qmd
+#         - dictionary.qmd
+#         - tensor.qmd
+#         - table.qmd
+#         - function.qmd
+#         - stacks_queues.qmd
+#         - hash_table.qmd
+#         - graphs.qmd
+#         - trees.qmd
+#         - sorting_algorithms.qmd
+#         - search_algorithms.qmd
+#     - part: "Operations of Logic"
+#       chapters:
+#         - and.qmd
+#         - or.qmd
+#     - part: "Operations of Control Flow"
+#       chapters:
+#         - ifelse.qmd
+#     - part: "Operations of Arithmetic"
+#       chapters:
+#         - equality.qmd
+#         - add.qmd
+#         - subtract.qmd
+#         - multiply.qmd
+#         - divide.qmd
+#         - integer_division.qmd
+#         - exponent.qmd
+#         - modulo.qmd
+#     - part: "Operations of Algebra"
+#       chapters:
+#         - dotproduct.qmd
+#     - part: "Operations of Calculus"
+#       chapters:
+#         - derivative.qmd
+#         - automatic_differentiation.qmd        
+#     - part: "-------Uncertainty------"
+#     - part: "Probability"
+#       chapters:
+#         - probabilitydistribution.qmd
+#         - randomvariable.qmd      
+#         - probabilitydensitymassfunction.qmd
+#     - part: "Moments of a Distribution"
+#       chapters:
+#         - mean.qmd
+#     - part: "Distributions"
+#       chapters:
+#         - distribution_normal.qmd  
+#     - part: "Information"
+#       chapters:
+#         - entropy.qmd
+#         - maximum_entropy_probability_distribution.qmd
+#     - part: "Inference"
+#       chapters:
+#         - bayesianism.qmd
+#         - frequentism.qmd
+#     - part: "Estimation"
+#       chapters:
+#         - performance.qmd
+#         - outofsampleperformance.qmd
+#         - regularization.qmd
+#         - pvalues.qmd
+#         - biasvariancetradeoff.qmd
+#         - bias.qmd
+#         - variance.qmd
+#         - asymptotics.qmd
+#     - part: domain.qmd
+#       chapters:
+#         - outliers.qmd
+#         - regimechange.qmd
+#         - internal_validity.qmd
+#         - transportability.qmd
+#         - external_validity.qmd
+#         - matching.qmd
+#         - poststratification.qmd
+#         - outcome_regressions.qmd
+#     - part: Likelihood
+#       chapters:
+#         - likelihood.qmd
+#         - mle.qmd
+#     - part: "-------Measurement------"
+#     - part: "Data and Measurement"
+#       chapters:
+#         - validity.qmd
+#         - reliability.qmd
+#     - part: "Research Design"
+#       chapters:
+#         - dags_scms.qmd
+#         - potentialoutcomes.qmd
+#         - projectdesign.qmd 
+#         - unitofanalysis.qmd
+#         - estimand.qmd
+#         - identification.qmd
+#         - GardenOfForkingPaths.qmd
+#         - confounder.qmd
+#         - unobserved_confounding.qmd
+#     - part: "Prediction/Forcasting"
+#     - part: "Counterfactual causal inference"
+#     - part: "Causality the 12 Assumptions"
+#       chapters:
+#         - no_unmeasured_confounders.qmd
+#         - correct_model_specification.qmd
+#         - no_conditioning_on_a_collider.qmd
+#         - no_conditioning_on_a_mediator.qmd
+#         - positivity.qmd
+#         - consistency.qmd
+#         - no_interference.qmd
+#         - no_relevant_effect_modification.qmd
+#         - collapsibility.qmd
+#         - compliance.qmd
+#         - missing_data_mechanism.qmd
+#         - transparency.qmd
+#         - recoverability.qmd
+#         - testability.qmd
+#         - no_relevant_measurement_error.qmd
+#     - part: "Exogeneity"
+#       chapters:
+#         - rct.qmd
+#         - iv.qmd
+#         - diffindiff.qmd
+#         - placebotests.qmd
+#         - rdd.qmd
+#         - fixedeffects.qmd
+#         - synthetic_controls.qmd 
+#     - part: "Supervised Learning"
+#       chapters:
+#         - ols.qmd
+#         - interactions.qmd        
+#         - decisiontree.qmd
+#         - randomforest.qmd
+#         - gradientboosted.qmd
+#         - gaussianprocesses.qmd
+#     - part: reinforcementlearning.qmd
+#       chapters:
+#         - reinforcementlearning.qmd
+#     - part: "Unsupervised Learning"
+#       chapters:
+#         - distancemetrics.qmd
+#     - part: "Neural Networks"
+#       chapters:
+#         - neural_network_debugging.qmd
 #    - references.qmd
 
 bibliography: IntroToAppliedScience.bib
 
 format:
   html:
-    theme: journal
+    theme: flatly
+    toc: true
+    toc-location: left
+    toc-depth: 6
+    collapse-level: 5
+#    code-fold: show
+    code-line-numbers: true
+    highlight-style: breezedark
     #css: styles.css
-    grid:
-      sidebar-width: 400px
-  pdf:
-    documentclass: scrreprt
+#    grid:
+#      sidebar-width: 400px
+#  pdf:
+#    documentclass: scrreprt
 
 
 

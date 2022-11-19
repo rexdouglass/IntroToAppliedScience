@@ -1,0 +1,14 @@
+{
+  "hash": "6d8c9ac429c9d734c19b5f2ce7337099",
+  "result": {
+    "markdown": "# Bayesianism  {.unnumbered}\n\n# {.unnumbered}\n\n## Introduction\n  \n**Instance of**: \n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n\nThe posterior, $P(H|E)$, is our final credibility over possible states of the world given the evidence we've observed. Our prior, $P(H)$, is the starting credibility we assigned to those states. The marginal, $P(E)$, is the probability of observing the evidence on average across all the possible states. The likelihood, P(E|H), is the probability of observing that evidence given a particular state of the world is true.\n\n$$ \nP(H|E) = P(H) \\times \\frac{P(E|H)}{P(E)}\n$$\n    \n    \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='bayesianism_cache/html/unnamed-chunk-1_4cf17a9f8d4ea252d1178b8d700f10f9'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='bayesianism_cache/html/unnamed-chunk-2_cb83b91198d39226b053ffa5c082e653'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='bayesianism_cache/html/unnamed-chunk-3_021bb18b3b465b2b3b96a838971f23e0'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='bayesianism_cache/html/unnamed-chunk-4_a8bb9f6ba2b40c1448466e486d855f7e'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='bayesianism_cache/html/unnamed-chunk-5_b6c1cfacbc9826742d3e19e267310452'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

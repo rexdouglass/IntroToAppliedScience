@@ -1,0 +1,14 @@
+{
+  "hash": "41c8016cdaa427e95cf8af00603517bd",
+  "result": {
+    "markdown": "# Stacks and Queues {.unnumbered}\n\n**Instance of**: \n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n\n$$ \n$$\n\n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n\n[Stacks and queues](https://superstudy.guide/algorithms-data-structures/data-structures/stacks-queues)\n\n**Code**\n\n::: panel-tabset\n\n### R\n[]()\n\nExamples:\n\n\n::: {.cell hash='stacks_queues_cache/html/unnamed-chunk-1_112cf5512c64603c5d8253037080cce7'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n\n\n::: {.cell hash='stacks_queues_cache/html/unnamed-chunk-2_b6b1c2f4fee78254e7dab8c7f6fe34ab'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='stacks_queues_cache/html/unnamed-chunk-3_9522d2e6956acce54bcea0152295c514'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='stacks_queues_cache/html/unnamed-chunk-4_1e786f3edff32901159648cc6d84b2ba'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='stacks_queues_cache/html/unnamed-chunk-5_9439296f7e924508528f2e6e95978cb5'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n\nCites:\n\n**Code**\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

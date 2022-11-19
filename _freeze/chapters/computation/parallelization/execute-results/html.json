@@ -1,0 +1,14 @@
+{
+  "hash": "5848dbae8da07dbea593e6cc2efc3a17",
+  "result": {
+    "markdown": "# Parallelization {.unnumbered}\n\n**Instance of**: \n\n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n  \n$$ \n$$\n    \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='parallelization_cache/html/unnamed-chunk-1_019c3f5eda9a9b31128f6e5bae454a59'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='parallelization_cache/html/unnamed-chunk-2_b7cdc53fa924cf3b2705e56a756835e1'}\n\n:::\n\n\n### Jax\n\nJax handles automatic-parallization using pmap()\n\n\n\n::: {.cell hash='parallelization_cache/html/unnamed-chunk-3_0a978f4d09fd7a949321ff7717118252'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='parallelization_cache/html/unnamed-chunk-4_3aadaac4afb82c9dd0088b8e2f97fda2'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='parallelization_cache/html/unnamed-chunk-5_d66a25bcd3f7cb0c63e0aaf30797b2da'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='parallelization_cache/html/unnamed-chunk-6_0aa5abd75c5662094f4051faae4ad709'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  \n    \n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

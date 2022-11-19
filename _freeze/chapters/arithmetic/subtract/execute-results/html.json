@@ -1,0 +1,14 @@
+{
+  "hash": "0f4bc80fb208ff3839f4fcabebe2089a",
+  "result": {
+    "markdown": "# Subtraction {.unnumbered}\n  \n## Introduction\n  \n**Instance of**: operation of arithmetic\n\n## Frequentist\n\n**AKA**: - ; minus\n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n  \n  \n$$ \n$$\n    \n    \n**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Subtraction) ; [Wikidata](https://www.wikidata.org/wiki/Q40754) ; [Wolfram]()\n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n**Documentation**: [mean: Arithmetic Mean](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean)\n  \nExamples:\n    \n\n::: {.cell hash='subtract_cache/html/unnamed-chunk-1_c3dd256b0a6c3d23f9c48a3604cde650'}\n\n:::\n\n\n\n\n\n### Python\n\n**Documentation**: [numpy.mean](https://numpy.org/doc/stable/reference/generated/numpy.mean.html)\n\nExamples:\n  \n\n::: {.cell hash='subtract_cache/html/unnamed-chunk-2_a1246ae78f39244b80f11b7b4475a722'}\n\n:::\n\n\n\n### SQL\n\n**Documentation**: [PostgreSQL AVG Function](https://www.postgresqltutorial.com/postgresql-aggregate-functions/postgresql-avg-function/)\n\n\n::: {.cell hash='subtract_cache/html/unnamed-chunk-3_8d9f724034e34130a9c84ef242cfd85d'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='subtract_cache/html/unnamed-chunk-4_db623a39c53fa7b995fb54d14b63bf62'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='subtract_cache/html/unnamed-chunk-5_c349b99c471dd315b1d4937aad7cd0c3'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

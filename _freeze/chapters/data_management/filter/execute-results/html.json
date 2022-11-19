@@ -1,0 +1,14 @@
+{
+  "hash": "3d002c941312b955c78b22cb55dbc3cc",
+  "result": {
+    "markdown": "# Filter  {.unnumbered}\n\n\n**Instance of**: Higher-order function\n\n**AKA**: Subset\n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n  \n$$ \n$$\n    \n**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Filter_(higher-order_function)) ; [Wikidata](https://www.wikidata.org/wiki/Q2672873) \n  \n**Code**\n    \n::: panel-tabset\n  \n### R\n\n#### Base {.unnumbered}\n\n[subset: Subsetting Vectors, Matrices and Data Frames](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset)\n  \n\n::: {.cell hash='filter_cache/html/unnamed-chunk-1_43ede68edbebf319b82a76f35dc21d47'}\n\n:::\n\n\n#### Dplyr {.unnumbered}\n\n[Subset rows using column values](https://dplyr.tidyverse.org/reference/filter.html)\n\n\n::: {.cell hash='filter_cache/html/unnamed-chunk-2_ca3c911f413e09c0579899c9822bd12e'}\n\n:::\n\n\n#### DataTable {.unnumbered}\n\n[Subsetting Rows](https://datatable.readthedocs.io/en/latest/manual/comparison_with_rdatatable.html)\n\n### Python\n\n**Documentation**: [numpy.mean](https://numpy.org/doc/stable/reference/generated/numpy.mean.html)\n\nExamples:\n  \n\n::: {.cell hash='filter_cache/html/unnamed-chunk-3_90586fb354c566cddfffa6c1e0df233c'}\n\n:::\n\n\n\n### SQL\n\n**Documentation**: [PostgreSQL AVG Function](https://www.postgresqltutorial.com/postgresql-aggregate-functions/postgresql-avg-function/)\n\n\n::: {.cell hash='filter_cache/html/unnamed-chunk-4_6cfb71789d11b10335d6982244ffb816'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='filter_cache/html/unnamed-chunk-5_0a854ad6d96bc1ac71201f2f2f057971'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='filter_cache/html/unnamed-chunk-6_e8608db79fe6ef98272d9338cdb58377'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

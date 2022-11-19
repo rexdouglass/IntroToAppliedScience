@@ -1,0 +1,14 @@
+{
+  "hash": "a3a3694b8c959dcbde9cca94e21794a6",
+  "result": {
+    "markdown": "# Trees {.unnumbered}\n\n\n**Instance of**: \n\n\n**AKA**: \n\n**Distinct from**: \n\n**English**: \n\n**Formalization**:\n  \n$$ \n$$\n    \n**Cites**: [Wikipedia]() ; [Wikidata]() ; [Wolfram]()\n\n[Trees](https://superstudy.guide/algorithms-data-structures/graphs-trees/trees)\n[Advanced trees](https://superstudy.guide/algorithms-data-structures/graphs-trees/advanced-trees)\n\n**Code**\n    \n::: panel-tabset\n  \n### R\n[]()\n  \nExamples:\n    \n\n::: {.cell hash='trees_cache/html/unnamed-chunk-1_4d2113e90bf7589f674bd9d7906a2f39'}\n\n:::\n\n\n\n### Python\n\n[]()\n\nExamples:\n  \n\n::: {.cell hash='trees_cache/html/unnamed-chunk-2_f870a306d1ac59b84e6dacbc077c01da'}\n\n:::\n\n\n\n### SQL\n\n[]()\n\n\n::: {.cell hash='trees_cache/html/unnamed-chunk-3_db6dd8e259883dca656210f305d0a095'}\n\n```{.r .cell-code}\nlibrary(DBI)\n# Create an ephemeral in-memory RSQLite database\n#con <- dbConnect(RSQLite::SQLite(), dbname = \":memory:\")\n#dbListTables(con)\n#dbWriteTable(con, \"mtcars\", mtcars)\n#dbListTables(con)\n\n#Configuration failed because libpq was not found. Try installing:\n#* deb: libpq-dev libssl-dev (Debian, Ubuntu, etc)\n#install.packages('RPostgres')\n#remotes::install_github(\"r-dbi/RPostgres\")\n#Took forever because my file permissions were broken\n#pg_lsclusters\nrequire(RPostgres)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: RPostgres\n```\n:::\n\n```{.r .cell-code}\n# Connect to the default postgres database\n#I had to follow these instructions and create both a username and database that matched my ubuntu name\n#https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart\ncon <- dbConnect(RPostgres::Postgres())\n```\n:::\n\n::: {.cell hash='trees_cache/html/unnamed-chunk-4_e43e99bf4f1bd3a9bcead75d9302560e'}\n\n```{.sql .cell-code}\n\n```\n:::\n\n\n### Torch\n\n\n::: {.cell hash='trees_cache/html/unnamed-chunk-5_3b3d34c07503f673ad1385ff0fcb3ca1'}\n\n```{.python .cell-code}\nimport torch\n```\n:::\n\n\n:::\n\n## Bayesian\n\n**English**: \n**Formalization**:\n\n$$\n$$\n  \nCites:\n\n**Code**\n  \n    ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

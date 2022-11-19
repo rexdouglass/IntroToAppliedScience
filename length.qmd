@@ -1,0 +1,5 @@
+# Length
+
+
+Python bool objects don't have a length. Good to know and makes lists with mixed element types a real pain.
+https://bobbyhadz.com/blog/python-typeerror-object-of-type-bool-has-no-len
