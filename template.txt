@@ -17,7 +17,7 @@ $$
   
 **Code**
 
-{{< include ../../include_postgresql.qmd >}}
+{{< include ../../include_toy_data.qmd >}}
 
 ## R
 
