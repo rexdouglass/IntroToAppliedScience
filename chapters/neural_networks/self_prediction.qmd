@@ -1,0 +1,5 @@
+# Self-prediction
+
+AKA
+
+English: Mask information from a training example and try to predict the missing parts.

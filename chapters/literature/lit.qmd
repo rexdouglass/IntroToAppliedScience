@@ -1,5 +1,13 @@
 # Overview Literature {.unnumbered}
 
+[AWESOME DATA SCIENCE](https://github.com/academic/awesome-datascience)
+[Data Science Interviews](https://github.com/alexeygrigorev/data-science-interviews)
+[Data Science Cheatsheet 2.0](https://github.com/aaronwangy/Data-Science-Cheatsheet)
+[data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
+[Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
+
+[Bean Machine](https://beanmachine.org/)
+
 Minimum Viable Study Plan for Machine Learning Interviews
 https://github.com/khangich/machine-learning-interview
 

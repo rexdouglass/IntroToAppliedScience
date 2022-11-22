@@ -1,0 +1,8 @@
+# Tabular
+
+[Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database](https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.12795)[@soltMeasuringIncomeInequality2020]
+https://fsolt.org/swiid/
+
+[The International Political Economy Data Resource](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/X093TV)
+
+[democracyData](https://xmarquez.github.io/democracyData/)

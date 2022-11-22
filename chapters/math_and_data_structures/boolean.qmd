@@ -1,0 +1,294 @@
+# Boolean {.unnumbered}
+
+**Instance of**: 
+
+**AKA**: Bool
+
+**Distinct from**: 
+  
+**English**: 
+
+**Formalization**:
+
+$$ 
+$$
+
+**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Boolean_data_type)) ; [Wikidata]() 
+
+**Code**
+  
+{{< include ../../include_toy_data.qmd >}}
+
+## R
+
+#### Base {.unnumbered}
+
+[Logical Vectors](https://stat.ethz.ch/R-manual/R-devel/library/base/html/logical.html)
+
+```{r}
+TRUE
+FALSE
+T; F
+logical(length = 0)
+as.logical(1)
+is.logical(1)
+
+## non-zero values are TRUE
+as.logical(c(pi,0))
+if (length(letters)) cat("26 is TRUE\n")
+
+## logical interpretation of particular strings
+charvec <- c("FALSE", "F", "False", "false",    "fAlse", "0",
+             "TRUE",  "T", "True",  "true",     "tRue",  "1")
+as.logical(charvec)
+
+## factors are converted via their levels, so string conversion is used
+as.logical(factor(charvec))
+as.logical(factor(c(0,1)))  # "0" and "1" give NA
+
+length(TRUE)
+```
+
+#### Tidyverse {.unnumbered}
+
+[]()
+
+```{r}
+```
+
+#### DataTable {.unnumbered}
+
+[]()
+
+```{r}
+```
+
+#### Arrow {.unnumbered}
+
+[Apache Arrow data types](https://arrow.apache.org/docs/r/reference/data-type.html)
+"These functions create type objects corresponding to Arrow types. Use them when defining a schema() or as inputs to other types, like struct. Most of these functions don't take arguments, but a few do."
+
+```{r}
+library(arrow)
+boolean()
+
+bool()
+```
+
+## Python
+
+#### 3.x / math/ statistics
+
+
+[Boolean Values](https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values)
+Boolean Values
+Boolean values are the two constant objects False and True. They are used to represent truth values (although other values can also be considered false or true). In numeric contexts (for example when used as the argument to an arithmetic operator), they behave like the integers 0 and 1, respectively. The built-in function bool() can be used to convert any value to a Boolean, if the value can be interpreted as a truth value (see section Truth Value Testing above).
+
+They are written as False and True, respectively.
+
+```{python}
+type(True)
+type(1)
+```
+[class bool(x=False)](https://docs.python.org/3/library/functions.html#bool)
+
+class bool(x=False)
+Return a Boolean value, i.e. one of True or False. x is converted using the standard truth testing procedure. If x is false or omitted, this returns False; otherwise, it returns True. The bool class is a subclass of int (see Numeric Types — int, float, complex). It cannot be subclassed further. Its only instances are False and True (see Boolean Values).
+
+```{python}
+bool(1)
+bool(0)
+bool('A')
+bool(None)
+
+1==True
+'A'==True
+```
+
+[TypeError: object of type 'bool' has no len() in Python](https://bobbyhadz.com/blog/python-typeerror-object-of-type-bool-has-no-len)
+
+```{python}
+
+try:
+    print(len(True))
+except Exception as ex:
+    print(ex)
+
+```
+
+
+#### NumPy / SciPy / scikit-learn
+
+[]()
+
+```{python}
+np.array([[ True,  True],
+       [ True,  True]], dtype=bool)
+```
+
+#### Pandas
+
+[]()
+
+```{python}
+
+pd.Series([True, False])
+
+pd.Series([True]).bool()
+
+try:
+    pd.Series([True, False]).bool() #Doesn't work on series with more than one value
+except Exception as ex:
+    print(ex)
+    
+
+```
+
+## Jax
+
+```{python}
+jnp.array([[ True,  True],
+       [ True,  True]], dtype=bool)
+```
+
+## Numpyro
+
+Uses jax's boolean array
+
+```{python}
+```
+
+## Stan
+
+[]()
+
+```{r}
+```
+
+## Torch
+
+[TENSOR ATTRIBUTES](https://pytorch.org/docs/stable/tensor_attributes.html)
+
+```{python}
+
+torch.zeros(10, dtype=torch.bool)
+
+torch.zeros(10).bool()
+
+```
+
+## Tensorflow
+
+[Introduction to Tensors](https://www.tensorflow.org/guide/tensor)
+[TensorFlow Data Types](https://pythonprogramminglanguage.com/tensorflow-datatypes/)
+
+```{python}
+
+print(tf.constant([True,False], dtype=tf.bool))
+
+try:
+    print(tf.constant([1,0], dtype=tf.bool))
+except Exception as ex:
+    print(ex)
+
+print(tf.cast(tf.constant([1,0]), tf.bool))
+
+
+```
+
+## PostgreSQL
+
+[]()
+
+
+```{sql, connection=con_Postgres, cache=F}
+
+DROP TABLE IF EXISTS bool_df;
+
+```
+
+```{sql, connection=con_Postgres, cache=F}
+
+CREATE TABLE IF NOT EXISTS bool_df (
+  example_bool boolean
+);
+
+```
+
+```{sql, connection=con_Postgres, cache=F}
+
+INSERT INTO bool_df (example_bool)
+VALUES
+  (NULL),
+  (TRUE),
+  ('t'),
+  ('true'),
+  ('y'),
+  ('yes'), /* lol what? */
+  ('on'),  /* lol what? */
+  ('1'),
+  (FALSE),
+  ('f'),
+  ('false'),
+  ('n'),
+  ('no'),  /* lol what? */
+  ('off'); /* lol what? */
+  
+```
+
+
+
+```{sql, connection=con_Postgres, cache=F}
+
+SELECT * from bool_df;
+  
+```
+
+
+## DuckDB
+
+[Boolean Type](https://duckdb.org/docs/sql/data_types/boolean.html)
+
+```{sql, connection=con_duckdb, cache=F}
+
+DROP TABLE IF EXISTS bool_df;
+
+```
+
+```{sql, connection=con_duckdb, cache=F}
+
+CREATE TABLE IF NOT EXISTS bool_df (
+  example_bool boolean
+);
+
+```
+
+```{sql, connection=con_duckdb, cache=F}
+
+INSERT INTO bool_df (example_bool)
+VALUES
+  (NULL),
+  (TRUE),
+  ('t'),
+  ('true'),
+  ('1'),
+  (1),
+  (15),
+  (-1),
+  (FALSE),
+  ('f'),
+  ('false'),
+  ('0'),
+  (0) ;
+
+```
+
+
+
+```{sql, connection=con_duckdb, cache=F}
+
+SELECT * from bool_df;
+  
+```
+
+

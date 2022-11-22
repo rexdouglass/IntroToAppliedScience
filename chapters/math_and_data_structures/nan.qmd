@@ -1,0 +1,308 @@
+# NULL {.unnumbered}
+
+**Instance of**: 
+
+**AKA**: null, NULL
+
+**Distinct from**: 
+
+**English**: 
+
+**Formalization**:
+
+$$ 
+$$
+
+**Cites**: [Wikipedia Null (SQL)](https://en.wikipedia.org/wiki/Null_(SQL))) ; [Wikidata Q371029](https://www.wikidata.org/wiki/Q371029) 
+
+[R null values: NULL, NA, NaN, Inf](https://www.r-bloggers.com/2018/07/r-null-values-null-na-nan-inf/)
+
+**Code**
+
+{{< include ../../include_toy_data.qmd >}}
+
+## R
+
+#### Base {.unnumbered}
+
+[The Null Object](https://stat.ethz.ch/R-manual/R-devel/library/base/html/NULL.html)
+
+```{r}
+
+class(NULL)
+is.null(NULL)
+length(NULL)
+
+is.null(list())     # FALSE (on purpose!)
+is.null(pairlist()) # TRUE
+is.null(integer(0)) # FALSE
+is.null(logical(0)) # FALSE
+as.null(list(a = 1, b = "c"))
+
+```
+
+#### Tidyverse {.unnumbered}
+
+[Is object an empty vector or NULL?](https://rdrr.io/github/tidyverse/rlang/man/is_empty.html)
+
+```{r}
+is_empty(NULL)
+is_empty(list())
+is_empty(list(NULL))
+
+NULL==NA
+NULL==6
+
+```
+
+[Default value for NULL](https://rlang.r-lib.org/reference/op-null-default.html)
+
+```{r}
+
+#Replace Nulls
+1 %||% 2
+NULL %||% 2
+
+```
+
+#### DataTable {.unnumbered}
+
+[]()
+
+```{r}
+```
+
+#### Arrow {.unnumbered}
+
+[Apache Arrow data types](https://arrow.apache.org/docs/r/reference/data-type.html)
+"These functions create type objects corresponding to Arrow types. Use them when defining a schema() or as inputs to other types, like struct. Most of these functions don't take arguments, but a few do."
+
+```{r}
+
+null()
+
+```
+
+## Python
+
+#### 3.x / math/ statistics
+
+
+[None](https://docs.python.org/3/library/constants.html)
+[Python None Keyword](https://www.w3schools.com/python/ref_keyword_none.asp)
+
+None
+An object frequently used to represent the absence of a value, as when default arguments are not passed to a function. Assignments to None are illegal and raise a SyntaxError. None is the sole instance of the NoneType type.
+
+
+```{python}
+
+type(None)
+
+None is True
+
+None is False
+
+try:
+print(len(None))
+except Exception as ex:
+print(ex)
+
+```
+
+```{python}
+
+try:
+print(len(None)) #None has no length
+except Exception as ex:
+print(ex)
+
+```
+
+
+#### NumPy / SciPy / scikit-learn
+
+[]()
+
+```{python}
+
+np.array([[ None,  None],
+        [ None,  None]])
+
+np.array([[ None,  None],
+        [ None,  None]], dtype=bool)
+
+```
+
+#### Pandas
+
+[]()
+
+```{python}
+
+pd.Series([None, None])
+
+pd.Series([None, None]).isnull()
+
+pd.Series([1, None]).notnull()
+
+
+```
+
+## Jax
+
+```{python}
+
+jnp.array([[ None,  None],
+         [ None,  None]])
+
+```
+
+## Numpyro
+
+Uses jax's boolean array
+
+```{python}
+```
+
+## Stan
+
+[]()
+
+```{r}
+```
+
+## Torch
+
+[TORCH.NAN_TO_NUM](https://pytorch.org/docs/stable/generated/torch.nan_to_num.htmll)
+
+```{python}
+
+torch.tensor([float('nan'), float('inf'), -float('inf'), 3.14])
+
+try:
+  print(torch.tensor([None])) #Fails
+except Exception as ex:
+  print(ex)
+  
+```
+
+## Tensorflow
+
+[]()
+
+```{python}
+
+tf.constant([5.0, np.nan, 6.8, np.nan, np.inf])
+
+tf.math.is_nan(tf.constant([5.0, np.nan, 6.8, np.nan, np.inf]))
+
+try:
+  print(tf.constant([None,None], dtype=tf.bool))
+except Exception as ex:
+  print(ex)
+
+
+```
+
+## PostgreSQL
+
+[]()
+
+
+```{sql, connection=con_Postgres, cache=F}
+
+DROP TABLE IF EXISTS null_df;
+
+```
+
+```{sql, connection=con_Postgres, cache=F}
+
+CREATE TABLE IF NOT EXISTS null_df (
+example_null boolean,
+example_notnull boolean NOT NULL
+);
+
+```
+
+Error: Failed to fetch row: ERROR:  null value in column "example_notnull" of relation "null_df" violates not-null constraint
+DETAIL:  Failing row contains (t, null).
+
+```{sql, connection=con_Postgres, cache=F, eval=F}
+
+INSERT INTO null_df (example_null, example_notnull)
+VALUES
+(NULL, False),
+(TRUE, NULL);
+;
+
+```
+
+```{sql, connection=con_Postgres, cache=F, eval=F}
+
+INSERT INTO null_df (example_null, example_notnull)
+VALUES
+(NULL, False),
+(TRUE, TRUE);
+;
+
+```
+
+
+```{sql, connection=con_Postgres, cache=F}
+
+SELECT * from null_df;
+
+```
+
+## DuckDB
+
+[Boolean Type](https://duckdb.org/docs/sql/data_types/boolean.html)
+
+```{sql, connection=con_duckdb, cache=F}
+
+DROP TABLE IF EXISTS null_df;
+
+```
+
+```{sql, connection=con_duckdb, cache=F}
+
+CREATE TABLE IF NOT EXISTS null_df (
+example_null boolean,
+example_notnull boolean NOT NULL
+);
+
+```
+
+Error: rapi_execute: Failed to run query
+Error: Constraint Error: NOT NULL constraint failed: null_df.example_notnull
+Failed to execute SQL chunk
+
+```{sql, connection=con_duckdb, cache=F, eval=F}
+
+INSERT INTO null_df (example_null, example_notnull)
+VALUES
+(NULL, False),
+(TRUE, NULL);
+;
+
+```
+
+```{sql, connection=con_duckdb, cache=F, eval=F}
+
+INSERT INTO null_df (example_null, example_notnull)
+VALUES
+(NULL, False),
+(TRUE, TRUE);
+;
+
+```
+
+
+```{sql, connection=con_duckdb, cache=F}
+
+SELECT * from null_df;
+
+```
+
+

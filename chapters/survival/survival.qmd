@@ -1,0 +1,4 @@
+# Survival Models
+
+[Why Test for Proportional Hazards?](https://jamanetwork.com/journals/jama/article-abstract/2763185)
+* Don't bother to test for proportional hazards - Hazards are never proportional because hazard ratios vary over the follow-up if treatment has an effect on survival.

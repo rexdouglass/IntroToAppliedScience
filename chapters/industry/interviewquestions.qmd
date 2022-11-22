@@ -1,5 +1,11 @@
 # Interview Questions  {.unnumbered}
 
+[How to Answer ANY Product Management Interview Question](https://www.youtube.com/watch?v=dNtks5NfUwc)
+
+[Don't speak yet! Pausing to think in interviews](https://www.youtube.com/watch?v=TB3jbeUNv28)
+
+[Top 5 Coding Interview MISTAKES (from a Google Engineer)](https://www.youtube.com/watch?v=rMj6KnxZu5M)
+
 [You Are Not Expected to Understand This": How 26 Lines of Code Changed the World Paperback – November 15, 2022](https://www.amazon.com/You-Are-Expected-Understand-This/dp/0691208484)
 
 [Solutions Architect Mock Customer Demo (with Salesforce SA)](https://www.youtube.com/watch?v=JnmpeY540Ig)

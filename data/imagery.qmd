@@ -1,0 +1,4 @@
+# Imagery
+
+[The WorldStrat dataset](https://worldstrat.github.io/)
+[Open High-Resolution Satellite Imagery: The WorldStrat Dataset – With Application to Super-Resolution](https://openreview.net/forum?id=DEigo9L8xZA)[@cornebiseOpenHighResolutionSatellite2022]

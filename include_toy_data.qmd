@@ -1,7 +1,8 @@
 
 
+
 <details>
-<summary>Spin up toy data objects and databases </summary>
+<summary> Imports and spin up toy data objects and databases. </summary>
 
 ```{r, cache=F}
 toy_vector_numeric <- c(1,2,3,4,5)
@@ -12,6 +13,8 @@ toy_df <- data.frame(id=c('unit1','unit2','unit3'), y=c(1,2,3), x= c(3,2,1))
 library(data.table)
 toy_dt <- data.table(id=c('unit1','unit2','unit3'), y=c(1,2,3), x= c(3,2,1))
 library(tidyverse)
+library(arrow)
+
 ```
 
 
@@ -21,13 +24,23 @@ toy_vector_numeric = np.array([1,2,3,4,5])
 toy_vector_character = np.array(['a','b','c','d','e'])
 toy_list = ['a','1',True,['red','green']]
 toy_dictionary = { 'a':1 , 'b':2, 'c':3}
+
+from jax import numpy as jnp
+toy_vector_numeric_jax = jnp.array([1,2,3,4,5])
+#toy_vector_character_jax = jnp.array(['a','b','c','d','e']) #only numeric is allowed in jax
+
 import pandas as pd
 toy_df = pd.DataFrame(data={'id': ['unit1','unit2','unit3'], 'y': [1, 2, 3], 'x': [3, 2, 1]})
+
+import torch
+
+import tensorflow as tf
+
 ```
 
 
 
-```{r, cache=F, echo=T, results='hide', message=FALSE, warning=FALSE}
+```{r, echo=T, results='hide', message=FALSE, warning=FALSE, cache=F}
 
 library(DBI)
 # Create an ephemeral in-memory RSQLite database
@@ -77,13 +90,13 @@ VALUES
 	
 ```
 
-```{r}
+```{r, cache=F}
 #install.packages("duckdb")
 library("DBI")
 con_duckdb = dbConnect(duckdb::duckdb(), ":memory:")
 ```
 
-```{python}
+```{python, cache=F}
 #pip install duckdb==0.6.0
 import duckdb
 cursor_duckdb = duckdb.connect()

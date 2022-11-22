@@ -1,0 +1,4 @@
+# Curriculum Learning
+
+
+[Curriculum Learning: A Survey](https://arxiv.org/abs/2101.10382)[@sovianyCurriculumLearningSurvey2022]

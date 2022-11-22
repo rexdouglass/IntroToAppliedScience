@@ -1,0 +1,5 @@
+# Contrastive Learning
+
+AKA
+
+English: Consider a siamese neural network, where a training example is sent in twice, once unaltered and again modified randomly in ways that do not destroy the important information but break unimportant information like slight rotation, brightness, etc.

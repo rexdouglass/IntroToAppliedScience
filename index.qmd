@@ -19,7 +19,13 @@
 ### Literature
 ||
 | -----------          | -----------            |
-| • [Broad Literature/Textbooks](chapters/unsorted/broad_lit.qmd)      | • [Unsorted](chapters/unsorted/lit.qmd)       |
+| • [Broad Literature/Textbooks](chapters/literature/broad_lit.qmd)      | • [Unsorted](chapters/literature/lit.qmd)       |
+
+### Data and Benchmarks
+||
+| -----------          | -----------            | -----------            |
+| • [Imagery](chapters/data/imagery.qmd)      | • [Text](chapters/unsorted/text.qmd)       |
+
 
 ### Industry
 ||
@@ -45,37 +51,30 @@
 ### Computer Languages
 
 ||
-|  -----------          | -----------            |
-| • [Bash](chapters/languages/bash.qmd)      | • [Python](chapters/languages/python.qmd)        |
-| • [R](chapters/languages/R.qmd)      | • [Pytorch](chapters/languages/pytorch.qmd)        |
-| • [SQL](chapters/languages/sql.qmd)      | • [Stan](chapters/languages/stan.qmd)        |
-| • [Numpyro](chapters/languages/numpyro.qmd)      | • [Jax](chapters/languages/jax.qmd)        |
-| • [Tensorflow](chapters/languages/tensorflow.qmd)      |  • [Git](chapters/languages/git.qmd)       |
+|  -----------          | -----------            | ----------            |
+| • [Bash](chapters/languages/bash.qmd)      |  • [Git](chapters/languages/git.qmd)       | • [SQL](chapters/languages/sql.qmd) 
+| • [R](chapters/languages/R.qmd)        | • [Python](chapters/languages/python.qmd)        |
+| • [Stan](chapters/languages/stan.qmd) |
+| • [Pytorch](chapters/languages/pytorch.qmd)        | • [Tensorflow](chapters/languages/tensorflow.qmd)  |
+| • [Jax](chapters/languages/jax.qmd)  | • [Numpyro](chapters/languages/numpyro.qmd) |
 
 
 ### Databases
 ||
-|  -----------          | -----------            |
-| • [duckdb](chapters/databases/duckdb.qmd)      | • [Postgres](chapters/databases/Postgres.qmd)        |
-| • [arrow](chapters/databases/arrow.qmd)      | • [](chapters/databases/)        |
-| • [](chapters/databases/)      | • [](chapters/databases/)        |
-| • [](chapters/databases/)      | • [](chapters/databases/)        |
-| • [](chapters/databases/)      | • [](chapters/databases/)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
+|  -----------          | -----------            | -----------            |
+| • [duckdb](chapters/databases/duckdb.qmd)      | • [Postgres](chapters/databases/Postgres.qmd)        | • [arrow](chapters/databases/arrow.qmd) |
+
 
 ### Mathematical and Data Structures
 ||
-|  -----------          | -----------            |
-| • [set](chapters/math_and_data_structures/set.qmd)     | • [list](chapters/math_and_data_structures/list.qmd)        |
-| • [](chapters/math_and_data_structures/)      | • [](chapters/math_and_data_structures/)        |
+|  -----------          | -----------            | -----------            |
+| • [null](chapters/math_and_data_structures/null.qmd)     | • [](chapters/math_and_data_structures/)        |
+| • [boolean](chapters/math_and_data_structures/boolean.qmd)     | • [](chapters/math_and_data_structures/)        |
+| • [set](chapters/math_and_data_structures/set.qmd)     | • [list](chapters/math_and_data_structures/list.qmd)   | • [dictionary](chapters/math_and_data_structures/dictionary.qmd)  |
 | • [trees](chapters/math_and_data_structures/trees.qmd)      | • [tensor](chapters/math_and_data_structures/tensor.qmd)        |
 | • [table](chapters/math_and_data_structures/table.qmd)      | • [stacks_queues](chapters/math_and_data_structures/stacks_queues.qmd)        |
-| • [set](chapters/math_and_data_structures/set.qmd)      | • [list](chapters/math_and_data_structures/list.qmd)        |
 | • [linked_lists](chapters/math_and_data_structures/linked_lists.qmd)      | • [hash_table](chapters/math_and_data_structures/hash_table.qmd)        |
 | • [graphs](chapters/math_and_data_structures/graphs.qmd)      | • [function](chapters/math_and_data_structures/function.qmd)        |
-| • [dictionary](chapters/math_and_data_structures/dictionary.qmd)      | • [](chapters/math_and_data_structures/)        |
 
 
 ### Data Transformations
@@ -84,10 +83,7 @@
 |  -----------          | -----------            |
 | • [filter](chapters/data_transformation/filter.qmd)      | • [joins](chapters/data_transformation/joins.qmd)        |
 | • [fuzzyrecordmatching](chapters/data_transformation/fuzzyrecordmatching.qmd)      | • [regex](chapters/data_transformation/regex.qmd)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
+
 
 
 ### Data Loading
@@ -95,13 +91,6 @@
 ||
 |  -----------          | -----------            |
 | • [dataloaders](chapters/data_loading/dataloaders.qmd)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
-| • [](chapters//)      | • [](chapters//)        |
 
 
 <!--

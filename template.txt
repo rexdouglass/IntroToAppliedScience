@@ -1,22 +1,23 @@
-# Filter  {.unnumbered}
+# {.unnumbered}
 
-**Instance of**: Higher-order function
 
-**AKA**: Subset
+**Instance of**: 
+
+**AKA**: Bool
 
 **Distinct from**: 
-
+  
 **English**: 
 
 **Formalization**:
 
 $$ 
 $$
-    
-**Cites**: [Wikipedia]()) ; [Wikidata]() 
-  
-**Code**
 
+**Cites**: [Wikipedia](https://en.wikipedia.org/wiki/Boolean_data_type)) ; [Wikidata]() 
+
+**Code**
+  
 {{< include ../../include_toy_data.qmd >}}
 
 ## R
@@ -26,8 +27,6 @@ $$
 []()
 
 ```{r}
-
-
 ```
 
 #### Tidyverse {.unnumbered}
@@ -35,9 +34,6 @@ $$
 []()
 
 ```{r}
-
-
-
 ```
 
 #### DataTable {.unnumbered}
@@ -45,11 +41,14 @@ $$
 []()
 
 ```{r}
-
 ```
 
 #### Arrow {.unnumbered}
 
+[]()
+
+```{r}
+```
 
 ## Python
 
@@ -58,61 +57,70 @@ $$
 []()
 
 ```{python}
-
-
-
 ```
 
 #### NumPy / SciPy / scikit-learn
 
+[]()
+
+```{python}
+```
 
 #### Pandas
 
 []()
 
 ```{python}
-
 ```
 
 ## Jax
 
-```{python}
+[]()
 
+```{python}
 ```
 
 ## Numpyro
 
+[]()
 ```{python}
-
 ```
 
 ## Stan
 
-```{python}
+[]()
 
+```{r}
 ```
 
 ## Torch
 
-```{python}
+[]()
 
+```{python}
 ```
 
 ## Tensorflow
 
-```{python}
+[]()
 
+```{python}
 ```
 
 ## PostgreSQL
 
 []()
 
-```{sql, connection=con}
+```{sql, connection=con_Postgres}
 
 ```
 
 ## DuckDB
 
 []()
+
+```{sql, connection=con_duckdb, eval=F}
+```
+
+
 
