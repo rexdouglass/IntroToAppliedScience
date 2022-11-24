@@ -5,3 +5,5 @@ https://www.postgresql.org/docs/
 
 For practice
 https://www.hackerrank.com/domains/sql
+
+[SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial)

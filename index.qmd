@@ -30,8 +30,9 @@
 ### Industry
 ||
 | -----------          | -----------            |
+| • [Jobs](chapters/industry/jobs.qmd)      | • [Salaries](chapters/industry/salaries.qmd)      | • [Gossip](chapters/industry/gossip.qmd)        |
 | • [Coding Practice](chapters/industry/practicecoding.qmd)      | • [Interview Practice](chapters/industry/interviewquestions.qmd)        |
-| • [Salaries](chapters/industry/salaries.qmd)      | • [Gossip](chapters/industry/gossip.qmd)        |
+
 
 
 ### Meta-Science
@@ -62,13 +63,13 @@
 ### Databases
 ||
 |  -----------          | -----------            | -----------            |
-| • [duckdb](chapters/databases/duckdb.qmd)      | • [Postgres](chapters/databases/Postgres.qmd)        | • [arrow](chapters/databases/arrow.qmd) |
+| • [duckdb](chapters/databases/duckdb.qmd)      | • [Postgres](chapters/databases/postgres.qmd)        | • [arrow](chapters/databases/arrow.qmd) |
 
 
 ### Mathematical and Data Structures
 ||
 |  -----------          | -----------            | -----------            |
-| • [null](chapters/math_and_data_structures/null.qmd)     | • [](chapters/math_and_data_structures/)        |
+| • [null](chapters/math_and_data_structures/null.qmd)     | • [NaN](chapters/math_and_data_structures/)        |
 | • [boolean](chapters/math_and_data_structures/boolean.qmd)     | • [](chapters/math_and_data_structures/)        |
 | • [set](chapters/math_and_data_structures/set.qmd)     | • [list](chapters/math_and_data_structures/list.qmd)   | • [dictionary](chapters/math_and_data_structures/dictionary.qmd)  |
 | • [trees](chapters/math_and_data_structures/trees.qmd)      | • [tensor](chapters/math_and_data_structures/tensor.qmd)        |
@@ -91,6 +92,13 @@
 ||
 |  -----------          | -----------            |
 | • [dataloaders](chapters/data_loading/dataloaders.qmd)      | • [](chapters//)        |
+
+### Production
+
+||
+|  -----------          | -----------            |
+| • [Monitering Experiments](chapters/production/deployment.qmd)      | • [Monitering Experiments](chapters/data_loading/monitoring.qmd)      |
+
 
 
 <!--

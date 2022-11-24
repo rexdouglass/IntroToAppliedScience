@@ -1,5 +1,13 @@
 # Overview Literature {.unnumbered}
 
+[The Data Science Interview Book](https://book.thedatascienceinterviewproject.com/)
+
+[Learning Python, R, SQL & Data Science](https://www.dataumbrella.org/resources/python-r-sql-ds)
+
+[101 machine learning algorithms for data science with cheat sheets](https://datasciencedojo.com/blog/machine-learning-algorithms/)
+
+[Reddit Data Science Resources](https://www.reddit.com/r/datascience/wiki/resources)
+
 [AWESOME DATA SCIENCE](https://github.com/academic/awesome-datascience)
 [Data Science Interviews](https://github.com/alexeygrigorev/data-science-interviews)
 [Data Science Cheatsheet 2.0](https://github.com/aaronwangy/Data-Science-Cheatsheet)

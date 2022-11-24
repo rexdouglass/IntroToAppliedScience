@@ -1,5 +1,7 @@
 # Broad Literature
 
+[Full Stack Deep Learning 2022](https://www.youtube.com/playlist?list=PL1T8fO7ArWleMMI8KPJ_5D5XSlovTW_Ur)
+
 [Regression and Other Stories](https://users.aalto.fi/~ave/ROS.pdf) [@gelmanRegressionOtherStories2020]
 
 [Applied Bayesian Modelling](http://www.leg.ufpr.br/lib/exe/fetch.php/wiki:internas:biblioteca:cogdon.pdf) [@congdonAppliedBayesianModelling2014]

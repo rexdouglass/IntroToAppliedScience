@@ -256,7 +256,7 @@
     "href": "chapters/languages/git.html",
     "title": "",
     "section": "",
-    "text": "https://git-scm.com/doc"
+    "text": "https://git-scm.com/doc\nGIT"
   },
   {
     "objectID": "chapters/languages/R.html",
@@ -984,7 +984,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "[UNDER CONSTRUCTION NOT FOR CICRULATION]\n\n\nLiterature\n\n\n\n• Broad Literature/Textbooks\n• Unsorted\n\n\n\n\n\nData and Benchmarks\n\n\n\n• Imagery\n• Text\n\n\n\n\n\n\nIndustry\n\n\n\n• Coding Practice\n• Interview Practice\n\n\n• Salaries\n• Gossip\n\n\n\n\n\nMeta-Science\n\n\n\n• Open Science\n• Null Results\n\n\n• Sociology of Inference\n\n\n\n\n\n\nCommunicating Results\n\n\n\n• Markdown\n\n\n\n\n\n\nComputer Languages\n\n\n\n• Bash\n• Git\n• SQL\n\n\n• R\n• Python\n\n\n\n• Stan\n\n\n\n\n• Pytorch\n• Tensorflow\n\n\n\n• Jax\n• Numpyro\n\n\n\n\n\n\nDatabases\n\n\n\n• duckdb\n• Postgres\n• arrow\n\n\n\n\n\nMathematical and Data Structures\n\n\n\n• null\n• \n\n\n\n• boolean\n• \n\n\n\n• set\n• list\n• dictionary\n\n\n• trees\n• tensor\n\n\n\n• table\n• stacks_queues\n\n\n\n• linked_lists\n• hash_table\n\n\n\n• graphs\n• function\n\n\n\n\n\n\nData Transformations\n\n\n\n• filter\n• joins\n\n\n• fuzzyrecordmatching\n• regex\n\n\n\n\n\nData Loading\n\n\n\n• dataloaders\n•"
+    "text": "[UNDER CONSTRUCTION NOT FOR CICRULATION]\n\n\nLiterature\n\n\n\n• Broad Literature/Textbooks\n• Unsorted\n\n\n\n\n\nData and Benchmarks\n\n\n\n• Imagery\n• Text\n\n\n\n\n\n\nIndustry\n\n\n\n• Jobs\n• Salaries\n\n\n• Coding Practice\n• Interview Practice\n\n\n\n\n\nMeta-Science\n\n\n\n• Open Science\n• Null Results\n\n\n• Sociology of Inference\n\n\n\n\n\n\nCommunicating Results\n\n\n\n• Markdown\n\n\n\n\n\n\nComputer Languages\n\n\n\n• Bash\n• Git\n• SQL\n\n\n• R\n• Python\n\n\n\n• Stan\n\n\n\n\n• Pytorch\n• Tensorflow\n\n\n\n• Jax\n• Numpyro\n\n\n\n\n\n\nDatabases\n\n\n\n• duckdb\n• Postgres\n• arrow\n\n\n\n\n\nMathematical and Data Structures\n\n\n\n• null\n• NaN\n\n\n\n• boolean\n• \n\n\n\n• set\n• list\n• dictionary\n\n\n• trees\n• tensor\n\n\n\n• table\n• stacks_queues\n\n\n\n• linked_lists\n• hash_table\n\n\n\n• graphs\n• function\n\n\n\n\n\n\nData Transformations\n\n\n\n• filter\n• joins\n\n\n• fuzzyrecordmatching\n• regex\n\n\n\n\n\nData Loading\n\n\n\n• dataloaders\n• \n\n\n\n\n\nProduction\n\n\n\n• Monitering Experiments\n• Monitering Experiments"
   },
   {
     "objectID": "references.html",

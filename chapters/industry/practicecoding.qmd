@@ -1,5 +1,15 @@
 # Practice Coding {.unnumbered}
 
+[Public Data](https://www.visualizecuriosity.com/wiki-pages/public-data)
+
+[Data Science Resources](https://www.visualizecuriosity.com/wiki-pages/data-science)
+
+[A Guide to Learning Data Science](https://www.menti.club/intro-to-data-science/guide-to-learning)
+
+https://datascienceprep.com/
+
+https://www.stratascratch.com/
+
 NeetCode
 https://neetcode.io/
 

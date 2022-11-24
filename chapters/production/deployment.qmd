@@ -1,0 +1,5 @@
+# Deployment
+
+[Lecture 05: Deployment (FSDL 2022)](https://www.youtube.com/watch?v=W3hKjXg7fXM&list=PL1T8fO7ArWleMMI8KPJ_5D5XSlovTW_Ur&index=13)
+
+[Lab 07: Web Deployment (FSDL 2022)](https://www.youtube.com/watch?v=2j6rG-4zS6w&list=PL1T8fO7ArWleMMI8KPJ_5D5XSlovTW_Ur&index=14)

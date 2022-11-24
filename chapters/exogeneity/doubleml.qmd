@@ -1,0 +1,14 @@
+# Double / Debiased ML
+
+[Double/debiased machine learning for treatment and structural parameters](https://academic.oup.com/ectj/article/21/1/C1/5056401?login=false)[@chernozhukovDoubleDebiasedMachine2018]
+
+[DoubleML](https://docs.doubleml.org/stable/index.html)
+The Python and R package DoubleML provide an implementation of the double / debiased machine learning framework of Chernozhukov et al. (2018)
+
+[Double Machine Learning for causal inference](https://towardsdatascience.com/double-machine-learning-for-causal-inference-78e0c6111f9d)
+
+[TL;DR, Double-ML can be viewed as a derivative finder.](https://twitter.com/MatheusFacure/status/1595416605399613440)
+
+[20 - Plug-and-Play Estimators](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
+
+[22 - Debiased/Orthogonal Machine Learning](https://matheusfacure.github.io/python-causality-handbook/22-Debiased-Orthogonal-Machine-Learning.html)

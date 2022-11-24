@@ -1,5 +1,15 @@
 # Interview Questions  {.unnumbered}
 
+[Business Scenarios](https://book.thedatascienceinterviewproject.com/analytical-thinking/business-scenarios)
+
+[The Career Tasting Experience](https://www.menti.club/career-explore)
+
+[Product Data Science Learn how to develop product sense, create metrics, and design robust A/B tests](https://productds.com/)
+
+[40 Probability & Statistics Data Science Interview Questions Asked By FANG & Wall Street](https://www.nicksingh.com/posts/40-probability-statistics-data-science-interview-questions-asked-by-fang-wall-street?fbclid=IwAR0rnE_FQIS0XR_I6Oz44k1x1FFG00A4s_M4A6eLRsCTF3i9Y5WiCbDHu_0)
+
+[The Data Science Interview Book](https://book.thedatascienceinterviewproject.com/)
+
 [How to Answer ANY Product Management Interview Question](https://www.youtube.com/watch?v=dNtks5NfUwc)
 
 [Don't speak yet! Pausing to think in interviews](https://www.youtube.com/watch?v=TB3jbeUNv28)
